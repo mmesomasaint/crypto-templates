@@ -83,9 +83,9 @@ export default function Home() {
         <main className='flex-grow bg-white dark:bg-gray-600 w-full h-full'>
           <div className=' max-w-[90rem] mx-auto'>
             <div className="h-[25rem] w-full bg-[url('/imgs/coins-charts.jpg')] bg-no-repeat bg-cover bg-center md:bg-right">
-              <div className='bg-gradient-to-t from-transparent dark:from-[#023047] via-[rgba(140,78,3,0.75)] dark:via-[rgba(2,48,71,0.75)] w-full h-full'>
+              <div className='bg-gradient-to-t from-transparent dark:from-transparent via-[rgba(140,78,3,0.75)] dark:via-[rgba(2,48,71,0.75)] w-full h-full'>
                 <div className='w-[80%] lg:w-[50%] mx-auto bg-transparent h-full flex justify-center items-center'>
-                  <h1 className='w-full text-5xl font-bold text-white dark:text-white text-center leading-tight'>
+                  <h1 className='w-full text-5xl font-bold text-white dark:text-[#D98E04] text-center leading-tight'>
                     <span>
                       Crypto Templates
                     </span>
