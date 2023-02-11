@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 import { useCallback, useState } from 'react'
 import { MdDarkMode } from 'react-icons/md'
 import { RxHamburgerMenu } from 'react-icons/rx'
-import { BsGithub } from 'react-icons/bs'
+import { BsTwitter, BsLinkedin, BsWhatsapp, BsGithub } from 'react-icons/bs'
 import { BiLinkExternal } from 'react-icons/bi'
 
 export default function Home() {
@@ -86,9 +86,7 @@ export default function Home() {
               <div className='bg-gradient-to-t from-transparent dark:from-transparent via-[rgba(140,78,3,0.75)] dark:via-[rgba(2,48,71,0.75)] w-full h-full'>
                 <div className='w-[80%] lg:w-[50%] mx-auto bg-transparent h-full flex justify-center items-center'>
                   <h1 className='w-full text-5xl font-bold text-white dark:text-[#D98E04] text-center leading-tight'>
-                    <span>
-                      Crypto Templates
-                    </span>
+                    <span>Crypto Templates</span>
                   </h1>
                 </div>
               </div>
@@ -162,7 +160,29 @@ export default function Home() {
         </main>
 
         <footer id='contact' className='bg-white dark:bg-gray-400'>
-          Footer
+          <div className='bg-[rgba(0,0,0,0.75)] dark:bg-[rgba(0,0,0,0.45)] w-full pb-5'>
+            <div id='contact' className='mb-3 w-fit mx-auto py-4'>
+              <div className='flex gap-10'>
+                <BsTwitter className='text-2xl text-slate-300' />
+                <BsLinkedin className='text-2xl text-slate-300' />
+                <BsWhatsapp className='text-2xl text-slate-300' />
+                <BsGithub className='text-2xl text-slate-300' />
+              </div>
+            </div>
+            <div
+              id='about'
+              className='w-fit mx-auto border-t-2 border-t-slate-300 h-full'
+            >
+              <p className='block text-base leading-none font-normal text-gray-400'>
+                created by
+              </p>
+                <span className=''>
+                <p className='block text-2xl leading-none font-medium text-white'>
+                  mmesoma saint
+                </p>
+              </span>
+            </div>
+          </div>
         </footer>
       </div>
     </div>
