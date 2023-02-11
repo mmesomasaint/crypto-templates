@@ -19,11 +19,11 @@ export default function Home() {
       </Head>
 
       <div className='flex flex-col min-h-screen justify-start gap-0'>
-        <header className='bg-[#ffffff] dark:bg-[#023047]'>
+        <header className='bg-[#D98E04] dark:bg-[#012340]'>
           <div className='relative flex justify-between items-center max-w-[90rem] mx-auto p-4'>
             <div>
               <span className=''>
-                <h1 className='leading-none text-lg md:text-2xl font-medium border-2 p-1 md:p-3 border-[#023047] dark:border-white text-[#023047] dark:text-white'>
+                <h1 className='leading-none text-lg md:text-2xl font-medium border-2 p-1 md:p-3 border-white dark:border-[#D98E04] text-white dark:text-[#D98E04]'>
                   Crypto Templates
                 </h1>
               </span>
@@ -32,29 +32,29 @@ export default function Home() {
               <div
                 className={`${
                   isOpen ? 'flex absolute top-[100%] left-0' : 'hidden'
-                } md:static md:flex flex-col md:flex-row pb-5 md:pb-0 px-5 md:px-0 gap-x-1 gap-y-8 md:gap-x-8 items-start justify-evenly md:items-center w-full bg-white dark:bg-[#023047] md:bg-transparent`}
+                } md:static md:flex flex-col md:flex-row pb-5 md:pb-0 px-5 md:px-0 gap-x-1 gap-y-8 md:gap-x-8 items-start justify-evenly md:items-center w-full bg-[#D98E04] dark:bg-[#012340] md:bg-transparent`}
               >
                 <a
                   href='#home'
-                  className='text-lg font-medium text-[#023047] dark:text-white capitalize'
+                  className='text-lg font-medium text-white dark:text-[#D98E04] capitalize'
                 >
                   Home
                 </a>
                 <a
                   href='#templates'
-                  className='text-lg font-medium text-[#023047] dark:text-white capitalize'
+                  className='text-lg font-medium text-white dark:text-[#D98E04] capitalize'
                 >
                   Templates
                 </a>
                 <a
                   href='#about'
-                  className='text-lg font-medium text-[#023047] dark:text-white capitalize'
+                  className='text-lg font-medium text-white dark:text-[#D98E04] capitalize'
                 >
                   About
                 </a>
                 <a
                   href='#contact'
-                  className='text-lg font-medium text-[#023047] dark:text-white capitalize'
+                  className='text-lg font-medium text-white dark:text-[#D98E04] capitalize'
                 >
                   Contact
                 </a>
@@ -62,12 +62,12 @@ export default function Home() {
 
               <div className='flex justify-evenly items-center gap-5'>
                 <RxHamburgerMenu
-                  className='md:hidden text-[#023047] dark:text-white text-2xl'
+                  className='md:hidden text-white dark:text-[#D98E04] text-2xl'
                   onClick={handleIsOpen}
                 />
-                <BsGithub className='text-[#023047] dark:text-white text-2xl' />
+                <BsGithub className='text-white dark:text-[#D98E04] text-2xl' />
                 <MdDarkMode
-                  className={`text-[#023047] dark:text-white text-2xl`}
+                  className={`text-white dark:text-[#D98E04] text-2xl`}
                   onClick={handleDarkMode}
                 />
               </div>
