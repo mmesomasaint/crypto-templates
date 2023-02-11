@@ -11,7 +11,7 @@ export default function Home() {
   const handleDarkMode = useCallback(() => setDarkMode((dark) => !dark), [])
 
   return (
-    <div className={darkMode && 'dark'}>
+    <div className={darkMode ? 'dark' : undefined}>
       <Head>
         <title>Crypto Templates</title>
         <meta name='description' content='Best templates for crypto websites' />
