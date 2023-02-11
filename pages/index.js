@@ -75,9 +75,25 @@ export default function Home() {
           </div>
         </header>
 
-        <main className='flex-grow bg-white dark:bg-gray-600'>Main</main>
+        <main className='flex-grow bg-white dark:bg-gray-600 w-full h-full'>
+          <div className=' max-w-[90rem] mx-auto'>
+            <div className="h-[25rem] w-full bg-[url('/imgs/coins-charts.jpg')] bg-no-repeat bg-cover bg-center md:bg-right">
+              <div className='bg-gradient-to-t from-transparent dark:from-[#023047] via-[rgba(140,78,3,0.75)] dark:via-[rgba(2,48,71,0.75)] w-full h-full'>
+                <div className='w-[80%] lg:w-[50%] mx-auto bg-transparent h-full flex justify-center items-center'>
+                  <h1 className='w-full text-5xl font-bold text-white dark:text-white text-center leading-tight'>
+                    <span>
+                      Crypto Templates
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
 
-        <footer id='contact' className='bg-white dark:bg-gray-400'>Footer</footer>
+        <footer id='contact' className='bg-white dark:bg-gray-400'>
+          Footer
+        </footer>
       </div>
     </div>
   )
