@@ -1,10 +1,15 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
+import {useRouter} from 'next/router'
 import { useCallback, useState } from 'react'
 import { MdDarkMode } from 'react-icons/md'
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { BsGithub } from 'react-icons/bs'
+import { BiLinkExternal } from 'react-icons/bi'
 
 export default function Home() {
+  const router = useRouter()
   const [isOpen, setIsOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
   const handleIsOpen = useCallback(() => setIsOpen((open) => !open), [])
@@ -86,6 +91,71 @@ export default function Home() {
                     </span>
                   </h1>
                 </div>
+              </div>
+            </div>
+            <div
+              id='templates'
+              className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 place-items-center py-16 px-4'
+            >
+              <div
+                className='relative'
+                onClick={() => router.push('/templates/crypto-invest')}
+              >
+                <div className='w-full absolute z-10 flex top-0 left-0 right-0 justify-end items-center p-3'>
+                  <BiLinkExternal className='text-3xl text-[#023047]' />
+                </div>
+                <Image
+                  src='/imgs/crypto-invest.webp'
+                  width={300}
+                  height={200}
+                  alt='template 1'
+                />
+                <Link
+                  href='/templates/crypto-invest'
+                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize mt-1 hover:underline'
+                >
+                  Crypto Invest
+                </Link>
+              </div>
+              <div
+                className='relative'
+                onClick={() => router.push('/templates/nft-market')}
+              >
+                <div className='w-full absolute z-10 flex top-0 left-0 right-0 justify-end items-center p-3'>
+                  <BiLinkExternal className='text-3xl text-[#023047]' />
+                </div>
+                <Image
+                  src='/imgs/nft-market.webp'
+                  width={300}
+                  height={200}
+                  alt='template 2'
+                />
+                <Link
+                  href='/templates/nft-market'
+                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize mt-1 hover:underline'
+                >
+                  NFT Market
+                </Link>
+              </div>
+              <div
+                className='relative'
+                onClick={() => router.push('/templates/ex-currency')}
+              >
+                <div className='w-full absolute z-10 flex top-0 left-0 right-0 justify-end items-center p-3'>
+                  <BiLinkExternal className='text-3xl text-[#023047]' />
+                </div>
+                <Image
+                  src='/imgs/currency.webp'
+                  width={300}
+                  height={200}
+                  alt='template 3'
+                />
+                <Link
+                  href='/templates/ex-currency'
+                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize mt-1 hover:underline'
+                >
+                  Currency Exchange
+                </Link>
               </div>
             </div>
           </div>
