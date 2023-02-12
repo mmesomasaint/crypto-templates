@@ -103,7 +103,7 @@ export default function Home() {
                   <BiLinkExternal className='text-3xl text-[#023047]' />
                 </div>
                 <Image
-                  src='/imgs/crypto-invest.webp'
+                  src='/imgs/crypto-temp.jpg'
                   width={500}
                   height={200}
                   alt='template 1'
