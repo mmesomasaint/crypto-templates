@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
                 <Image
                   src='/imgs/crypto-invest.webp'
-                  width={300}
+                  width={500}
                   height={200}
                   alt='template 1'
                 />
@@ -124,7 +124,7 @@ export default function Home() {
                 </div>
                 <Image
                   src='/imgs/nft-market.webp'
-                  width={300}
+                  width={500}
                   height={200}
                   alt='template 2'
                 />
@@ -144,7 +144,7 @@ export default function Home() {
                 </div>
                 <Image
                   src='/imgs/currency.webp'
-                  width={300}
+                  width={500}
                   height={200}
                   alt='template 3'
                 />
