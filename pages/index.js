@@ -171,7 +171,7 @@ export default function Home() {
             </div>
             <div
               id='about'
-              className='w-fit mx-auto border-t-2 border-t-slate-300 h-full'
+              className='w-fit mx-auto border-t-2 border-t-slate-300 h-full pt-2'
             >
               <p className='block text-base leading-none font-normal text-gray-400'>
                 created by
