@@ -110,7 +110,7 @@ export default function Home() {
                 />
                 <Link
                   href='/templates/crypto-invest'
-                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize mt-1 hover:underline'
+                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize hover:underline'
                 >
                   Crypto Invest
                 </Link>
@@ -130,7 +130,7 @@ export default function Home() {
                 />
                 <Link
                   href='/templates/nft-market'
-                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize mt-1 hover:underline'
+                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize hover:underline'
                 >
                   NFT Market
                 </Link>
@@ -150,7 +150,7 @@ export default function Home() {
                 />
                 <Link
                   href='/templates/ex-currency'
-                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize mt-1 hover:underline'
+                  className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize hover:underline'
                 >
                   Currency Exchange
                 </Link>
