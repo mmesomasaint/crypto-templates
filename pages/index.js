@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             <div
               id='templates'
-              className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 place-items-center py-16 px-4'
+              className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 place-items-stretch py-16 px-4'
             >
               <div
                 className='relative'
