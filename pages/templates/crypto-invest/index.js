@@ -64,17 +64,22 @@ export default function Home() {
           <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/showcase.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='flex justify-center items-center h-full'>
               <div className='w-[30%] h-fit text-center'>
-                <h1 className='text-5xl font-bold leading-tight text-white mb-4'>World Number One ICO Platform</h1>
-                <p className='text-sm font-normal leading-tight text-white mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus dui nec euismod congue. Nulla id libero dignissim, convallis odio</p>
-                
-              <div className='flex justify-center gap-8 items-center'>
-                <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] bg-[#F61E8C] text-white rounded-sm shadow-sm'>
-                  Register &rarr;
-                </button>
-                <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] text-[#F61E8C] rounded-sm shadow-sm'>
-                  Learn More &rarr;
-                </button>
-              </div>
+                <h1 className='text-5xl font-bold leading-tight text-white mb-4'>
+                  World Number One ICO Platform
+                </h1>
+                <p className='text-sm font-normal leading-tight text-white mb-8'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vivamus tempus dui nec euismod congue. Nulla id libero
+                  dignissim, convallis odio
+                </p>
+                <div className='flex justify-center gap-8 items-center'>
+                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] bg-[#F61E8C] text-white rounded-sm shadow-sm'>
+                    Register &rarr;
+                  </button>
+                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] text-white rounded-sm shadow-sm'>
+                    Learn More &rarr;
+                  </button>
+                </div>
               </div>
             </div>
           </div>
