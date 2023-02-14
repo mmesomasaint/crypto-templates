@@ -64,7 +64,7 @@ export default function Home() {
           <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/showcase.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='flex justify-center items-center h-full'>
               <div className='w-[30%] h-fit text-center'>
-                <h1 className='text-5xl font-bold leading-tight text-white mb-4'>
+                <h1 className='text-6xl font-bold leading-tight text-white mb-4'>
                   World Number One ICO Platform
                 </h1>
                 <p className='text-sm font-normal leading-tight text-white mb-8'>
@@ -77,7 +77,7 @@ export default function Home() {
                     Register &rarr;
                   </button>
                   <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] text-white rounded-sm shadow-sm'>
-                    Learn More &rarr;
+                    Learn More
                   </button>
                 </div>
               </div>
