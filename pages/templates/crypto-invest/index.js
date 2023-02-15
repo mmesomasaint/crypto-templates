@@ -74,10 +74,10 @@ export default function Home() {
                 </p>
                 <div className='flex justify-center gap-8 items-center'>
                   <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] bg-[#FF198D] text-white rounded-sm shadow-sm'>
-                    Register &rarr;
+                    Explore More &rarr;
                   </button>
                   <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] text-white rounded-sm shadow-sm'>
-                    Learn More
+                    Get Started
                   </button>
                 </div>
               </div>
