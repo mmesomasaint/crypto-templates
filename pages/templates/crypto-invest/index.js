@@ -13,7 +13,7 @@ export default function Home() {
         />
         <link rel='icon' href='/imgs/crypto-invest/favicon.ico' />
       </Head>
-      <header className='bg-[#084F8C]'>
+      <header className='bg-[#0F69E5]'>
         <div className='max-w-[90rem] w-[80%] mx-auto'>
           <div className='flex justify-between gap-10 items-center w-full'>
             <div>
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className='flex justify-between gap-12 items-center'>
               <div className='flex justify-evenly gap-8 items-center'>
-                <span className='text-base font-medium leading-none text-[#F61E8C] scale-110'>
+                <span className='text-base font-medium leading-none text-[#FF198D] scale-110'>
                   <Link href='/'>Home</Link>
                 </span>
                 <span className='text-base font-medium leading-none text-white hover:scale-110'>
@@ -51,7 +51,7 @@ export default function Home() {
                 </span>
               </div>
               <div>
-                <button className='text-base font-medium leading-none px-4 py-2 bg-[#F61E8C] text-white rounded-sm shadow-sm'>
+                <button className='text-base font-medium leading-none px-4 py-2 bg-[#FF198D] text-white rounded-sm shadow-sm'>
                   Try Now
                 </button>
               </div>
@@ -73,10 +73,10 @@ export default function Home() {
                   dignissim, convallis odio
                 </p>
                 <div className='flex justify-center gap-8 items-center'>
-                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] bg-[#F61E8C] text-white rounded-sm shadow-sm'>
+                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] bg-[#FF198D] text-white rounded-sm shadow-sm'>
                     Register &rarr;
                   </button>
-                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#F61E8C] text-white rounded-sm shadow-sm'>
+                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] text-white rounded-sm shadow-sm'>
                     Learn More
                   </button>
                 </div>
