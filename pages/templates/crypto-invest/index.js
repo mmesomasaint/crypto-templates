@@ -63,11 +63,11 @@ export default function Home() {
         <div className='max-w-[90rem] mx-auto'>
           <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/showcase.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='flex justify-center items-center h-full'>
-              <div className='w-[30%] h-fit text-center'>
-                <h1 className='text-6xl font-bold leading-tight text-white mb-4'>
+              <div className='w-full h-fit text-center'>
+                <h1 className='block w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
                   World Number One ICO Platform
                 </h1>
-                <p className='text-sm font-normal leading-tight text-white mb-8'>
+                <p className='block w-[40%] mx-auto text-sm font-normal leading-tight text-white mb-8'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio
