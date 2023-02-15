@@ -67,7 +67,7 @@ export default function Home() {
                 <h1 className='block w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
                   World Number One ICO Platform
                 </h1>
-                <p className='block w-[40%] mx-auto text-sm font-normal leading-tight text-white mb-8'>
+                <p className='block w-[40%] mx-auto text-base font-normal leading-tight text-white mb-8'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio
