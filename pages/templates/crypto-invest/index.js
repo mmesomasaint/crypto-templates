@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { BsStar } from 'react-icons/bs'
+import { DiGoogleCloudPlatform } from 'react-icons/di'
+import {FaBtc, FaEthereum} from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -79,6 +82,92 @@ export default function Home() {
                   <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] text-white rounded-sm shadow-sm'>
                     Get Started
                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 bg-black'>
+            <div className=' w-[80%] mx-auto grid grid-cols-5 place-items-stretch gap-10'>
+              <div className='col-span-3'></div>
+              <div className='col-span-2'>
+                <div className='w-fit'>
+                  <h4 className='text-white text-sm font-light leading-normal text-center mb-[2px]'>
+                    ABOUT US
+                  </h4>
+                  <div className='flex gap-0 items-center justify-start'>
+                    <div className='border w-[5px] h-[5px] rounded-full border-white' />
+                    <div className='border-t border-t-white w-7 flex-grow' />
+                    <div className='border w-[5px] h-[5px] rounded-full border-white' />
+                    <div className='border-t border-t-white w-7 flex-grow' />
+                    <div className='border w-[5px] h-[5px] rounded-full border-white' />
+                  </div>
+                </div>
+                <div className='mt-4 mb-7'>
+                  <h2 className='text-4xl font-semibold text-[#0F69E5] leading-tight'>
+                    We Have a World-Class Team Of Expert
+                  </h2>
+                </div>
+                <p className='text-sm font-light leading-tight text-white'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vivamus tempus dui nec euismod congue. Nulla id libero
+                  dignissim, convallis odio id, scelerisque nisl
+                </p>
+                <div className='my-8'>
+                  <div className='p-2 flex justify-start gap-2 items-center w-fit bg-[#FF198D] bg-opacity-20 mb-3'>
+                    <div className='w-4 h-4 bg-[#0F69E5] flex justify-center items-center'>
+                      <BsStar className='text-xs text-white' />
+                    </div>
+                    <p className='text-sm text-white leading-none '>
+                      Rewards mechanism
+                    </p>
+                  </div>
+                  <div className='p-2 flex justify-start gap-2 items-center w-fit bg-[#FF198D] bg-opacity-20'>
+                    <div className='w-4 h-4 bg-[#0F69E5] flex justify-center items-center'>
+                      <DiGoogleCloudPlatform className='text-xs text-white' />
+                    </div>
+                    <p className='text-sm text-white leading-none '>
+                      Decentralized platform
+                    </p>
+                  </div>
+                </div>
+                <p className='text-base text-[#FF198D] leading-tight font-medium'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vivamus tempus dui nec euismod congue
+                </p>
+                <div className='my-8 flex justify-start items-center gap-8'>
+                  <div className='py-3 px-2 bg-[#FF198D] bg-opacity-20 w-fit rounded-md'>
+                    <div className='flex justify-start items-start gap-3'>
+                      <div className='flex justify-center items-center w-8 h-8 rounded-full bg-yellow-500'>
+                        <FaBtc className='text-white text-base' />
+                      </div>
+                      <div className='flex-grow grid grid-cols-2 place-items-stretch gap-x-5 gap-y-2'>
+                        <p className='text-2xl font-semibold text-white leading-none col-span-2'>BTC</p>
+                        <p className='text-xs font-light text-white leading-none'>Bitcoin</p>
+                        <div className='flex gap-2 items-center justify-start'>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>&uarr;</span>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>2.65%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='py-3 px-2 bg-[#FF198D] bg-opacity-20 w-fit rounded-md'>
+                    <div className='flex justify-start items-start gap-3'>
+                      <div className='flex justify-center items-center w-8 h-8 rounded-full border border-[#0F69E5] bg-white'>
+                        <FaEthereum className='text-[#0F69E5] text-base' />
+                      </div>
+                      <div className='flex-grow grid grid-cols-2 place-items-stretch gap-x-5 gap-y-2'>
+                        <p className='text-2xl font-semibold text-white leading-none col-span-2'>ETH</p>
+                        <p className='text-xs font-light text-white leading-none'>Ethereum</p>
+                        <div className='flex gap-2 items-center justify-start'>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>&uarr;</span>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>1.50%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className='mt-10'>
+                  <button className='py-3 px-6 text-base font-normal text-white bg-[#FF198D] rounded-md shadow-sm'>Learn More</button>
                 </div>
               </div>
             </div>
