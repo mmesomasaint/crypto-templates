@@ -91,7 +91,7 @@ export default function Home() {
               <div className='col-span-3'></div>
               <div className='col-span-2'>
                 <div className='w-fit'>
-                  <h4 className='text-white text-sm font-light leading-normal text-center mb-[2px]'>
+                  <h4 className='text-white text-sm font-light leading-normal mb-[2px]'>
                     ABOUT US
                   </h4>
                   <div className='flex gap-0 items-center justify-start'>
