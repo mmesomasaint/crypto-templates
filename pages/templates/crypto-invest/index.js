@@ -96,9 +96,9 @@ export default function Home() {
                   </h4>
                   <div className='flex gap-0 items-center justify-start'>
                     <div className='border w-[5px] h-[5px] rounded-full border-white' />
-                    <div className='border-t border-t-white w-7 flex-grow' />
+                    <div className='border-t border-t-white w-8 flex-grow' />
                     <div className='border w-[5px] h-[5px] rounded-full border-white' />
-                    <div className='border-t border-t-white w-7 flex-grow' />
+                    <div className='border-t border-t-white w-8 flex-grow' />
                     <div className='border w-[5px] h-[5px] rounded-full border-white' />
                   </div>
                 </div>
