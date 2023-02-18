@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BsStar } from 'react-icons/bs'
 import { DiGoogleCloudPlatform } from 'react-icons/di'
-import {FaBtc, FaEthereum} from 'react-icons/fa'
+import { FaBtc, FaEthereum } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -91,15 +91,15 @@ export default function Home() {
               <div className='col-span-3'></div>
               <div className='col-span-2'>
                 <div className='w-fit'>
-                  <h4 className='text-white text-sm font-light leading-normal mb-[2px]'>
+                  <h4 className='text-white text-lg font-light leading-normal'>
                     ABOUT US
                   </h4>
                   <div className='flex gap-0 items-center justify-start'>
-                    <div className='border w-[5px] h-[5px] rounded-full border-white' />
+                    <div className='border w-[8px] h-[8px] rounded-full border-white' />
                     <div className='border-t border-t-white w-8 flex-grow' />
-                    <div className='border w-[5px] h-[5px] rounded-full border-white' />
+                    <div className='border w-[8px] h-[8px] rounded-full border-white' />
                     <div className='border-t border-t-white w-8 flex-grow' />
-                    <div className='border w-[5px] h-[5px] rounded-full border-white' />
+                    <div className='border w-[8px] h-[8px] rounded-full border-white' />
                   </div>
                 </div>
                 <div className='mt-4 mb-7'>
@@ -141,11 +141,19 @@ export default function Home() {
                         <FaBtc className='text-white text-base' />
                       </div>
                       <div className='flex-grow grid grid-cols-2 place-items-stretch gap-x-5 gap-y-2'>
-                        <p className='text-2xl font-semibold text-white leading-none col-span-2'>BTC</p>
-                        <p className='text-xs font-light text-white leading-none'>Bitcoin</p>
+                        <p className='text-2xl font-semibold text-white leading-none col-span-2'>
+                          BTC
+                        </p>
+                        <p className='text-xs font-light text-white leading-none'>
+                          Bitcoin
+                        </p>
                         <div className='flex gap-2 items-center justify-start'>
-                          <span className='text-[#FF198D] text-xs font-light leading-tight'>&uarr;</span>
-                          <span className='text-[#FF198D] text-xs font-light leading-tight'>2.65%</span>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>
+                            &uarr;
+                          </span>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>
+                            2.65%
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -156,20 +164,56 @@ export default function Home() {
                         <FaEthereum className='text-[#0F69E5] text-base' />
                       </div>
                       <div className='flex-grow grid grid-cols-2 place-items-stretch gap-x-5 gap-y-2'>
-                        <p className='text-2xl font-semibold text-white leading-none col-span-2'>ETH</p>
-                        <p className='text-xs font-light text-white leading-none'>Ethereum</p>
+                        <p className='text-2xl font-semibold text-white leading-none col-span-2'>
+                          ETH
+                        </p>
+                        <p className='text-xs font-light text-white leading-none'>
+                          Ethereum
+                        </p>
                         <div className='flex gap-2 items-center justify-start'>
-                          <span className='text-[#FF198D] text-xs font-light leading-tight'>&uarr;</span>
-                          <span className='text-[#FF198D] text-xs font-light leading-tight'>1.50%</span>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>
+                            &uarr;
+                          </span>
+                          <span className='text-[#FF198D] text-xs font-light leading-tight'>
+                            1.50%
+                          </span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className='mt-10'>
-                  <button className='py-3 px-6 text-base font-normal text-white bg-[#FF198D] rounded-md shadow-sm'>Learn More</button>
+                  <button className='py-3 px-6 text-base font-normal text-white bg-[#FF198D] rounded-md shadow-sm'>
+                    Learn More
+                  </button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className='py-24 bg-black'>
+            <div className='text-center w-full'>
+              <div className='w-fit mx-auto'>
+                <h4 className='text-white text-lg font-light leading-normal'>
+                  SERVICE
+                </h4>
+                <div className='flex gap-0 items-center justify-start'>
+                  <div className='border w-[8px] h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-8 flex-grow' />
+                  <div className='border w-[8px] h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-8 flex-grow' />
+                  <div className='border w-[8px] h-[8px] rounded-full border-white' />
+                </div>
+              </div>
+              <div className='mt-4 mb-7'>
+                <h2 className='text-4xl font-semibold text-[#0F69E5] leading-tight'>
+                  Our Service to Provide You
+                </h2>
+              </div>
+              <p className='text-base font-normal leading-tight text-white w-[50%] mx-auto'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                tempus dui nec euismod congue. Nulla id libero dignissim,
+                convallis odio id, scelerisque nisl
+              </p>
             </div>
           </div>
         </div>
