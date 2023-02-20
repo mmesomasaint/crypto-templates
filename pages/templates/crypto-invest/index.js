@@ -5,8 +5,8 @@ import { BsStar } from 'react-icons/bs'
 import { DiGoogleCloudPlatform } from 'react-icons/di'
 import { FaBtc, FaEthereum, FaBitcoin } from 'react-icons/fa'
 import { MdSecurity } from 'react-icons/md'
-import {HiArrowNarrowRight} from 'react-icons/hi'
-import {CgPerformance} from 'react-icons/cg'
+import { HiArrowNarrowRight } from 'react-icons/hi'
+import { CgPerformance } from 'react-icons/cg'
 
 export default function Home() {
   return (
@@ -321,6 +321,34 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className='py-24 bg-black'>
+            <div className='w-[80%] mx-auto text-center'>
+              <div className='w-fit mx-auto'>
+                <h4 className='text-white text-lg font-light leading-normal'>
+                  TOKEN
+                </h4>
+                <div className='flex gap-0 items-center justify-start'>
+                  <div className='border w-[8px] h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-8 flex-grow' />
+                  <div className='border w-[8px] h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-8 flex-grow' />
+                  <div className='border w-[8px] h-[8px] rounded-full border-white' />
+                </div>
+              </div>
+              <div className='mt-4 mb-7'>
+                <h2 className='text-4xl font-semibold text-[#0F69E5] leading-tight'>
+                  Benefits of ICO Token Holder
+                </h2>
+              </div>
+              <p className='text-base font-normal leading-tight text-white w-[50%] mx-auto mb-14'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                tempus dui nec euismod congue. Nulla id libero dignissim,
+                convallis odio id, scelerisque nisl
+              </p>
+              <div className='grid grid-cols-3 gap-10 place-items-stretch'></div>
             </div>
           </div>
         </div>
