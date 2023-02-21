@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsStar } from 'react-icons/bs'
+import { BsStar, BsPatchCheckFill, BsCurrencyExchange } from 'react-icons/bs'
 import { DiGoogleCloudPlatform } from 'react-icons/di'
 import { FaBtc, FaEthereum, FaBitcoin } from 'react-icons/fa'
+import { FiTrendingUp } from 'react-icons/fi'
 import { MdSecurity } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
+import { RiCustomerService2Fill } from 'react-icons/ri'
 
 export default function Home() {
   return (
@@ -345,10 +347,144 @@ export default function Home() {
               </div>
               <p className='text-base font-normal leading-tight text-white w-[50%] mx-auto mb-14'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                tempus dui nec euismod congue. Nulla id libero dignissim,
-                convallis odio id, scelerisque nisl
+                tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-3 gap-10 place-items-stretch'></div>
+              <div className='grid grid-cols-2 gap-10 place-items-stretch'>
+                <div className='grid grid-cols-2 gap-5 place-items-stretch'>
+                  <div className='group relative flex flex-col h-[12rem]'>
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-16'>
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-br-full rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                        <div className='flex flex-col justify-center items-center gap-4'>
+                          <div className='group-hover:border border-[#0F69E5]'>
+                            <div className='group-hover:backdrop-blur'>
+                              <BsPatchCheckFill className='text-4xl group-hover:text-2xl text-white' />
+                            </div>
+                          </div>
+                          <h1 className='text-lg font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
+                            Confirmation
+                          </h1>
+                        </div>
+                        <div className='hidden group-hover:block w-full'>
+                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit
+                          </p>
+                        </div>
+                        <div className='w-fit mx-auto'>
+                          <HiArrowNarrowRight className='text-3xl group-hover:text-xl text-[#FF198D] z-20' />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='group relative flex flex-col h-[12rem]'>
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-16'>
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-bl-full rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                        <div className='flex flex-col justify-center items-center gap-4'>
+                          <div className='group-hover:border border-[#0F69E5]'>
+                            <div className='group-hover:backdrop-blur'>
+                              <BsCurrencyExchange className='text-4xl group-hover:text-2xl text-white' />
+                            </div>
+                          </div>
+                          <h1 className='text-lg font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
+                            General Ecosystem
+                          </h1>
+                        </div>
+                        <div className='hidden group-hover:block w-full'>
+                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit
+                          </p>
+                        </div>
+                        <div className='w-fit mx-auto'>
+                          <HiArrowNarrowRight className='text-3xl group-hover:text-xl text-[#FF198D] z-20' />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='group relative flex flex-col h-[12rem]'>
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tr-full rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-16'>
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                        <div className='flex flex-col justify-center items-center gap-4'>
+                          <div className='group-hover:border border-[#0F69E5]'>
+                            <div className='group-hover:backdrop-blur'>
+                              <FiTrendingUp className='text-4xl group-hover:text-2xl text-white' />
+                            </div>
+                          </div>
+                          <h1 className='text-lg font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
+                            Enjoy The Profit
+                          </h1>
+                        </div>
+                        <div className='hidden group-hover:block w-full'>
+                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit
+                          </p>
+                        </div>
+                        <div className='w-fit mx-auto'>
+                          <HiArrowNarrowRight className='text-3xl group-hover:text-xl text-[#FF198D] z-20' />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='group relative flex flex-col h-[12rem]'>
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tl-full rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-16'>
+                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                        <div className='flex flex-col justify-center items-center gap-4'>
+                          <div className='group-hover:border border-[#0F69E5]'>
+                            <div className='group-hover:backdrop-blur'>
+                              <RiCustomerService2Fill className='text-4xl group-hover:text-2xl text-white' />
+                            </div>
+                          </div>
+                          <h1 className='text-lg font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
+                            Customer Support
+                          </h1>
+                        </div>
+                        <div className='hidden group-hover:block w-full'>
+                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit
+                          </p>
+                        </div>
+                        <div className='w-fit mx-auto'>
+                          <HiArrowNarrowRight className='text-3xl group-hover:text-xl text-[#FF198D] z-20' />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
