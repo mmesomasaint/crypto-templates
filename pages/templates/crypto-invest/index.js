@@ -368,8 +368,8 @@ export default function Home() {
                     <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
                       <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
-                          <div className='group-hover:border border-[#0F69E5]'>
-                            <div className='group-hover:backdrop-blur'>
+                          <div className='group-hover:border border-[#0F69E5] rounded-lg'>
+                            <div className='group-hover:backdrop-blur p-1 rounded-lg'>
                               <BsPatchCheckFill className='text-4xl group-hover:text-2xl text-white' />
                             </div>
                           </div>
@@ -401,8 +401,8 @@ export default function Home() {
                     <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
                       <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
-                          <div className='group-hover:border border-[#0F69E5]'>
-                            <div className='group-hover:backdrop-blur'>
+                          <div className='group-hover:border border-[#0F69E5] rounded-lg'>
+                            <div className='group-hover:backdrop-blur p-1 rounded-lg'>
                               <BsCurrencyExchange className='text-4xl group-hover:text-2xl text-white' />
                             </div>
                           </div>
@@ -434,8 +434,8 @@ export default function Home() {
                     <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
                       <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
-                          <div className='group-hover:border border-[#0F69E5]'>
-                            <div className='group-hover:backdrop-blur'>
+                          <div className='group-hover:border border-[#0F69E5] rounded-lg'>
+                            <div className='group-hover:backdrop-blur p-1 rounded-lg'>
                               <FiTrendingUp className='text-4xl group-hover:text-2xl text-white' />
                             </div>
                           </div>
@@ -467,8 +467,8 @@ export default function Home() {
                     <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
                       <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
-                          <div className='group-hover:border border-[#0F69E5]'>
-                            <div className='group-hover:backdrop-blur'>
+                          <div className='group-hover:border border-[#0F69E5] rounded-lg'>
+                            <div className='group-hover:backdrop-blur p-1 rounded-lg'>
                               <RiCustomerService2Fill className='text-4xl group-hover:text-2xl text-white' />
                             </div>
                           </div>
