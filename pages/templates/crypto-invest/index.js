@@ -355,18 +355,18 @@ export default function Home() {
                 tempus dui nec euismod congue.
               </p>
               <div className='grid grid-cols-2 gap-24 place-items-stretch'>
-                <div className='grid grid-cols-2 gap-5 place-items-stretch'>
+                <div className='grid grid-cols-2 gap-10 place-items-stretch'>
                   <div className='group relative flex flex-col h-[12rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
                     </div>
-                    <div className='flex flex-grow justify-between items-center gap-16'>
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-br-full rounded-br-md' />
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-br-full' />
                     </div>
-                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
-                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                    <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
                           <div className='group-hover:border border-[#0F69E5]'>
                             <div className='group-hover:backdrop-blur'>
@@ -391,15 +391,15 @@ export default function Home() {
                   </div>
                   <div className='group relative flex flex-col h-[12rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
                     </div>
-                    <div className='flex flex-grow justify-between items-center gap-16'>
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-bl-full rounded-bl-md' />
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-bl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full ' />
                     </div>
-                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
-                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                    <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
                           <div className='group-hover:border border-[#0F69E5]'>
                             <div className='group-hover:backdrop-blur'>
@@ -424,15 +424,15 @@ export default function Home() {
                   </div>
                   <div className='group relative flex flex-col h-[12rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tr-full rounded-tr-md' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tr-full' />
                     </div>
-                    <div className='flex flex-grow justify-between items-center gap-16'>
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
                     </div>
-                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
-                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                    <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
                           <div className='group-hover:border border-[#0F69E5]'>
                             <div className='group-hover:backdrop-blur'>
@@ -457,15 +457,15 @@ export default function Home() {
                   </div>
                   <div className='group relative flex flex-col h-[12rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tl-full rounded-tl-md' />
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
                     </div>
-                    <div className='flex flex-grow justify-between items-center gap-16'>
-                      <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.02] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
+                    <div className='flex flex-grow justify-between items-center gap-5'>
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-bl-full' />
+                      <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-br-full' />
                     </div>
-                    <div className='absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] group-hover:scale-[1.12] z-10 bg-black rounded-full'>
-                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
+                    <div className='absolute inset-[5px] scale-y-[1.056] scale-x-[1.048] group-hover:scale-[1.08] z-10 bg-black rounded-full'>
+                      <div className='flex flex-col gap-5 justify-center items-center w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6 rounded-md'>
                         <div className='flex flex-col justify-center items-center gap-4'>
                           <div className='group-hover:border border-[#0F69E5]'>
                             <div className='group-hover:backdrop-blur'>
