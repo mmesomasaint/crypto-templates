@@ -9,6 +9,7 @@ import { MdSecurity } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
 import { RiCustomerService2Fill } from 'react-icons/ri'
+import Styles from '../../../styles/cryto-invest.module.css'
 
 export default function Home() {
   return (
@@ -81,8 +82,13 @@ export default function Home() {
                   dignissim, convallis odio
                 </p>
                 <div className='flex justify-center gap-8 items-center'>
-                  <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] bg-[#FF198D] text-white rounded-sm shadow-sm'>
-                    Explore More &rarr;
+                  <button className='flex justify-start items-center gap-3 px-6 py-3 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
+                    <span className='text-base font-medium leading-none text-white'>
+                      Explore More
+                    </span>
+                    <span className='w-fit mx-auto'>
+                      <HiArrowNarrowRight className='text-xl text-white z-20' />
+                    </span>
                   </button>
                   <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] text-white rounded-sm shadow-sm'>
                     Get Started
@@ -325,7 +331,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           <div className='py-24 bg-black'>
             <div className='w-[80%] mx-auto text-center'>
               <div className='w-fit mx-auto'>
@@ -349,7 +354,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-2 gap-10 place-items-stretch'>
+              <div className='grid grid-cols-2 gap-24 place-items-stretch'>
                 <div className='grid grid-cols-2 gap-5 place-items-stretch'>
                   <div className='group relative flex flex-col h-[12rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
@@ -479,6 +484,103 @@ export default function Home() {
                         </div>
                         <div className='w-fit mx-auto'>
                           <HiArrowNarrowRight className='text-3xl group-hover:text-xl text-[#FF198D] z-20' />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className='text-left'>
+                  <div className='mb-3'>
+                    <h2 className='text-4xl font-semibold text-[#FF198D] leading-tight'>
+                      Token Allocation Summary
+                    </h2>
+                  </div>
+                  <p className='text-sm font-normal leading-tight text-white w-full mb-7'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempus dui nec euismod congue. Nulla id libero
+                    dignissim, convallis odio id, scelerisque nisl. Curabitur
+                    augue quam, fringilla quis dictum sed
+                  </p>
+                  <div className='grid grid-cols-2 gap-20 place-items-stretch'>
+                    <div className=''>
+                      <div className='relative'>
+                        <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-full' />
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-full' />
+                          </div>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-full' />
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
+                          </div>
+                          <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
+                            <div className={Styles.chartEighty}>
+                              <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
+                                <p className='text-white text-5xl font-semibold leading-none'>
+                                  80&#37;
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className='absolute inset-0 top-[30%] flex flex-col z-10 gap-10 h-[15rem]'>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-full' />
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-full' />
+                          </div>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-full' />
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
+                          </div>
+                          <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full'>
+                            <div className='w-full h-full p-5 flex justify-center items-end'>
+                              <div className='flex flex-col items-center gap-1 text-sm font-normal leading-tight text-white w-fit'>
+                                <p>Token Offer</p>
+                                <p>70,000.00</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className=''>
+                      <div className='relative'>
+                        <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-full' />
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-full' />
+                          </div>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-full' />
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
+                          </div>
+                          <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
+                            <div className={Styles.chartSeventy}>
+                              <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
+                                <p className='text-white text-5xl font-semibold leading-none'>
+                                  70&#37;
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className='absolute inset-0 top-[30%] flex flex-col z-10 gap-10 h-[15rem]'>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-full' />
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.06] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-full' />
+                          </div>
+                          <div className='flex flex-grow justify-start items-center gap-0'>
+                            <div className='h-full flex-grow transform -skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-full' />
+                            <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
+                          </div>
+                          <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full'>
+                            <div className='w-full h-full p-5 flex justify-center items-end'>
+                              <div className='flex flex-col items-center gap-1 text-sm font-normal leading-tight text-white w-fit'>
+                                <p>UTO Bounties</p>
+                                <p>15,500.00</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
