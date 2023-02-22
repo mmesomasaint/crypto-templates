@@ -587,6 +587,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className='mt-20'>
+                <button className='py-3 px-6 text-base font-normal text-white bg-[#FF198D] rounded-md shadow-sm'>
+                  View Details
+                </button>
+              </div>
             </div>
           </div>
         </div>
