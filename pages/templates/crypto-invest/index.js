@@ -9,7 +9,6 @@ import { MdSecurity } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
 import { RiCustomerService2Fill } from 'react-icons/ri'
-import Styles from '../../../styles/cryto-invest.module.css'
 
 export default function Home() {
   return (
@@ -514,7 +513,7 @@ export default function Home() {
                             <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
                           </div>
                           <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
-                            <div className={Styles.chartEighty}>
+                            <div className='chart-eighty'>
                               <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
                                 <p className='text-white text-5xl font-semibold leading-none'>
                                   80&#37;
@@ -555,7 +554,7 @@ export default function Home() {
                             <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
                           </div>
                           <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
-                            <div className={Styles.chartSeventy}>
+                            <div className='chart-seventy'>
                               <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
                                 <p className='text-white text-5xl font-semibold leading-none'>
                                   70&#37;

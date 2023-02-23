@@ -31,6 +31,22 @@
   .font-fill-transparent {
     -webkit-text-fill-color: transparent;
   }
+
+  .chart-eighty {
+    background: conic-gradient(#FF198D 0.00% 80.00%, #0F69E5 80.00% 0.00%);
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    padding: 16px;
+  }
+  
+  .chart-seventy {
+    background: conic-gradient(#FF198D 0.00% 70.00%, #0F69E5 70.00% 0.00%);
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    padding: 16px;
+  }
 }
 
 html,
