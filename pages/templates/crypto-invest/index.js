@@ -513,7 +513,7 @@ export default function Home() {
                             <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
                           </div>
                           <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
-                            <div className='chart-eighty'>
+                            <div className='chart-eighty w-full h-full rounded-full p-[16px]'>
                               <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
                                 <p className='text-white text-5xl font-semibold leading-none'>
                                   80&#37;
@@ -554,7 +554,7 @@ export default function Home() {
                             <div className='h-full flex-grow transform skew-x-2 scale-x-[1.05] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-full' />
                           </div>
                           <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
-                            <div className='chart-seventy'>
+                            <div className='chart-seventy w-full h-full rounded-full p-[16px]'>
                               <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
                                 <p className='text-white text-5xl font-semibold leading-none'>
                                   70&#37;
@@ -636,8 +636,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -667,8 +671,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>STMX Wallet</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              STMX Wallet
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -698,8 +706,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -729,8 +741,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -760,8 +776,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -791,8 +811,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -822,8 +846,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -853,8 +881,12 @@ export default function Home() {
                         </div>
                         <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
                           <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>january, 2022</p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>Legal Review</h2>
+                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                              january, 2022
+                            </p>
+                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                              Legal Review
+                            </h2>
                           </div>
                           <p className='text-xs font-light leading-normal text-white text-left'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
