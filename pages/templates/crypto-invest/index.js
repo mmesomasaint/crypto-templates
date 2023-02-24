@@ -941,7 +941,7 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-normal text-sm leading-none'>Joni Hunt</h2>
+                      <h2 className='text-white font-medium text-lg leading-none'>Joni Hunt</h2>
                       <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
                     </div>
                   </div>
@@ -963,7 +963,7 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-normal text-sm leading-none'>Lora Snow</h2>
+                      <h2 className='text-white font-medium text-lg leading-none'>Lora Snow</h2>
                       <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
                     </div>
                   </div>
@@ -985,7 +985,7 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-normal text-sm leading-none'>Smith Steve</h2>
+                      <h2 className='text-white font-medium text-lg leading-none'>Smith Steve</h2>
                       <p className='text-white font-normal text-xs leading-none'>Software Developer</p>
                     </div>
                   </div>
@@ -1007,7 +1007,7 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-normal text-sm leading-none'>Angie Hunter</h2>
+                      <h2 className='text-white font-medium text-lg leading-none'>Angie Hunter</h2>
                       <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
                     </div>
                   </div>
