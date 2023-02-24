@@ -923,6 +923,96 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
+              <div className='grid grid-cols-4 place-items-stretch gap-10'>
+                <div className='relative flex flex-col gap-0'>
+                  <div className='flex justify-center items-center'>
+                    <Image
+                      src='/imgs/crypto-invest/joni.png'
+                      width={193}
+                      height={193}
+                      alt='Joni hunt'
+                      className='absolute z-30 top-[34px]'
+                    />
+                  </div>
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='relative px-[10%]'>
+                    <div className='flex justify-start items-stretch h-[6rem]'>
+                      <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
+                      <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
+                      <h2 className='text-white font-normal text-sm leading-none'>Joni Hunt</h2>
+                      <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='relative flex flex-col gap-0'>
+                  <div className='flex justify-center items-center'>
+                    <Image
+                      src='/imgs/crypto-invest/lora.png'
+                      width={193}
+                      height={193}
+                      alt='lora snow'
+                      className='absolute z-30 top-[34px]'
+                    />
+                  </div>
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='relative px-[10%]'>
+                    <div className='flex justify-start items-stretch h-[6rem]'>
+                      <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
+                      <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
+                      <h2 className='text-white font-normal text-sm leading-none'>Lora Snow</h2>
+                      <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='relative flex flex-col gap-0'>
+                  <div className='flex justify-center items-center'>
+                    <Image
+                      src='/imgs/crypto-invest/smith.png'
+                      width={193}
+                      height={193}
+                      alt='smith steve'
+                      className='absolute z-30 top-[34px]'
+                    />
+                  </div>
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='relative px-[10%]'>
+                    <div className='flex justify-start items-stretch h-[6rem]'>
+                      <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
+                      <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
+                      <h2 className='text-white font-normal text-sm leading-none'>Smith Steve</h2>
+                      <p className='text-white font-normal text-xs leading-none'>Software Developer</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='relative flex flex-col gap-0'>
+                  <div className='flex justify-center items-center'>
+                    <Image
+                      src='/imgs/crypto-invest/angie.png'
+                      width={193}
+                      height={193}
+                      alt='angie hunter'
+                      className='absolute z-30 top-[34px]'
+                    />
+                  </div>
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='relative px-[10%]'>
+                    <div className='flex justify-start items-stretch h-[6rem]'>
+                      <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
+                      <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
+                    </div>
+                    <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
+                      <h2 className='text-white font-normal text-sm leading-none'>Angie Hunter</h2>
+                      <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
