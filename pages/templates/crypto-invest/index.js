@@ -17,7 +17,7 @@ import {
   FaFacebookF,
 } from 'react-icons/fa'
 import { FiTrendingUp } from 'react-icons/fi'
-import { MdSecurity } from 'react-icons/md'
+import { MdSecurity, MdOutlineArrowForwardIos } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
 import { RiCustomerService2Fill } from 'react-icons/ri'
@@ -98,7 +98,7 @@ export default function Home() {
                       Explore More
                     </span>
                     <span className='w-fit mx-auto'>
-                      <HiArrowNarrowRight className='text-xl text-white z-20' />
+                      <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
                     </span>
                   </button>
                   <button className='text-base font-medium leading-none px-6 py-3 border border-[#FF198D] text-white rounded-sm shadow-sm'>
@@ -1225,6 +1225,24 @@ export default function Home() {
                     </h2>
                     <div className='flex justify-center items-center w-fit mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
                       <HiArrowNarrowRight className='text-2xl text-[#FF198D] group-hover:text-white' />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 bg-black'>
+            <div className='relative max-w-[90rem] w-[80%] mx-auto'>
+              <div className="h-fit w-full bg-[url('/imgs/crypto-invest/idea.jpg')] bg-no-repeat bg-cover bg-left rounded-md">
+                <div className='pt-12 pl-12 pb-4'>
+                  <div className='w-[40%] p-4'>
+                    <h2 className='text-4xl font-medium text-[#FF198D] leading-none mb-5'>Sign Up To Learn More</h2>
+                    <p className='font-normal text-sm leading-normal text-white mb-9'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus</p>
+                    <div className=''>
+                      <button className='p-2 text-white text-sm font-normal bg-[#0F69E5] flex justify-start items-center gap-2 rounded-md'>
+                        <span>Request a demo</span>
+                        <MdOutlineArrowForwardIos />
+                      </button>
                     </div>
                   </div>
                 </div>
