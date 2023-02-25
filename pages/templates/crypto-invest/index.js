@@ -1,9 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsStar, BsPatchCheckFill, BsCurrencyExchange } from 'react-icons/bs'
+import {
+  BsStar,
+  BsPatchCheckFill,
+  BsCurrencyExchange,
+  BsInstagram,
+  BsTwitter,
+} from 'react-icons/bs'
 import { DiGoogleCloudPlatform } from 'react-icons/di'
-import { FaBtc, FaEthereum, FaBitcoin } from 'react-icons/fa'
+import { FaBtc, FaEthereum, FaBitcoin, FaLinkedinIn, FaFacebookF } from 'react-icons/fa'
 import { FiTrendingUp } from 'react-icons/fi'
 import { MdSecurity } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
@@ -925,6 +931,20 @@ export default function Home() {
               </p>
               <div className='grid grid-cols-4 place-items-stretch gap-10'>
                 <div className='relative flex flex-col gap-0'>
+                  <div className='absolute right-6 top-3 z-40 flex flex-col justify-start gap-2'>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsTwitter className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsInstagram className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaLinkedinIn className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                  </div>
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/joni.png'
@@ -941,12 +961,30 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-medium text-lg leading-none'>Joni Hunt</h2>
-                      <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
+                      <h2 className='text-white font-medium text-lg leading-none'>
+                        Joni Hunt
+                      </h2>
+                      <p className='text-white font-normal text-xs leading-none'>
+                        Co-founder & CTO
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className='relative flex flex-col gap-0'>
+                  <div className='absolute right-6 top-3 z-40 flex flex-col justify-start gap-2'>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsTwitter className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsInstagram className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaLinkedinIn className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                  </div>
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/lora.png'
@@ -963,12 +1001,30 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-medium text-lg leading-none'>Lora Snow</h2>
-                      <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
+                      <h2 className='text-white font-medium text-lg leading-none'>
+                        Lora Snow
+                      </h2>
+                      <p className='text-white font-normal text-xs leading-none'>
+                        Co-founder & CTO
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className='relative flex flex-col gap-0'>
+                  <div className='absolute right-6 top-3 z-40 flex flex-col justify-start gap-2'>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsTwitter className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsInstagram className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaLinkedinIn className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                  </div>
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/smith.png'
@@ -985,12 +1041,30 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-medium text-lg leading-none'>Smith Steve</h2>
-                      <p className='text-white font-normal text-xs leading-none'>Software Developer</p>
+                      <h2 className='text-white font-medium text-lg leading-none'>
+                        Smith Steve
+                      </h2>
+                      <p className='text-white font-normal text-xs leading-none'>
+                        Software Developer
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className='relative flex flex-col gap-0'>
+                  <div className='absolute right-6 top-3 z-40 flex flex-col justify-start gap-2'>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsTwitter className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <BsInstagram className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                    <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                      <FaLinkedinIn className='text-sm text-[#0F69E5] group-hover:text-white' />
+                    </div>
+                  </div>
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/angie.png'
@@ -1007,8 +1081,12 @@ export default function Home() {
                       <div className='flex-grow border-b border-r border-[#0F69E5] rounded-br-full' />
                     </div>
                     <div className='absolute inset-0 flex flex-col items-center justify-center gap-2'>
-                      <h2 className='text-white font-medium text-lg leading-none'>Angie Hunter</h2>
-                      <p className='text-white font-normal text-xs leading-none'>Co-founder & CTO</p>
+                      <h2 className='text-white font-medium text-lg leading-none'>
+                        Angie Hunter
+                      </h2>
+                      <p className='text-white font-normal text-xs leading-none'>
+                        Co-founder & CTO
+                      </p>
                     </div>
                   </div>
                 </div>
