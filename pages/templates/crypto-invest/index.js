@@ -1231,13 +1231,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 bg-black'>
-            <div className='relative max-w-[90rem] w-[80%] mx-auto'>
+          <div className='bg-black'>
+            <div className='relative top-[8rem] max-w-[90rem] w-[80%] mx-auto'>
               <div className="h-fit w-full bg-[url('/imgs/crypto-invest/idea.jpg')] bg-no-repeat bg-cover bg-left rounded-md">
                 <div className='pt-12 pl-12 pb-4'>
                   <div className='w-[40%] p-4'>
-                    <h2 className='text-4xl font-medium text-[#FF198D] leading-none mb-5'>Sign Up To Learn More</h2>
-                    <p className='font-normal text-sm leading-normal text-white mb-9'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus</p>
+                    <h2 className='text-4xl font-medium text-[#FF198D] leading-none mb-5'>
+                      Sign Up To Learn More
+                    </h2>
+                    <p className='font-normal text-sm leading-normal text-white mb-9'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vivamus tempus
+                    </p>
                     <div className=''>
                       <button className='p-2 text-white text-sm font-normal bg-[#0F69E5] flex justify-start items-center gap-2 rounded-md'>
                         <span>Request a demo</span>
@@ -1246,6 +1251,13 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className='max-w-[90rem] mx-auto'>
+            <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/footcase.jpg')] bg-no-repeat bg-cover bg-center">
+              <div className='flex justify-center items-center h-full'>
+                <div className='w-full h-fit text-center'></div>
               </div>
             </div>
           </div>
