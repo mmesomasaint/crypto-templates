@@ -15,12 +15,14 @@ import {
   FaBitcoin,
   FaLinkedinIn,
   FaFacebookF,
+  FaPinterestP,
 } from 'react-icons/fa'
 import { FiTrendingUp } from 'react-icons/fi'
 import { MdSecurity, MdOutlineArrowForwardIos } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
 import { RiCustomerService2Fill } from 'react-icons/ri'
+import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
   return (
@@ -1233,7 +1235,7 @@ export default function Home() {
           </div>
           <div className='bg-black'>
             <div className='relative top-[8rem] max-w-[90rem] w-[80%] mx-auto'>
-              <div className="h-fit w-full bg-[url('/imgs/crypto-invest/idea.jpg')] bg-no-repeat bg-cover bg-left rounded-md">
+              <div className="h-fit w-full bg-[url('/imgs/crypto-invest/bitty.jpg')] bg-no-repeat bg-cover bg-left rounded-md">
                 <div className='pt-12 pl-12 pb-4'>
                   <div className='w-[40%] p-4'>
                     <h2 className='text-4xl font-medium text-[#FF198D] leading-none mb-5'>
@@ -1256,8 +1258,111 @@ export default function Home() {
           </div>
           <div className='max-w-[90rem] mx-auto'>
             <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/footcase.jpg')] bg-no-repeat bg-cover bg-center">
-              <div className='flex justify-center items-center h-full'>
-                <div className='w-full h-fit text-center'></div>
+              <div className='bg-gradient-to-b from-[rgba(0,0,0,0.79)] to-[rgba(0,0,0,0.25)] w-full h-full'>
+                <div className='pt-[15rem] w-[80%] mx-auto h-full'>
+                  <div className='mb-20'>
+                    <div className='grid grid-cols-4 place-items-stretch gap-10'>
+                      <div className='flex flex-col items-start gap-5'>
+                        <div>
+                          <Image
+                            src='/imgs/crypto-invest/logo.png'
+                            width={170}
+                            height={50}
+                            alt='logo'
+                          />
+                        </div>
+                        <p className='font-normal text-sm leading-normal text-white'>
+                          dolor sit amet, consectetur adipiscing elit. Vivamus
+                          tempus
+                        </p>
+                        <div className='flex jusitfy-start items-center gap-3'>
+                          <div className='w-8 h-8 rounded-sm flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                            <FaFacebookF className='text-base text-[#FF198D] group-hover:text-white' />
+                          </div>
+                          <div className='w-8 h-8 rounded-sm flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                            <BsTwitter className='text-base text-[#FF198D] group-hover:text-white' />
+                          </div>
+                          <div className='w-8 h-8 rounded-sm flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                            <BsInstagram className='text-base text-[#FF198D] group-hover:text-white' />
+                          </div>
+                          <div className='w-8 h-8 rounded-sm flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
+                            <FaPinterestP className='text-base text-[#FF198D] group-hover:text-white' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-span-2'>
+                        <div className='grid grid-cols-3 gap-10 place-items-stretch'>
+                          <div className=''>
+                            <h2 className='text-lg font-medium text-white leading-none mb-5'>
+                              Quick Links
+                            </h2>
+                            <div className='flex flex-col gap-3 text-white font-normal text-xs'>
+                              <span>blog</span>
+                              <span>about us</span>
+                              <span>blog</span>
+                              <span>team</span>
+                              <span>page</span>
+                              <span>single</span>
+                            </div>
+                          </div>
+                          <div className=''>
+                            <h2 className='text-lg font-medium text-white leading-none mb-5'>
+                              Quick Links
+                            </h2>
+                            <div className='flex flex-col gap-3 text-white font-normal text-xs'>
+                              <span>home</span>
+                              <span>pricing</span>
+                              <span>token</span>
+                              <span>sale</span>
+                              <span>test</span>
+                              <span>FAQ</span>
+                            </div>
+                          </div>
+                          <div className=''>
+                            <h2 className='text-lg font-medium text-white leading-none mb-5'>
+                              Categories
+                            </h2>
+                            <div className='flex flex-col gap-3 text-white font-normal text-xs'>
+                              <span>github.io</span>
+                              <span>redeem code</span>
+                              <span>launch time</span>
+                              <span>product catalog</span>
+                              <span>design</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className=''>
+                        <h2 className='text-lg font-medium text-white leading-none mb-5'>
+                          Subscribe To Our Newsletter
+                        </h2>
+                        <div className='flex justify-start items-stretch'>
+                          <input
+                            type='email'
+                            placeholder='Enter your email'
+                            className='flex-grow p-5 pr-0 rounded-l-lg bg-[#0F69E5] bg-opacity-20 text-xs'
+                          />
+                          <button className='flex justify-start items-center gap-2 p-2 bg-[#FF198D] rounded-r-lg'>
+                            <span className='text-xs font-normal text-white'>
+                              Send
+                            </span>
+                            <TbBrandTelegram className='text-white text-xs' />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-5'>
+                    <span className='text-sm font-normal text-white'>
+                      &copy; 2023, Crypto Invest Inc <span className='mx-3'>&middot;</span> All
+                      Rights Reserved
+                    </span>
+                    <span className='text-sm font-normal text-white'>
+                      Designed by mmesoma saint <span className='mx-3'>&middot;</span> Terms &
+                      Services
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
