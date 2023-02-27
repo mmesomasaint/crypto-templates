@@ -1235,7 +1235,7 @@ export default function Home() {
           </div>
           <div className='bg-black'>
             <div className='relative top-[8rem] max-w-[90rem] w-[80%] mx-auto'>
-              <div className="h-fit w-full bg-[url('/imgs/crypto-invest/bitty.jpg')] bg-no-repeat bg-cover bg-left rounded-md">
+              <div className="h-fit w-full bg-[url('/imgs/crypto-invest/bitty.jpg')] bg-no-repeat bg-cover bg-left rounded-md shadow-2xl">
                 <div className='pt-12 pl-12 pb-4'>
                   <div className='w-[40%] p-4'>
                     <h2 className='text-4xl font-medium text-[#FF198D] leading-none mb-5'>
