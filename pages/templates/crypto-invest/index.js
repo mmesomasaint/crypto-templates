@@ -112,7 +112,9 @@ export default function Home() {
           </div>
           <div className='py-24 bg-black'>
             <div className=' w-[80%] mx-auto grid grid-cols-5 place-items-stretch gap-10'>
-              <div className='col-span-3'></div>
+              <div className='col-span-3'>
+                <Image src='/imgs/crypto-invest/about.png' width={1000} height={1000} alt='about' />
+              </div>
               <div className='col-span-2'>
                 <div className='w-fit'>
                   <h4 className='text-white text-lg font-light leading-normal'>
