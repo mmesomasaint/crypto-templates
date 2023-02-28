@@ -26,7 +26,7 @@ import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-black'>
       <Head>
         <title>Crypto Invest</title>
         <meta
