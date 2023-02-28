@@ -38,11 +38,11 @@ export default function Home() {
       <header className='bg-[#0F69E5]'>
         <div className='max-w-[90rem] w-[80%] mx-auto'>
           <div className='flex justify-between gap-10 items-center w-full'>
-            <div>
+            <div className='py-3'>
               <Image
                 src='/imgs/crypto-invest/logo.png'
-                width={160}
-                height={60}
+                width={130}
+                height={30}
                 alt='company logo'
               />
             </div>
