@@ -18,6 +18,7 @@ import {
   FaPinterestP,
 } from 'react-icons/fa'
 import { FiTrendingUp } from 'react-icons/fi'
+import {GiHamburgerMenu} from 'react-icons/gi'
 import { MdSecurity, MdOutlineArrowForwardIos } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
@@ -36,7 +37,7 @@ export default function Home() {
         <link rel='icon' href='/imgs/crypto-invest/favicon.ico' />
       </Head>
       <header className='bg-[#0F69E5]'>
-        <div className='max-w-[90rem] w-[80%] mx-auto'>
+        <div className='max-w-[90rem] w-[90%] xl:w-[80%] mx-auto'>
           <div className='flex justify-between gap-10 items-center w-full'>
             <div className='py-3'>
               <Image
@@ -47,7 +48,10 @@ export default function Home() {
               />
             </div>
             <div className='flex justify-between gap-12 items-center'>
-              <div className='flex justify-evenly gap-8 items-center'>
+              <div className='block lg:hidden'>
+                <GiHamburgerMenu className='text-3xl text-white' />
+              </div>
+              <div className='hidden lg:flex justify-evenly gap-8 items-center'>
                 <span className='text-base font-medium leading-none text-[#FF198D] scale-110'>
                   <Link href='/'>Home</Link>
                 </span>
@@ -86,10 +90,10 @@ export default function Home() {
           <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/showcase.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='flex justify-center items-center h-full'>
               <div className='w-full h-fit text-center'>
-                <h1 className='block w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
+                <h1 className='block w-[40%] xl:w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
                   World Number One ICO Platform
                 </h1>
-                <p className='block w-[40%] mx-auto text-base font-normal leading-tight text-white mb-8'>
+                <p className='block w-[50%] xl:w-[40%] mx-auto text-base font-normal leading-tight text-white mb-8'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio
@@ -111,7 +115,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className=' w-[80%] mx-auto grid grid-cols-5 place-items-stretch gap-10'>
+            <div className=' w-[90%] xl:w-[80%] mx-auto grid grid-cols-5 place-items-stretch gap-5 xl:gap-10'>
               <div className='col-span-3'>
                 <Image src='/imgs/crypto-invest/about.png' width={1000} height={1000} alt='about' />
               </div>
@@ -217,7 +221,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className='w-[80%] mx-auto text-center'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <div className='w-fit mx-auto'>
                 <h4 className='text-white text-lg font-light leading-normal'>
                   SERVICE
@@ -240,7 +244,7 @@ export default function Home() {
                 tempus dui nec euismod congue. Nulla id libero dignissim,
                 convallis odio id, scelerisque nisl
               </p>
-              <div className='grid grid-cols-3 gap-10 place-items-stretch'>
+              <div className='grid grid-cols-3 gap-5 xl:gap-10 place-items-stretch'>
                 <div className='relative flex flex-col h-[11rem]'>
                   <div className='flex flex-grow justify-between items-center gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
@@ -252,7 +256,7 @@ export default function Home() {
                   </div>
                   <div className='group absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] z-10 bg-black rounded-md'>
                     <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-7'>
+                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
                         <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
                           <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
                             <MdSecurity className='text-2xl text-white' />
@@ -286,7 +290,7 @@ export default function Home() {
                   </div>
                   <div className='group absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] z-10 bg-black rounded-md'>
                     <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-7'>
+                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
                         <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
                           <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
                             <CgPerformance className='text-2xl text-white' />
@@ -320,7 +324,7 @@ export default function Home() {
                   </div>
                   <div className='group absolute inset-[5px] scale-y-[1.08] scale-x-[1.045] z-10 bg-black rounded-md'>
                     <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-7'>
+                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
                         <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
                           <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
                             <FaBitcoin className='text-2xl text-white' />
@@ -347,7 +351,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className='w-[80%] mx-auto text-center'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <div className='w-fit mx-auto'>
                 <h4 className='text-white text-lg font-light leading-normal'>
                   TOKEN
@@ -531,7 +535,7 @@ export default function Home() {
                           <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
                             <div className='chart-eighty w-full h-full rounded-full p-[16px]'>
                               <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
-                                <p className='text-white text-5xl font-semibold leading-none'>
+                                <p className='text-white text-3xl xl:text-5xl font-semibold leading-none'>
                                   80&#37;
                                 </p>
                               </div>
@@ -572,7 +576,7 @@ export default function Home() {
                           <div className='absolute inset-0 scale-y-[1] scale-x-[1.02] z-30 bg-black rounded-full p-6'>
                             <div className='chart-seventy w-full h-full rounded-full p-[16px]'>
                               <div className='w-full h-full rounded-full bg-black flex justify-center items-center'>
-                                <p className='text-white text-5xl font-semibold leading-none'>
+                                <p className='text-white text-3xl xl:text-5xl font-semibold leading-none'>
                                   70&#37;
                                 </p>
                               </div>
@@ -610,7 +614,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className='w-[80%] mx-auto text-center'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <div className='w-fit mx-auto'>
                 <h4 className='text-white text-lg font-light leading-normal'>
                   ROADMAP
@@ -917,7 +921,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className='w-[80%] mx-auto text-center'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <div className='w-fit mx-auto'>
                 <h4 className='text-white text-lg font-light leading-normal'>
                   TEAM
@@ -939,7 +943,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-4 place-items-stretch gap-10'>
+              <div className='grid grid-cols-4 place-items-stretch gap-5 xl:gap-10'>
                 <div className='relative flex flex-col gap-0'>
                   <div className='absolute right-6 top-3 z-40 flex flex-col justify-start gap-2'>
                     <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
@@ -958,13 +962,13 @@ export default function Home() {
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/joni.png'
-                      width={193}
-                      height={193}
+                      width={300}
+                      height={300}
                       alt='Joni hunt'
-                      className='absolute z-30 top-[34px]'
+                      className='absolute z-30 top-[18px] h-[175px] xl:h-[225px] border px-[10%]'
                     />
                   </div>
-                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[11rem] xl:h-[14rem]' />
                   <div className='relative px-[10%]'>
                     <div className='flex justify-start items-stretch h-[6rem]'>
                       <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
@@ -998,13 +1002,13 @@ export default function Home() {
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/lora.png'
-                      width={193}
-                      height={193}
+                      width={300}
+                      height={300}
                       alt='lora snow'
-                      className='absolute z-30 top-[34px]'
+                      className='absolute z-30 top-[18px] h-[175px] xl:h-[225px] border px-[10%]'
                     />
                   </div>
-                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[11rem] xl:h-[14rem]' />
                   <div className='relative px-[10%]'>
                     <div className='flex justify-start items-stretch h-[6rem]'>
                       <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
@@ -1038,13 +1042,13 @@ export default function Home() {
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/smith.png'
-                      width={193}
-                      height={193}
+                      width={300}
+                      height={300}
                       alt='smith steve'
-                      className='absolute z-30 top-[34px]'
+                      className='absolute z-30 top-[18px] h-[175px] xl:h-[225px] border px-[10%]'
                     />
                   </div>
-                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[11rem] xl:h-[14rem]' />
                   <div className='relative px-[10%]'>
                     <div className='flex justify-start items-stretch h-[6rem]'>
                       <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
@@ -1078,13 +1082,13 @@ export default function Home() {
                   <div className='flex justify-center items-center'>
                     <Image
                       src='/imgs/crypto-invest/angie.png'
-                      width={193}
-                      height={193}
+                      width={300}
+                      height={300}
                       alt='angie hunter'
-                      className='absolute z-30 top-[34px]'
+                      className='absolute z-30 top-[18px] h-[175px] xl:h-[225px] border px-[10%]'
                     />
                   </div>
-                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[14rem]' />
+                  <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[11rem] xl:h-[14rem]' />
                   <div className='relative px-[10%]'>
                     <div className='flex justify-start items-stretch h-[6rem]'>
                       <div className='flex-grow border-b border-l border-[#0F69E5] rounded-bl-full' />
@@ -1104,7 +1108,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className='w-[80%] mx-auto text-center'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <div className='w-fit mx-auto'>
                 <h4 className='text-white text-lg font-light leading-normal'>
                   BLOG
@@ -1236,7 +1240,7 @@ export default function Home() {
             </div>
           </div>
           <div className='bg-black'>
-            <div className='relative top-[8rem] max-w-[90rem] w-[80%] mx-auto'>
+            <div className='relative top-[8rem] max-w-[90rem] w-[90%] xl:w-[80%] mx-auto'>
               <div className="h-fit w-full bg-[url('/imgs/crypto-invest/bitty.jpg')] bg-no-repeat bg-cover bg-left rounded-md shadow-2xl">
                 <div className='pt-12 pl-12 pb-4'>
                   <div className='w-[40%] p-4'>
@@ -1261,7 +1265,7 @@ export default function Home() {
           <div className='max-w-[90rem] mx-auto'>
             <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/footcase.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='bg-gradient-to-b from-[rgba(0,0,0,0.79)] to-[rgba(0,0,0,0.25)] w-full h-full'>
-                <div className='pt-[15rem] w-[80%] mx-auto h-full'>
+                <div className='pt-[15rem] w-[90%] xl:w-[80%] mx-auto h-full'>
                   <div className='mb-20'>
                     <div className='grid grid-cols-4 place-items-stretch gap-10'>
                       <div className='flex flex-col items-start gap-5'>
