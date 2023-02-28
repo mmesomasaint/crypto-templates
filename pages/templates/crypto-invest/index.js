@@ -393,7 +393,7 @@ export default function Home() {
                           </h1>
                         </div>
                         <div className='hidden group-hover:block w-full'>
-                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                          <p className='text-xs font-light leading-normal text-white text-center'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit
                           </p>
@@ -426,7 +426,7 @@ export default function Home() {
                           </h1>
                         </div>
                         <div className='hidden group-hover:block w-full'>
-                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                          <p className='text-xs font-light leading-normal text-white text-center'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit
                           </p>
@@ -459,7 +459,7 @@ export default function Home() {
                           </h1>
                         </div>
                         <div className='hidden group-hover:block w-full'>
-                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                          <p className='text-xs font-light leading-normal text-white text-center'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit
                           </p>
@@ -492,7 +492,7 @@ export default function Home() {
                           </h1>
                         </div>
                         <div className='hidden group-hover:block w-full'>
-                          <p className='text-xs font-light leading-normal text-white text-left text-center'>
+                          <p className='text-xs font-light leading-normal text-white text-center'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit
                           </p>
@@ -1157,7 +1157,7 @@ export default function Home() {
                     <h2 className='text-white group-hover:text-[#FF198D] text-lg font-medium'>
                       BCB Bots & Rebuild Implicit
                     </h2>
-                    <div className='flex justify-center items-center w-fit mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
+                    <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
                       <HiArrowNarrowRight className='text-2xl text-[#FF198D] group-hover:text-white' />
                     </div>
                   </div>
@@ -1192,7 +1192,7 @@ export default function Home() {
                     <h2 className='text-white group-hover:text-[#FF198D] text-lg font-medium'>
                       Launch Your Own Cryptocurrency
                     </h2>
-                    <div className='flex justify-center items-center w-fit mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
+                    <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
                       <HiArrowNarrowRight className='text-2xl text-[#FF198D] group-hover:text-white' />
                     </div>
                   </div>
@@ -1227,7 +1227,7 @@ export default function Home() {
                     <h2 className='text-white group-hover:text-[#FF198D] text-lg font-medium'>
                       International Reporting of Crypto
                     </h2>
-                    <div className='flex justify-center items-center w-fit mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
+                    <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
                       <HiArrowNarrowRight className='text-2xl text-[#FF198D] group-hover:text-white' />
                     </div>
                   </div>
