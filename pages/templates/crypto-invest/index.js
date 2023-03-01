@@ -534,7 +534,7 @@ export default function Home() {
                     augue quam, fringilla quis dictum sed
                   </p>
                   <div className='flex flex-wrap justify-evenly sm:flex-none sm:grid sm:grid-cols-2 gap-y-20 sm:gap-20 sm:place-items-stretch'>
-                    <div className='w-[14rem] sm:w-auto p-7 md:p-14 lg:p-0 border'>
+                    <div className='w-[14rem] sm:w-auto p-7 md:p-14 lg:p-0'>
                       <div className='relative'>
                         <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
                           <div className='flex flex-grow justify-start items-center gap-0'>
@@ -575,7 +575,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className='w-[14rem] sm:w-auto p-7 sm:p-7 md:p-14 lg:p-0 border'>
+                    <div className='w-[14rem] sm:w-auto p-7 sm:p-7 md:p-14 lg:p-0'>
                       <div className='relative'>
                         <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
                           <div className='flex flex-grow justify-start items-center gap-0'>
