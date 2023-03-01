@@ -978,7 +978,7 @@ export default function Home() {
                       width={300}
                       height={300}
                       alt='Joni hunt'
-                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] border px-[10%]'
+                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] px-[10%]'
                     />
                   </div>
                   <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[16rem] lg:h-[11rem] xl:h-[14rem]' />
@@ -1018,7 +1018,7 @@ export default function Home() {
                       width={300}
                       height={300}
                       alt='lora snow'
-                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] border px-[10%]'
+                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] px-[10%]'
                     />
                   </div>
                   <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[16rem] lg:h-[11rem] xl:h-[14rem]' />
@@ -1058,7 +1058,7 @@ export default function Home() {
                       width={300}
                       height={300}
                       alt='smith steve'
-                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] border px-[10%]'
+                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] px-[10%]'
                     />
                   </div>
                   <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[16rem] lg:h-[11rem] xl:h-[14rem]' />
@@ -1098,7 +1098,7 @@ export default function Home() {
                       width={300}
                       height={300}
                       alt='angie hunter'
-                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] border px-[10%]'
+                      className='absolute z-30 top-[18px] h-[265px] lg:h-[175px] xl:h-[225px] px-[10%]'
                     />
                   </div>
                   <div className='z-20 flex-grow bg-gradient-to-t from-[rgba(15,104,230,0.53)] to-transparent bg-opacity-20 shrink-b h-[16rem] lg:h-[11rem] xl:h-[14rem]' />
