@@ -257,8 +257,8 @@ export default function Home() {
                 tempus dui nec euismod congue. Nulla id libero dignissim,
                 convallis odio id, scelerisque nisl
               </p>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 xl:gap-10 px-0 sm:px-10 md:px-0 place-items-stretch'>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem]'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 xl:gap-10 px-0 sm:px-10 md:px-0 place-items-center sm:place-items-stretch'>
+                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
                   <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
@@ -292,7 +292,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem]'>
+                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
                   <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
@@ -326,7 +326,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='border border-red-500 relative flex flex-col h-[15rem] md:h-[11rem]'>
+                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
                   <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
@@ -387,8 +387,8 @@ export default function Home() {
                 tempus dui nec euismod congue.
               </p>
               <div className='grid grid-cols-1 lg:grid-cols-2 gap-24 place-items-stretch'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-14 lg:gap-10 place-items-stretch px-10 sm:px-5 md:px-14 lg:px-0'>
-                  <div className='group relative flex flex-col h-[12rem]'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-14 lg:gap-10 place-items-center px-10 sm:px-5 md:px-14 lg:px-0'>
+                  <div className='group relative flex flex-col h-[12rem] w-full max-w-[20rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
@@ -421,7 +421,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='group relative flex flex-col h-[12rem] order-last sm:order-none'>
+                  <div className='group relative flex flex-col h-[12rem] order-last sm:order-none w-full max-w-[20rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
@@ -454,7 +454,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='group relative flex flex-col h-[12rem]'>
+                  <div className='group relative flex flex-col h-[12rem] w-full max-w-[20rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tr-full' />
@@ -487,7 +487,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='group relative flex flex-col h-[12rem] order-last sm:order-none'>
+                  <div className='group relative flex flex-col h-[12rem] order-last sm:order-none w-full max-w-[20rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tl-full' />
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
