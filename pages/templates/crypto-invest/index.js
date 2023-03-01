@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import {useState, useCallback} from 'react'
 import {
   BsStar,
   BsPatchCheckFill,
@@ -26,6 +27,9 @@ import { RiCustomerService2Fill } from 'react-icons/ri'
 import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false)
+  const handleOpen = useCallback(() => setIsOpen(open => !open), {})
+
   return (
     <div className='bg-black'>
       <Head>
@@ -36,7 +40,7 @@ export default function Home() {
         />
         <link rel='icon' href='/imgs/crypto-invest/favicon.ico' />
       </Head>
-      <header className='bg-[#0F69E5]'>
+      <header className='relative bg-[#0F69E5]'>
         <div className='max-w-[90rem] w-[90%] xl:w-[80%] mx-auto'>
           <div className='flex justify-between gap-10 items-center w-full'>
             <div className='py-3'>
@@ -49,9 +53,9 @@ export default function Home() {
             </div>
             <div className='flex justify-between gap-12 items-center'>
               <div className='block lg:hidden'>
-                <GiHamburgerMenu className='text-3xl text-white' />
+                <GiHamburgerMenu className='text-3xl text-white' onClick={handleOpen} />
               </div>
-              <div className='hidden lg:flex justify-evenly gap-8 items-center'>
+              <div className={`${isOpen ? 'flex' : 'hidden'} bg-[#0F69E5] lg:bg-transparent w-full left-0 top-[100%] lg:w-auto absolute lg:static flex-col lg:flex-row gap-6 px-[5%] py-8 lg:py-0 lg:px-0 lg:flex items-start lg:justify-evenly lg:gap-8 lg:items-center`}>
                 <span className='text-xl lg:text-base font-medium leading-none text-[#FF198D] scale-110'>
                   <Link href='/'>Home</Link>
                 </span>
