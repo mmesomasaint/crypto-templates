@@ -1144,18 +1144,18 @@ export default function Home() {
                 tempus dui nec euismod congue.
               </p>
               <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-stretch'>
-                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-[22rem]'>
+                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-fit sm:h-[22rem]'>
                   <div className='relative'>
                     <div className='absolute group-hover:static bottom-0 group-hover:top-0 flex justify-center items-center group-hover:items-end gap-6 w-full px-5 group-hover:py-5 group-hover:border-b  border-b-black'>
-                      <p className='w-fit rounded-md text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
                         january, 2022
                       </p>
-                      <p className='w-fit rounded-md text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
                         by admin
                       </p>
                     </div>
                     <div className='hidden group-hover:block px-5 py-5 group-hover:border-b  border-b-black'>
-                      <p className='text-sm font-normal text-white text-center leading-normal'>
+                      <p className='text-lg sm:text-sm font-normal text-white text-center leading-normal'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Vivamus tempus dui nec euismod congue. Nulla id libero
                         dignissim, convallis odio id, scelerisque nisl.
@@ -1170,8 +1170,8 @@ export default function Home() {
                       className='rounded-md group-hover:hidden'
                     />
                   </div>
-                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 h-full'>
-                    <h2 className='text-white group-hover:text-[#FF198D] text-lg font-medium'>
+                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 py-5 sm:py-0 h-full'>
+                    <h2 className='text-white group-hover:text-[#FF198D] text-2xl sm:text-lg font-medium'>
                       BCB Bots & Rebuild Implicit
                     </h2>
                     <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
@@ -1179,18 +1179,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-[22rem]'>
+                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-fit sm:h-[22rem]'>
                   <div className='relative'>
                     <div className='absolute group-hover:static bottom-0 group-hover:top-0 flex justify-center items-center group-hover:items-end gap-6 w-full px-5 group-hover:py-5 group-hover:border-b  border-b-black'>
-                      <p className='w-fit rounded-md text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
                         january, 2022
                       </p>
-                      <p className='w-fit rounded-md text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
                         by admin
                       </p>
                     </div>
                     <div className='hidden group-hover:block px-5 py-5 group-hover:border-b  border-b-black'>
-                      <p className='text-sm font-normal text-white text-center leading-normal'>
+                      <p className='text-lg sm:text-sm font-normal text-white text-center leading-normal'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Vivamus tempus dui nec euismod congue. Nulla id libero
                         dignissim, convallis odio id, scelerisque nisl.
@@ -1205,8 +1205,8 @@ export default function Home() {
                       className='rounded-md group-hover:hidden'
                     />
                   </div>
-                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 h-full'>
-                    <h2 className='text-white group-hover:text-[#FF198D] text-lg font-medium'>
+                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 py-5 sm:py-0 h-full'>
+                    <h2 className='text-white group-hover:text-[#FF198D] text-2xl sm:text-lg font-medium'>
                       Launch Your Own Cryptocurrency
                     </h2>
                     <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
@@ -1214,18 +1214,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-[22rem]'>
+                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-fit sm:h-[22rem]'>
                   <div className='relative'>
                     <div className='absolute group-hover:static bottom-0 group-hover:top-0 flex justify-center items-center group-hover:items-end gap-6 w-full px-5 group-hover:py-5 group-hover:border-b  border-b-black'>
-                      <p className='w-fit rounded-md text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
                         january, 2022
                       </p>
-                      <p className='w-fit rounded-md text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
                         by admin
                       </p>
                     </div>
                     <div className='hidden group-hover:block px-5 py-5 group-hover:border-b  border-b-black'>
-                      <p className='text-sm font-normal text-white text-center leading-normal'>
+                      <p className='text-lg sm:text-sm font-normal text-white text-center leading-normal'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Vivamus tempus dui nec euismod congue. Nulla id libero
                         dignissim, convallis odio id, scelerisque nisl.
@@ -1240,8 +1240,8 @@ export default function Home() {
                       className='rounded-md group-hover:hidden'
                     />
                   </div>
-                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 h-full'>
-                    <h2 className='text-white group-hover:text-[#FF198D] text-lg font-medium'>
+                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 py-5 sm:py-0 h-full'>
+                    <h2 className='text-white group-hover:text-[#FF198D] text-2xl sm:text-lg font-medium'>
                       International Reporting of Crypto
                     </h2>
                     <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
