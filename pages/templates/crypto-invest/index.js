@@ -533,8 +533,8 @@ export default function Home() {
                     dignissim, convallis odio id, scelerisque nisl. Curabitur
                     augue quam, fringilla quis dictum sed
                   </p>
-                  <div className='grid grid-cols-1 sm:grid-cols-2 gap-20 place-items-stretch'>
-                    <div className='py-8 px-[4rem] sm:p-7 md:p-14 lg:p-0'>
+                  <div className='flex flex-wrap justify-evenly sm:flex-none sm:grid sm:grid-cols-2 gap-y-20 sm:gap-20 sm:place-items-stretch'>
+                    <div className='w-[14rem] sm:w-auto p-7 md:p-14 lg:p-0 border'>
                       <div className='relative'>
                         <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
                           <div className='flex flex-grow justify-start items-center gap-0'>
@@ -575,7 +575,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className='py-8 px-[4rem] sm:p-7 md:p-14 lg:p-0'>
+                    <div className='w-[14rem] sm:w-auto p-7 sm:p-7 md:p-14 lg:p-0 border'>
                       <div className='relative'>
                         <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
                           <div className='flex flex-grow justify-start items-center gap-0'>
