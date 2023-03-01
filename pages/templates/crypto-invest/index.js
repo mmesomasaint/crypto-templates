@@ -90,10 +90,10 @@ export default function Home() {
           <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/showcase.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='flex justify-center items-center h-full'>
               <div className='w-full h-fit text-center py-16 md:py-0'>
-                <h1 className='block w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
+                <h1 className='block w-[90%] sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
                   World Number One ICO Platform
                 </h1>
-                <p className='block w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
+                <p className='block w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio
@@ -177,7 +177,7 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue
                 </p>
-                <div className='my-8 flex justify-start items-center gap-8'>
+                <div className='my-8 flex flex-col sm:flex-row sm:justify-start items-start sm:items-center gap-8'>
                   <div className='py-3 px-2 bg-[#FF198D] bg-opacity-20 w-fit rounded-md'>
                     <div className='flex justify-start items-start gap-3'>
                       <div className='flex justify-center items-center w-12 lg:w-8 h-12 lg:h-8 rounded-full bg-yellow-500'>
@@ -257,17 +257,17 @@ export default function Home() {
                 tempus dui nec euismod congue. Nulla id libero dignissim,
                 convallis odio id, scelerisque nisl
               </p>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 xl:gap-10 px-10 md:px-0 place-items-stretch'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 xl:gap-10 px-0 sm:px-10 md:px-0 place-items-stretch'>
                 <div className='relative flex flex-col h-[15rem] md:h-[11rem]'>
-                  <div className='flex flex-grow justify-between items-center gap-16'>
+                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-16'>
+                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
                   </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.07] md:scale-y-[1.09] lg:scale-y-[1.08] scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
+                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
                     <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
                       <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
                         <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
@@ -293,15 +293,15 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='relative flex flex-col h-[15rem] md:h-[11rem]'>
-                  <div className='flex flex-grow justify-between items-center gap-16'>
+                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-16'>
+                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
                   </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.07] md:scale-y-[1.09] lg:scale-y-[1.08] scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
+                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
                     <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
                       <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
                         <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
@@ -326,16 +326,16 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem]'>
-                  <div className='flex flex-grow justify-between items-center gap-16'>
+                <div className='border border-red-500 relative flex flex-col h-[15rem] md:h-[11rem]'>
+                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-16'>
+                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
                     <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
                   </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.07] md:scale-y-[1.09] lg:scale-y-[1.08] scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
+                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048] sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
                     <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
                       <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
                         <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
@@ -387,7 +387,7 @@ export default function Home() {
                 tempus dui nec euismod congue.
               </p>
               <div className='grid grid-cols-1 lg:grid-cols-2 gap-24 place-items-stretch'>
-                <div className='grid grid-cols-2 gap-5 md:gap-14 lg:gap-10 place-items-stretch px-5 md:px-14 lg:px-0'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-14 lg:gap-10 place-items-stretch px-10 sm:px-5 md:px-14 lg:px-0'>
                   <div className='group relative flex flex-col h-[12rem]'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
@@ -421,7 +421,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='group relative flex flex-col h-[12rem]'>
+                  <div className='group relative flex flex-col h-[12rem] order-last sm:order-none'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tl-full' />
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
@@ -487,7 +487,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='group relative flex flex-col h-[12rem]'>
+                  <div className='group relative flex flex-col h-[12rem] order-last sm:order-none'>
                     <div className='flex flex-grow justify-between items-center gap-5'>
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 group-hover:rounded-tl-full' />
                       <div className='h-full flex-grow transform scale-x-[1.06] scale-y-[0.9988] border border-[#0F69E5] bg-[#0F69E5] bg-opacity-70 border-opacity-70 rounded-tr-full' />
@@ -533,8 +533,8 @@ export default function Home() {
                     dignissim, convallis odio id, scelerisque nisl. Curabitur
                     augue quam, fringilla quis dictum sed
                   </p>
-                  <div className='grid grid-cols-2 gap-20 place-items-stretch'>
-                    <div className='p-7 md:p-14 lg:p-0'>
+                  <div className='grid grid-cols-1 sm:grid-cols-2 gap-20 place-items-stretch'>
+                    <div className='py-8 px-[4rem] sm:p-7 md:p-14 lg:p-0'>
                       <div className='relative'>
                         <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
                           <div className='flex flex-grow justify-start items-center gap-0'>
@@ -575,7 +575,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className='p-7 md:p-14 lg:p-0'>
+                    <div className='py-8 px-[4rem] sm:p-7 md:p-14 lg:p-0'>
                       <div className='relative'>
                         <div className='relative flex flex-col z-20 gap-10 h-[15rem]'>
                           <div className='flex flex-grow justify-start items-center gap-0'>
@@ -649,7 +649,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-2 lg:grid-cols-4 gap-24 lg:gap-8 place-items-stretch'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 px-10 sm:p-0 gap-10 sm:gap-24 lg:gap-8 place-items-stretch'>
                 <div className='group relative flex flex-col h-[11rem]'>
                   <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                     <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
@@ -956,7 +956,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-2 lg:grid-cols-4 place-items-stretch gap-5 gap-y-10 md:gap-[6rem] lg:gap-5 xl:gap-10'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-stretch px-10 sm:px-0 gap-5 gap-y-10 md:gap-[6rem] lg:gap-5 xl:gap-10'>
                 <div className='relative flex flex-col gap-0'>
                   <div className='absolute right-10 lg:right-6 top-3 z-40 flex flex-col justify-start gap-2'>
                     <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
@@ -1143,7 +1143,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-2 lg:grid-cols-3 gap-10 place-items-stretch'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-stretch'>
                 <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-[22rem]'>
                   <div className='relative'>
                     <div className='absolute group-hover:static bottom-0 group-hover:top-0 flex justify-center items-center group-hover:items-end gap-6 w-full px-5 group-hover:py-5 group-hover:border-b  border-b-black'>
@@ -1255,8 +1255,8 @@ export default function Home() {
           <div className='bg-black'>
             <div className='relative top-[8rem] max-w-[90rem] w-[90%] xl:w-[80%] mx-auto'>
               <div className="h-fit w-full bg-[url('/imgs/crypto-invest/bitty.jpg')] bg-no-repeat bg-cover bg-left rounded-md shadow-2xl">
-                <div className='pt-12 pl-12 pb-4'>
-                  <div className='w-[40%] p-4'>
+                <div className='sm:pt-12 sm:pl-12 sm:pb-4 p-7'>
+                  <div className='w-full sm:w-[40%] p-4'>
                     <h2 className='text-4xl font-medium text-[#FF198D] leading-none mb-5'>
                       Sign Up To Learn More
                     </h2>
@@ -1310,7 +1310,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='col-span-2'>
-                        <div className='grid grid-cols-3 gap-10 place-items-stretch'>
+                        <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 place-items-stretch'>
                           <div className=''>
                             <h2 className='text-2xl md:text-lg font-medium text-white leading-none mb-5'>
                               Quick Links
@@ -1355,13 +1355,13 @@ export default function Home() {
                         <h2 className='text-2xl md:text-lg font-medium text-white leading-none mb-5'>
                           Subscribe To Our Newsletter
                         </h2>
-                        <div className='flex justify-start items-stretch'>
+                        <div className='flex flex-col sm:flex-row gap-3 sm:gap-0 justify-start items-start sm:items-stretch'>
                           <input
                             type='email'
                             placeholder='Enter your email'
-                            className='flex-grow p-5 pr-0 rounded-l-lg bg-[#0F69E5] bg-opacity-20 text-lg md:text-xs'
+                            className='w-full sm:w-fit flex-grow p-5 pr-0 rounded-r-lg sm:rounded-r-none rounded-l-lg bg-[#0F69E5] bg-opacity-20 text-lg md:text-xs'
                           />
-                          <button className='flex justify-start items-center gap-2 p-2 bg-[#FF198D] rounded-r-lg'>
+                          <button className='flex justify-start items-center gap-2 p-2 bg-[#FF198D] rounded-l-lg sm:rounded-l-none rounded-r-lg'>
                             <span className='text-lg md:text-xs font-normal text-white'>
                               Send
                             </span>
@@ -1371,7 +1371,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='flex flex-col md:flex-row md:justify-between items-center gap-5 pb-16 lg:pb-0'>
+                  <div className='flex flex-col md:flex-row md:justify-between items-center gap-5 pb-8 lg:pb-0 text-center md:text-left'>
                     <span className='text-lg md:text-sm font-normal text-white order-last md:order-none'>
                       &copy; 2023, Crypto Invest Inc{' '}
                       <span className='mx-3'>&middot;</span> All Rights Reserved
