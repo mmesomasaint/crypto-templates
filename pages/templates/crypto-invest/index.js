@@ -956,8 +956,8 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 place-items-stretch px-10 sm:px-0 gap-5 gap-y-10 md:gap-[6rem] lg:gap-5 xl:gap-10'>
-                <div className='relative flex flex-col gap-0 max-w-[18rem] w-[18rem] mx-auto'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 place-items-stretch gap-5 gap-y-10 md:gap-[6rem] lg:gap-5 xl:gap-10'>
+                <div className='relative flex flex-col gap-0 w-full max-w-[18rem] sm:w-[18rem] mx-auto'>
                   <div className='absolute right-10 lg:right-6 top-3 z-40 flex flex-col justify-start gap-2'>
                     <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
                       <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
@@ -997,7 +997,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='relative flex flex-col gap-0 max-w-[18rem] w-[18rem] mx-auto'>
+                <div className='relative flex flex-col gap-0 w-full max-w-[18rem] sm:w-[18rem] mx-auto'>
                   <div className='absolute right-10 lg:right-6 top-3 z-40 flex flex-col justify-start gap-2'>
                     <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
                       <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
@@ -1037,7 +1037,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='relative flex flex-col gap-0 max-w-[18rem] w-[18rem] mx-auto'>
+                <div className='relative flex flex-col gap-0 w-full max-w-[18rem] sm:w-[18rem] mx-auto'>
                   <div className='absolute right-10 lg:right-6 top-3 z-40 flex flex-col justify-start gap-2'>
                     <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
                       <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
@@ -1077,7 +1077,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='relative flex flex-col gap-0 max-w-[18rem] w-[18rem] mx-auto'>
+                <div className='relative flex flex-col gap-0 w-full max-w-[18rem] sm:w-[18rem] mx-auto'>
                   <div className='absolute right-10 lg:right-6 top-3 z-40 flex flex-col justify-start gap-2'>
                     <div className='w-6 h-6 rounded-md flex justify-center items-center bg-white group hover:bg-[#FF198D]'>
                       <FaFacebookF className='text-sm text-[#0F69E5] group-hover:text-white' />
