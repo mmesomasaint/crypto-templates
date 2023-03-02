@@ -96,30 +96,17 @@ export default function Home() {
       </header>
       <main>
         <div className='max-w-[90rem] mx-auto'>
-          <div className="h-fit md:h-[37rem] w-full bg-[url('/imgs/crypto-invest/showcase.jpg')] bg-no-repeat bg-cover bg-center">
-            <div className='flex justify-center items-center h-full'>
+          <div className="h-fit md:h-[20rem] w-full bg-[url('/imgs/crypto-invest/hrm-team.jpg')] bg-no-repeat bg-cover bg-top">
+            <div className='flex justify-center items-center bg-[rgba(0,0,0,0.35)] h-full'>
               <div className='w-full h-fit text-center py-16 md:py-0'>
-                <h1 className='block w-[90%] sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
-                  World Number One ICO Platform
+                <h1 className='block w-[90%] xl:w-[80%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
+                We Have a World-Class Team Of Expert
                 </h1>
-                <p className='block w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
+                <p className='block w-[90%] xl:w-[80%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio
                 </p>
-                <div className='flex justify-center gap-8 items-center'>
-                  <button className='flex justify-start items-center gap-3 px-6 py-3 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
-                    <span className='text-xl lg:text-base font-medium leading-none text-white'>
-                      Explore More
-                    </span>
-                    <span className='w-fit mx-auto'>
-                      <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
-                    </span>
-                  </button>
-                  <button className='text-xl lg:text-base font-medium leading-none px-6 py-3 border border-[#FF198D] text-white rounded-sm shadow-sm'>
-                    Get Started
-                  </button>
-                </div>
               </div>
             </div>
           </div>
@@ -127,30 +114,13 @@ export default function Home() {
             <div className=' w-[90%] xl:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 place-items-stretch gap-5 xl:gap-10'>
               <div className='hidden lg:block col-span-3'>
                 <Image
-                  src='/imgs/crypto-invest/about.png'
+                  src='/imgs/crypto-invest/desk-team.jpg'
                   width={1000}
                   height={1000}
                   alt='about'
                 />
               </div>
               <div className='lg:col-span-2'>
-                <div className='w-fit mx-auto lg:mx-0'>
-                  <h4 className='text-white text-2xl md:text-lg font-light leading-normal'>
-                    ABOUT US
-                  </h4>
-                  <div className='flex gap-0 items-center justify-start'>
-                    <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
-                    <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
-                    <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
-                    <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
-                    <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
-                  </div>
-                </div>
-                <div className='mt-4 mb-7'>
-                  <h2 className='text-5xl lg:text-4xl font-semibold text-[#0F69E5] leading-tight text-center lg:text-left'>
-                    We Have a World-Class Team Of Expert
-                  </h2>
-                </div>
                 <p className='text-sm font-light leading-tight text-white text-center lg:text-left'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
@@ -158,7 +128,7 @@ export default function Home() {
                 </p>
                 <div className='lg:hidden'>
                   <Image
-                    src='/imgs/crypto-invest/about.png'
+                    src='/imgs/crypto-invest/desk-team.jpg'
                     width={1000}
                     height={1000}
                     alt='about'
