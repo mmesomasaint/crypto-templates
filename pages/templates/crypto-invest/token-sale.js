@@ -115,8 +115,87 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 bg-black'>
-            <div className='w-[90%] xl:w-[80%] mx-auto text-center'></div>
+          <div className='bg-black py-24'>
+            <div className='max-w-[90rem] w-[80%] xl:w-[70%] mx-auto'>
+              <div className='h-fit w-full bg-[#0F69E5] bg-opacity-20 rounded-md shadow-2xl'>
+                <div className='p-10'>
+                  <div className='grid grid-cols-2 place-items-stretch gap-10'>
+                    <div className='p-2'>
+                      <h2 className='text-3xl font-semibold text-white leading-none mb-5'>
+                        Sale Period Ends
+                      </h2>
+                      <div className='flex gap-4 items-center justify-start'>
+                        <div className='flex flex-col items-center justify-center gap-2'>
+                          <div className='p-2 backdrop-blur bg-[#0F69E5] bg-opacity-30 rounded-md flex justify-center items-center'>
+                            <p className='text-3xl font-bold leading-none text-white'>
+                              00
+                            </p>
+                          </div>
+                          <p className='text-lg font-medium text-white leading-none'>
+                            Days
+                          </p>
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-2'>
+                          <div className='p-2 backdrop-blur bg-[#0F69E5] bg-opacity-30 rounded-md flex justify-center items-center'>
+                            <p className='text-3xl font-bold leading-none text-white'>
+                              24
+                            </p>
+                          </div>
+                          <p className='text-lg font-medium text-white leading-none'>
+                            Hours
+                          </p>
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-2'>
+                          <div className='p-2 backdrop-blur bg-[#0F69E5] bg-opacity-30 rounded-md flex justify-center items-center'>
+                            <p className='text-3xl font-bold leading-none text-white'>
+                              21
+                            </p>
+                          </div>
+                          <p className='text-lg font-medium text-white leading-none'>
+                            Min
+                          </p>
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-2'>
+                          <div className='p-2 backdrop-blur bg-[#0F69E5] bg-opacity-30 rounded-md flex justify-center items-center'>
+                            <p className='text-3xl font-bold leading-none text-white'>
+                              34
+                            </p>
+                          </div>
+                          <p className='text-lg font-medium text-white leading-none'>
+                            Sec
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-2'>
+                      <div className='grid grid-cols-2 place-items-stretch gap-5 mb-4'>
+                        <div className='text-white text-sm font-normal'>
+                          <div className='mb-1'>nec euismod</div>
+                          <div> consectetur adipiscing</div>
+                        </div>
+                        <div className='text-white text-sm font-normal'>
+                          <div className='mb-1'>nec euismod</div>
+                          <div> consectetur adipiscing</div>
+                        </div>
+                        <div className='text-white text-sm font-normal'>
+                          <div className='mb-1'>nec euismod</div>
+                          <div> consectetur adipiscing</div>
+                        </div>
+                        <div className='text-white text-sm font-normal'>
+                          <div className='mb-1'>nec euismod</div>
+                          <div> consectetur adipiscing</div>
+                        </div>
+                      </div>
+                      <div>
+                        <button className='text-xl lg:text-base font-medium leading-none px-4 py-2 bg-[#FF198D] text-white rounded-md shadow-sm'>
+                          Request for the proper token
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className='py-24 bg-black'>
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
