@@ -105,7 +105,7 @@ export default function Home() {
             <div className='flex justify-center items-center bg-[rgba(0,0,0,0.35)] h-full'>
               <div className='w-full h-fit text-center py-16 md:py-0'>
                 <h1 className='block w-[90%] xl:w-[80%] mx-auto text-6xl font-bold leading-tight text-white mb-4'>
-                Our Service to Provide You
+                  Our Service to Provide You
                 </h1>
                 <p className='block w-[90%] xl:w-[80%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -117,316 +117,127 @@ export default function Home() {
           </div>
           <div className='py-24 bg-black'>
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
-              <p className='text-xl lg:text-base font-normal leading-tight text-white w-full lg:w-[50%] mx-auto mb-14'>
+              <h2 className='text-3xl lg:text-2xl font-normal leading-tight text-white w-full mb-14'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue. Nulla id libero dignissim,
                 convallis odio id, scelerisque nisl
-              </p>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 xl:gap-10 px-0 sm:px-10 md:px-0 place-items-center sm:place-items-stretch'>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
+              </h2>
+              <div className='my-9'>
+                <div className='grid grid-cols-2 gap-0 place-items-center mb-24'>
+                  <div className=''>
+                    <Image
+                      src='/imgs/crypto-invest/asset-shield.jpg'
+                      width={300}
+                      height={300}
+                      alt='sercurity'
+                    />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <MdSecurity className='text-2xl text-white' />
-                          </div>
+                  <div className=''>
+                    <div className='flex justify-start gap-5 items-center mb-7'>
+                      <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-150'>
+                        <div className='flex justify-center items-center border border-[#FF198D] rounded-full'>
+                          <MdSecurity className='text-2xl text-white' />
                         </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Secure Currency
-                        </h1>
                       </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
+                      <h3 className='text-4xl text-[#FF198D] font-medium leading-none'>
+                        Secure Currency
+                      </h3>
                     </div>
+                    <p className='text-white text-left text-base font-normal'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi commodo urna in dolor volutpat, vitae rhoncus turpis
+                      pellentesque. Nam dictum faucibus diam, nec imperdiet elit
+                      porta nec. In hac habitasse platea dictumst. Proin
+                      scelerisque finibus velit, in interdum turpis viverra sit
+                      amet. Etiam cursus nisl a lorem ullamcorper, pulvinar
+                      efficitur ex volutpat
+                    </p>
+                    <button className='flex justify-start items-center gap-3 px-6 py-3 mt-7 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
+                      <span className='text-xl lg:text-base font-medium leading-none text-white'>
+                        Learn More
+                      </span>
+                      <span className='w-fit mx-auto'>
+                        <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
+                      </span>
+                    </button>
                   </div>
                 </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
+                <div className='grid grid-cols-2 gap-0 place-items-center mb-24'>
+                  <div className=''>
+                    <Image
+                      src='/imgs/crypto-invest/escrow.jpg'
+                      width={300}
+                      height={300}
+                      alt='escrow'
+                    />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <MdSecurity className='text-2xl text-white' />
-                          </div>
+                  <div className=''>
+                    <div className='flex justify-start gap-5 items-center mb-7'>
+                      <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-150'>
+                        <div className='flex justify-center items-center border border-[#FF198D] rounded-full'>
+                          <FaBitcoin className='text-2xl text-white' />
                         </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Secure Currency
-                        </h1>
                       </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
+                      <h3 className='text-4xl text-[#FF198D] font-medium leading-none'>
+                        Escrow Services
+                      </h3>
                     </div>
+                    <p className='text-white text-left text-base font-normal'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi commodo urna in dolor volutpat, vitae rhoncus turpis
+                      pellentesque. Nam dictum faucibus diam, nec imperdiet elit
+                      porta nec. In hac habitasse platea dictumst. Proin
+                      scelerisque finibus velit, in interdum turpis viverra sit
+                      amet. Etiam cursus nisl a lorem ullamcorper, pulvinar
+                      efficitur ex volutpat
+                    </p>
+                    <button className='flex justify-start items-center gap-3 px-6 py-3 mt-7 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
+                      <span className='text-xl lg:text-base font-medium leading-none text-white'>
+                        Learn More
+                      </span>
+                      <span className='w-fit mx-auto'>
+                        <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
+                      </span>
+                    </button>
                   </div>
                 </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
+                <div className='grid grid-cols-2 gap-0 place-items-center'>
+                  <div className=''>
+                    <Image
+                      src='/imgs/crypto-invest/performance.jpg'
+                      width={300}
+                      height={300}
+                      alt='performace'
+                    />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <MdSecurity className='text-2xl text-white' />
-                          </div>
+                  <div className=''>
+                    <div className='flex justify-start gap-5 items-center mb-7'>
+                      <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-150'>
+                        <div className='flex justify-center items-center border border-[#FF198D] rounded-full'>
+                          <CgPerformance className='text-2xl text-white' />
                         </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Secure Currency
-                        </h1>
                       </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
+                      <h3 className='text-4xl text-[#FF198D] font-medium leading-none'>
+                        Value Performance
+                      </h3>
                     </div>
-                  </div>
-                </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <CgPerformance className='text-2xl text-white' />
-                          </div>
-                        </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Value Performance
-                        </h1>
-                      </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <CgPerformance className='text-2xl text-white' />
-                          </div>
-                        </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Value Performance
-                        </h1>
-                      </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048]  sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <CgPerformance className='text-2xl text-white' />
-                          </div>
-                        </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Value Performance
-                        </h1>
-                      </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048] sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <FaBitcoin className='text-2xl text-white' />
-                          </div>
-                        </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Bitcoin Escrow Service
-                        </h1>
-                      </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048] sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <FaBitcoin className='text-2xl text-white' />
-                          </div>
-                        </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Bitcoin Escrow Service
-                        </h1>
-                      </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='relative flex flex-col h-[15rem] md:h-[11rem] max-w-[25rem] w-full sm:w-auto sm:max-w-none'>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-8 lg:gap-16'>
-                    <div className='h-full flex-grow transform -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#0F69E5] bg-[#0F69E5] rounded-br-md' />
-                  </div>
-                  <div className='group absolute inset-[5px] scale-y-[1.068] md:scale-y-[1.079] lg:scale-y-[1.08] scale-x-[1.048] sm:scale-x-[1.041] md:scale-x-[1.045] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:bg-opacity-20 text-white p-6'>
-                      <div className='flex flex-col group-hover:flex-row justify-center group-hover:justify-start items-start group-hover:items-center gap-3 xl:gap-7'>
-                        <div className='w-fit h-fit rounded-full border border-opacity-40 p-1 border-[#FF198D] scale-105 group-hover:scale-100'>
-                          <div className='flex justify-center items-center group-hover:w-8 w-12 group-hover:h-8 h-12 border border-[#FF198D] group-hover:bg-[#FF198D] rounded-full'>
-                            <FaBitcoin className='text-2xl text-white' />
-                          </div>
-                        </div>
-                        <h1 className='group-hover:text-xl text-2xl font-medium leading-tight text-[#0F69E5] group-hover:text-[#FF198D]'>
-                          Bitcoin Escrow Service
-                        </h1>
-                      </div>
-                      <div className='hidden group-hover:block mt-1 mb-3'>
-                        <p className='text-xs font-light leading-normal text-white text-left'>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Vivamus tempus dui nec euismod congue. Nulla id
-                          libero.
-                        </p>
-                      </div>
-                      <div className='absolute top-10 right-10 transform -rotate-45 group-hover:static group-hover:rotate-0'>
-                        <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
-                      </div>
-                    </div>
+                    <p className='text-white text-left text-base font-normal'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi commodo urna in dolor volutpat, vitae rhoncus turpis
+                      pellentesque. Nam dictum faucibus diam, nec imperdiet elit
+                      porta nec. In hac habitasse platea dictumst. Proin
+                      scelerisque finibus velit, in interdum turpis viverra sit
+                      amet. Etiam cursus nisl a lorem ullamcorper, pulvinar
+                      efficitur ex volutpat
+                    </p>
+                    <button className='flex justify-start items-center gap-3 px-6 py-3 mt-7 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
+                      <span className='text-xl lg:text-base font-medium leading-none text-white'>
+                        Learn More
+                      </span>
+                      <span className='w-fit mx-auto'>
+                        <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
+                      </span>
+                    </button>
                   </div>
                 </div>
               </div>
