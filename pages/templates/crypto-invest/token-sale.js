@@ -121,7 +121,7 @@ export default function Home() {
                 <div className='p-10'>
                   <div className='grid grid-cols-2 place-items-stretch gap-10'>
                     <div className='p-2'>
-                      <h2 className='text-3xl font-semibold text-white leading-none mb-5'>
+                      <h2 className='text-2xl font-semibold text-white leading-none mb-5'>
                         Sale Period Ends
                       </h2>
                       <div className='flex gap-4 items-center justify-start'>
