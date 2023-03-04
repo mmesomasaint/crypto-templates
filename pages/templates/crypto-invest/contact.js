@@ -128,7 +128,7 @@ export default function Home() {
               <div className='w-[80%] mx-auto bg-[#0F69E5] bg-opacity-40 rounded-md'>
                 <div className='p-5'>
                   <div className='flex justify-center items-center gap-5'>
-                    <div className='flex justify-start items-center gap-2'>
+                    <div className='flex flex-wrap justify-start items-center gap-2'>
                       <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
                         <AiOutlineMail className='text-lg text-white' />
                       </div>
@@ -138,7 +138,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className='flex justify-start items-center gap-2'>
+                    <div className='flex flex-wrap justify-start items-center gap-2'>
                       <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
                         <BsTelephone className='text-lg text-white' />
                       </div>
@@ -148,7 +148,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className='flex justify-start items-center gap-2'>
+                    <div className='flex flex-wrap justify-start items-center gap-2'>
                       <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
                         <GoLocation className='text-lg text-white' />
                       </div>
