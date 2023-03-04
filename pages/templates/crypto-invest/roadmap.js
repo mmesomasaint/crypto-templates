@@ -3,27 +3,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState, useCallback } from 'react'
 import {
-  BsStar,
-  BsPatchCheckFill,
-  BsCurrencyExchange,
   BsInstagram,
   BsTwitter,
 } from 'react-icons/bs'
-import { DiGoogleCloudPlatform } from 'react-icons/di'
 import {
-  FaBtc,
-  FaEthereum,
-  FaBitcoin,
-  FaLinkedinIn,
   FaFacebookF,
   FaPinterestP,
 } from 'react-icons/fa'
-import { FiTrendingUp } from 'react-icons/fi'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { MdSecurity, MdOutlineArrowForwardIos } from 'react-icons/md'
+import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import { CgPerformance } from 'react-icons/cg'
-import { RiCustomerService2Fill } from 'react-icons/ri'
 import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
