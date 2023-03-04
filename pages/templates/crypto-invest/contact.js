@@ -6,8 +6,10 @@ import {
   BsStar,
   BsPatchCheckFill,
   BsCurrencyExchange,
+  BsTelephone,
   BsInstagram,
   BsTwitter,
+  BsWhatsapp,
 } from 'react-icons/bs'
 import { DiGoogleCloudPlatform } from 'react-icons/di'
 import {
@@ -20,11 +22,17 @@ import {
 } from 'react-icons/fa'
 import { FiTrendingUp } from 'react-icons/fi'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { MdSecurity, MdOutlineArrowForwardIos } from 'react-icons/md'
+import {
+  MdSecurity,
+  MdOutlineArrowForwardIos,
+  MdKeyboardArrowDown,
+} from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgPerformance } from 'react-icons/cg'
 import { RiCustomerService2Fill } from 'react-icons/ri'
 import { TbBrandTelegram } from 'react-icons/tb'
+import { AiOutlineMail } from 'react-icons/ai'
+import { GoLocation } from 'react-icons/go'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -112,6 +120,95 @@ export default function Home() {
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 bg-black'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
+              <div className='w-[80%] mx-auto bg-[#0F69E5] bg-opacity-40 rounded-md'>
+                <div className='p-5'>
+                  <div className='flex justify-center items-center gap-5'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
+                        <AiOutlineMail className='text-lg text-white' />
+                      </div>
+                      <div>
+                        <p className='text-base font-normal leading-none text-white'>
+                          info@cyptoinvest.com
+                        </p>
+                      </div>
+                    </div>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
+                        <BsTelephone className='text-lg text-white' />
+                      </div>
+                      <div>
+                        <p className='text-base font-normal leading-none text-white'>
+                          +23491 909 909
+                        </p>
+                      </div>
+                    </div>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
+                        <GoLocation className='text-lg text-white' />
+                      </div>
+                      <div>
+                        <p className='text-base font-normal leading-none text-white'>
+                          No 15 Ateko Sambisa Lane
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='px-7 py-3 w-fit mx-auto my-8 border-y border-dashed border-white border-opacity-10 flex justify-center items-center gap-4'>
+                    <FaFacebookF className='text-lg text-white' />
+                    <BsWhatsapp className='text-lg text-white' />
+                    <FaLinkedinIn className='text-lg text-white' />
+                    <BsTwitter className='text-lg text-white' />
+                    <BsInstagram className='text-lg text-white' />
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <h3 className='text-2xl font-normal leading-none text-white'>
+                      Leave Us a Message
+                    </h3>
+                  </div>
+                  <div className='my-8 grid grid-cols-2 place-items-stretch gap-x-16 gap-y-10'>
+                    <div className='col-span-2 flex flex-start gap-0 items-stretch mb-5'>
+                      <input
+                        type='text'
+                        placeholder='--SELECT A SERVICE--'
+                        className='flex-grow text-base font-normal py-2 px-7 rounded-l-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                      />
+                      <button className='flex items-center justify-center rounded-r-md bg-[#0F69E5] px-3'>
+                        <MdKeyboardArrowDown className='text-white text-2xl' />
+                      </button>
+                    </div>
+                    <input
+                      type='text'
+                      placeholder='First Name'
+                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                    />
+                    <input
+                      type='text'
+                      placeholder='Last Name'
+                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                    />
+                    <input
+                      type='Telephone'
+                      placeholder='Phone'
+                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                    />
+                    <input
+                      type='email'
+                      placeholder='Email'
+                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                    />
+                    <textarea
+                      rows={7}
+                      placeholder='Type Your Message'
+                      className='col-span-2 text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
