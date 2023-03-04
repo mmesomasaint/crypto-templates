@@ -121,20 +121,20 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-11 place-items-stretch gap-0'>
-                <div className='col-start-5 col-end-8'>
+              <div className='grid grid-cols-1 sm:grid-cols-11 place-items-stretch gap-0'>
+                <div className='sm:col-start-5 sm:col-end-8'>
                   <div className='flex justify-center items-center w-32 mx-auto h-32 p-10 border-2 border-[#FF198D] rounded-full glow'>
                     <h2 className='text-3xl font-extrabold leading-none text-white'>
                       Start
                     </h2>
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='flex justify-center items-center'>
                     <div className='border border-[#FF198D] h-16 w-fit' />
                   </div>
                 </div>
-                <div className='col-start-3 col-end-6 place-self-end'>
+                <div className='col-start-0 col-end-2 sm:col-start-3 sm:col-end-6 sm:place-self-end'>
                   <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                       <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
@@ -171,23 +171,23 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
                     <div className='h-full flex justify-center items-start border-r border-r-[#FF198D]'>
-                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                      <div className='hidden sm:block border border-[#FF198D] h-fit flex-grow mt-5' />
                     </div>
                     <div className='h-full border-l border-l-[#FF198D]' />
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
                     <div className='h-full border-r border-r-[#FF198D]' />
                     <div className='h-full flex justify-center items-start border-l border-l-[#FF198D]'>
-                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                      <div className='hidden sm:block border border-[#FF198D] h-fit flex-grow mt-5' />
                     </div>
                   </div>
                 </div>
-                <div className='col-start-7 col-end-10 place-self-start'>
+                <div className='col-start-1 col-end-2 sm:col-start-7 sm:col-end-10 sm:place-self-start my-6 sm:my-0'>
                   <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                       <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
@@ -224,9 +224,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='col-start-1 col-end-6'>
-                  <div className='grid grid-cols-3 xl:grid-cols-6 gap-6 xl:gap-0'>
-                    <div className='col-start-1 col-end-4 place-self-end'>
+                <div className='col-start-1 col-end-2 sm:col-start-1 sm:col-end-6'>
+                  <div className='grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-6 gap-6 xl:gap-0'>
+                    <div className='col-start-1 col-end-2 sm:col-start-1 sm:col-end-4 sm:place-self-end'>
                       <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                         <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                           <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
@@ -263,7 +263,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className='col-start-1 xl:col-start-4 col-end-4 xl:col-end-7 place-self-end'>
+                    <div className='col-start-1 sm:col-start-1 xl:col-start-4 col-end-2 sm:col-end-4 xl:col-end-7 sm:place-self-end'>
                       <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                         <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                           <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
@@ -302,23 +302,23 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
                     <div className='h-full flex justify-center items-start border-r border-r-[#FF198D]'>
-                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                      <div className='hidden sm:block border border-[#FF198D] h-fit flex-grow mt-5' />
                     </div>
                     <div className='h-full border-l border-l-[#FF198D]' />
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
                     <div className='h-full border-r border-r-[#FF198D]' />
                     <div className='h-full flex justify-center items-start border-l border-l-[#FF198D]'>
-                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                      <div className='hidden sm:block border border-[#FF198D] h-fit flex-grow mt-5' />
                     </div>
                   </div>
                 </div>
-                <div className='col-start-7 col-end-10 place-self-start'>
+                <div className='col-start-1 col-end-2 sm:col-start-7 sm:col-end-10 sm:place-self-start my-6 sm:my-0'>
                   <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                       <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
@@ -355,7 +355,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='col-start-3 col-end-6 place-self-end'>
+                <div className='col-start-0 col-end-2 sm:col-start-3 sm:col-end-6 sm:place-self-end'>
                   <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                       <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
@@ -392,25 +392,25 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
                     <div className='h-full flex justify-center items-start border-r border-r-[#FF198D]'>
-                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                      <div className='hidden sm:block border border-[#FF198D] h-fit flex-grow mt-5' />
                     </div>
                     <div className='h-full border-l border-l-[#FF198D]' />
                   </div>
                 </div>
-                <div className='col-start-6'>
+                <div className='col-start-0 col-end-2 sm:col-start-6'>
                   <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
                     <div className='h-full border-r border-r-[#FF198D]' />
                     <div className='h-full flex justify-center items-start border-l border-l-[#FF198D]'>
-                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                      <div className='hidden sm:block border border-[#FF198D] h-fit flex-grow mt-5' />
                     </div>
                   </div>
                 </div>
-                <div className='col-start-7 col-end-13'>
-                  <div className='grid grid-cols-3 xl:grid-cols-6 gap-6 xl:gap-0'>
-                    <div className='col-start-1 col-end-4 place-self-start'>
+                <div className='col-start-1 col-end-3 sm:col-start-7 sm:col-end-13 my-6 sm:my-0'>
+                  <div className='grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-6 gap-6 xl:gap-0'>
+                    <div className='col-start-1 col-end-3 sm:col-start-1 sm:col-end-4 sm:place-self-start'>
                       <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                         <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                           <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
@@ -447,7 +447,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className='col-start-1 xl:col-start-4 col-end-4 xl:col-end-7 place-self-start'>
+                    <div className='col-start-1 xl:col-start-4 col-end-3 sm:col-end-4 xl:col-end-7 sm:place-self-start'>
                       <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                         <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
                           <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
