@@ -127,7 +127,7 @@ export default function Home() {
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <div className='w-[80%] mx-auto bg-[#0F69E5] bg-opacity-40 rounded-md'>
                 <div className='p-5'>
-                  <div className='flex justify-center items-center gap-5'>
+                  <div className='flex flex-wrap justify-center items-center gap-5'>
                     <div className='flex flex-wrap justify-start items-center gap-2'>
                       <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
                         <AiOutlineMail className='text-lg text-white' />
