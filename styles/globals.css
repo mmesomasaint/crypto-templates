@@ -39,6 +39,14 @@
   .chart-seventy {
     background: conic-gradient(#FF198D 0.00% 70.00%, #0F69E5 70.00% 0.00%);
   }
+  
+  .chart-sixty {
+    background: conic-gradient(#FF198D 0.00% 60.00%, #0F69E5 60.00% 0.00%);
+  }
+
+  .chart-ninety {
+    background: conic-gradient(#FF198D 0.00% 90.00%, #0F69E5 90.00% 0.00%);
+  }
 
   .shrink-b {
     clip-path: polygon(0% 0%, 10% 100%, 90% 100%, 100% 0%);
