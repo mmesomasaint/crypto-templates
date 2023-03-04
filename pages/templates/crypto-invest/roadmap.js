@@ -117,303 +117,362 @@ export default function Home() {
           </div>
           <div className='py-24 bg-black'>
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
-              <div className='w-fit mx-auto'>
-                <h4 className='text-white text-2xl md:text-lg font-light leading-normal'>
-                  ROADMAP
-                </h4>
-                <div className='flex gap-0 items-center justify-start'>
-                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
-                  <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
-                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
-                  <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
-                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
-                </div>
-              </div>
-              <div className='mt-4 mb-7'>
-                <h2 className='text-5xl lg:text-4xl font-semibold text-[#0F69E5] leading-tight'>
-                  Our Strategy & Project Plan
-                </h2>
-              </div>
-              <p className='text-xl lg:text-base font-normal leading-tight text-white w-full lg:w-[50%] mx-auto mb-16'>
+              <p className='text-4xl lg:text-3xl font-normal leading-tight text-white w-full mb-16'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-24 lg:gap-8 place-items-stretch'>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+              <div className='grid grid-cols-11 place-items-stretch gap-0'>
+                <div className='col-start-5 col-end-8'>
+                  <div className='flex justify-center items-center w-32 mx-auto h-32 p-10 border-2 border-[#FF198D] rounded-full glow'>
+                    <h2 className='text-3xl font-extrabold leading-none text-white'>
+                      Start
+                    </h2>
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                </div>
+                <div className='col-start-6'>
+                  <div className='flex justify-center items-center'>
+                    <div className='border border-[#FF198D] h-16 w-fit' />
                   </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            01
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                </div>
+                <div className='col-start-3 col-end-6 place-self-end'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              01
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                <div className='col-start-6'>
+                  <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
+                    <div className='h-full flex justify-center items-start border-r border-r-[#FF198D]'>
+                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                    </div>
+                    <div className='h-full border-l border-l-[#FF198D]' />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                </div>
+                <div className='col-start-6'>
+                  <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
+                    <div className='h-full border-r border-r-[#FF198D]' />
+                    <div className='h-full flex justify-center items-start border-l border-l-[#FF198D]'>
+                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                    </div>
                   </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            02
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                </div>
+                <div className='col-start-7 col-end-10 place-self-start'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              02
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              STMX Wallet
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                STMX Wallet
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
-                  </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            03
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                <div className='col-start-0 col-end-3 place-self-end'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              03
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
-                  </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            04
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                <div className='col-start-3 col-end-6 place-self-end'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              04
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                <div className='col-start-6'>
+                  <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
+                    <div className='h-full flex justify-center items-start border-r border-r-[#FF198D]'>
+                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                    </div>
+                    <div className='h-full border-l border-l-[#FF198D]' />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                </div>
+                <div className='col-start-6'>
+                  <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
+                    <div className='h-full border-r border-r-[#FF198D]' />
+                    <div className='h-full flex justify-center items-start border-l border-l-[#FF198D]'>
+                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                    </div>
                   </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            05
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                </div>
+                <div className='col-start-7 col-end-10 place-self-start'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              05
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
-                  </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            06
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                <div className='col-start-3 col-end-6 place-self-end'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              06
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                <div className='col-start-6'>
+                  <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
+                    <div className='h-full flex justify-center items-start border-r border-r-[#FF198D]'>
+                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                    </div>
+                    <div className='h-full border-l border-l-[#FF198D]' />
                   </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                </div>
+                <div className='col-start-6'>
+                  <div className='grid grid-cols-2 gap-0 place-items-stretch h-full'>
+                    <div className='h-full border-r border-r-[#FF198D]' />
+                    <div className='h-full flex justify-center items-start border-l border-l-[#FF198D]'>
+                      <div className='border border-[#FF198D] h-fit flex-grow mt-5' />
+                    </div>
                   </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            07
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                </div>
+                <div className='col-start-7 col-end-10 place-self-start'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              07
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
-                  </div>
-                  <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                    <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                    <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
-                  </div>
-                  <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
-                    <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
-                      <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
-                        <div className='col-span-1 group-hover:col-span-4 h-fit'>
-                          <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
-                            08
-                          </p>
-                        </div>
-                        <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
-                          <div className='mb-5'>
-                            <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
-                              january, 2022
+                <div className='col-start-10 col-end-13 place-self-start'>
+                  <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                    </div>
+                    <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
+                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                    </div>
+                    <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
+                      <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
+                        <div className='grid grid-cols-3 group-hover:grid-cols-4 place-content-center group-hover:place-items-start h-full gap-5 group-hover:gap-0'>
+                          <div className='col-span-1 group-hover:col-span-4 h-fit'>
+                            <p className='text-6xl group-hover:text-3xl font-bold font-fill-transparent font-outline-white font-outline-1 leading-none'>
+                              08
                             </p>
-                            <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
-                              Legal Review
-                            </h2>
                           </div>
-                          <p className='text-xs font-light leading-normal text-white text-left'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <div className='col-span-2 group-hover:col-start-2 group-hover:col-end-5'>
+                            <div className='mb-5'>
+                              <p className='w-fit rounded-md text-xs font-light px-2 py-1 leading-none bg-[#0F69E5] bg-opacity-20 group-hover:bg-transparent text-[#FF198D] group-hover:text-white mb-2'>
+                                january, 2022
+                              </p>
+                              <h2 className='text-xl font-medium leading-none text-white group-hover:text-[#FF198D] text-left'>
+                                Legal Review
+                              </h2>
+                            </div>
+                            <p className='text-xs font-light leading-normal text-white text-left'>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
