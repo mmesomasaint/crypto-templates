@@ -2,34 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState, useCallback } from 'react'
-import {
-  BsStar,
-  BsPatchCheckFill,
-  BsCurrencyExchange,
-  BsTelephone,
-  BsInstagram,
-  BsTwitter,
-  BsWhatsapp,
-} from 'react-icons/bs'
-import { DiGoogleCloudPlatform } from 'react-icons/di'
-import {
-  FaBtc,
-  FaEthereum,
-  FaBitcoin,
-  FaLinkedinIn,
-  FaFacebookF,
-  FaPinterestP,
-} from 'react-icons/fa'
-import { FiTrendingUp } from 'react-icons/fi'
+import { BsTelephone, BsInstagram, BsTwitter, BsWhatsapp } from 'react-icons/bs'
+import { FaLinkedinIn, FaFacebookF, FaPinterestP } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import {
-  MdSecurity,
-  MdOutlineArrowForwardIos,
-  MdKeyboardArrowDown,
-} from 'react-icons/md'
-import { HiArrowNarrowRight } from 'react-icons/hi'
-import { CgPerformance } from 'react-icons/cg'
-import { RiCustomerService2Fill } from 'react-icons/ri'
+import { MdOutlineArrowForwardIos, MdKeyboardArrowDown } from 'react-icons/md'
 import { TbBrandTelegram } from 'react-icons/tb'
 import { AiOutlineMail } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
