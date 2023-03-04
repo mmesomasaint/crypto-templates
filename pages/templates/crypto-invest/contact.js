@@ -125,7 +125,7 @@ export default function Home() {
           </div>
           <div className='py-24 bg-black'>
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
-              <div className='w-[80%] mx-auto bg-[#0F69E5] bg-opacity-40 rounded-md'>
+              <div className='w-full sm:w-[80%] mx-auto bg-[#0F69E5] bg-opacity-40 rounded-md'>
                 <div className='p-5'>
                   <div className='flex flex-wrap justify-center items-center gap-5'>
                     <div className='flex flex-wrap justify-start items-center gap-2'>
@@ -148,7 +148,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className='flex flex-wrap justify-start items-center gap-2'>
+                    <div className='flex flex-wrap justify-start items-center gap-2 order-first sm:order-none'>
                       <div className='flex justify-center items-center bg-[#0F69E5] w-8 h-8 rounded-full glow-primary-2'>
                         <GoLocation className='text-lg text-white' />
                       </div>
@@ -171,12 +171,12 @@ export default function Home() {
                       Leave Us a Message
                     </h3>
                   </div>
-                  <div className='my-8 grid grid-cols-2 place-items-stretch gap-x-16 gap-y-10'>
-                    <div className='col-span-2 flex flex-start gap-0 items-stretch mb-5'>
+                  <div className='my-8 grid grid-cols-1 sm:grid-cols-2 place-items-stretch sm:gap-x-16 gap-y-10'>
+                    <div className='sm:col-span-2 flex flex-start gap-0 items-stretch mb-5'>
                       <input
                         type='text'
                         placeholder='--SELECT A SERVICE--'
-                        className='flex-grow text-base font-normal py-2 px-7 rounded-l-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                        className='sm:flex-grow text-base font-normal py-2 px-2 sm:px-7 rounded-l-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                       />
                       <button className='flex items-center justify-center rounded-r-md bg-[#0F69E5] px-3'>
                         <MdKeyboardArrowDown className='text-white text-2xl' />
@@ -185,27 +185,27 @@ export default function Home() {
                     <input
                       type='text'
                       placeholder='First Name'
-                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                      className='text-base font-normal py-2 px-2 sm:px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                     />
                     <input
                       type='text'
                       placeholder='Last Name'
-                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                      className='text-base font-normal py-2 px-2 sm:px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                     />
                     <input
                       type='Telephone'
                       placeholder='Phone'
-                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                      className='text-base font-normal py-2 px-2 sm:px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                     />
                     <input
                       type='email'
                       placeholder='Email'
-                      className='text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                      className='text-base font-normal py-2 px-2 sm:px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                     />
                     <textarea
                       rows={7}
                       placeholder='Type Your Message'
-                      className='col-span-2 text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
+                      className='sm:col-span-2 text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                     />
                   </div>
                 </div>
