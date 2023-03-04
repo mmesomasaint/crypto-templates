@@ -199,6 +199,153 @@ export default function Home() {
           </div>
           <div className='py-24 bg-black'>
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
+              <div className='w-fit mx-auto'>
+                <h4 className='text-white text-2xl md:text-lg font-light leading-normal'>
+                  Meta
+                </h4>
+                <div className='flex gap-0 items-center justify-start'>
+                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
+                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
+                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
+                </div>
+              </div>
+              <div className='mt-4 mb-7'>
+                <h2 className='text-5xl lg:text-4xl font-semibold text-[#0F69E5] leading-tight'>
+                  For the Meta
+                </h2>
+              </div>
+              <p className='text-xl lg:text-base font-normal leading-tight text-white w-full lg:w-[50%] mx-auto mb-16'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                tempus dui nec euismod congue.
+              </p>
+              <div className='grid grid-cols-3 gap-10 place-items-stretch'>
+                <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
+                  <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='border border-[#0F69E5] rounded-lg'>
+                      <div className='backdrop-blur p-1 rounded-lg'>
+                        <BsPatchCheckFill className='text-2xl text-white' />
+                      </div>
+                    </div>
+                    <h1 className='text-2xl md:text-lg font-medium leading-tight text-[#FF198D]'>
+                      Confirmation
+                    </h1>
+                  </div>
+                  <div className='w-full'>
+                    <p className='text-xl md:text-base font-light leading-normal text-white text-center'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
+                  </div>
+                </div>
+                <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
+                  <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='border border-[#0F69E5] rounded-lg'>
+                      <div className='backdrop-blur p-1 rounded-lg'>
+                        <BsCurrencyExchange className='text-2xl text-white' />
+                      </div>
+                    </div>
+                    <h1 className='text-2xl md:text-lg font-medium leading-tight text-[#FF198D]'>
+                      General Ecosystem
+                    </h1>
+                  </div>
+                  <div className='w-full'>
+                    <p className='text-xl md:text-base font-light leading-normal text-white text-center'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
+                  </div>
+                </div>
+                <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
+                  <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='border border-[#0F69E5] rounded-lg'>
+                      <div className='backdrop-blur p-1 rounded-lg'>
+                        <FiTrendingUp className='text-2xl text-white' />
+                      </div>
+                    </div>
+                    <h1 className='text-2xl md:text-lg font-medium leading-tight text-[#FF198D]'>
+                      Enjoy the Profit
+                    </h1>
+                  </div>
+                  <div className='w-full'>
+                    <p className='text-xl md:text-base font-light leading-normal text-white text-center'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
+                  </div>
+                </div>
+                <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
+                  <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='border border-[#0F69E5] rounded-lg'>
+                      <div className='backdrop-blur p-1 rounded-lg'>
+                        <RiCustomerService2Fill className='text-2xl text-white' />
+                      </div>
+                    </div>
+                    <h1 className='text-2xl md:text-lg font-medium leading-tight text-[#FF198D]'>
+                      Customer Support
+                    </h1>
+                  </div>
+                  <div className='w-full'>
+                    <p className='text-xl md:text-base font-light leading-normal text-white text-center'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
+                  </div>
+                </div>
+                <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
+                  <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='border border-[#0F69E5] rounded-lg'>
+                      <div className='backdrop-blur p-1 rounded-lg'>
+                        <FiTrendingUp className='text-2xl text-white' />
+                      </div>
+                    </div>
+                    <h1 className='text-2xl md:text-lg font-medium leading-tight text-[#FF198D]'>
+                      Enjoy the Profit
+                    </h1>
+                  </div>
+                  <div className='w-full'>
+                    <p className='text-xl md:text-base font-light leading-normal text-white text-center'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
+                  </div>
+                </div>
+                <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
+                  <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='border border-[#0F69E5] rounded-lg'>
+                      <div className='backdrop-blur p-1 rounded-lg'>
+                        <FiTrendingUp className='text-2xl text-white' />
+                      </div>
+                    </div>
+                    <h1 className='text-2xl md:text-lg font-medium leading-tight text-[#FF198D]'>
+                      Enjoy the Profit
+                    </h1>
+                  </div>
+                  <div className='w-full'>
+                    <p className='text-xl md:text-base font-light leading-normal text-white text-center'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                  </div>
+                  <div className='w-fit mx-auto'>
+                    <HiArrowNarrowRight className='text-xl text-[#FF198D] z-20' />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 bg-black'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <p className='text-4xl lg:text-3xl font-normal leading-tight text-white w-full mb-14'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
