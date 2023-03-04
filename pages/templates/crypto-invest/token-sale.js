@@ -21,7 +21,7 @@ import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
-  const handleOpen = useCallback(() => setIsOpen((open) => !open), {})
+  const handleOpen = useCallback(() => setIsOpen((open) => !open), [])
 
   return (
     <div className='bg-black'>
