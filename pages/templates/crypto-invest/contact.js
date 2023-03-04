@@ -208,6 +208,14 @@ export default function Home() {
                       className='sm:col-span-2 text-base font-normal py-2 px-7 rounded-md bg-[#0F69E5] bg-opacity-50 focus:outline-none focus:border focus:border-[#0F69E5]'
                     />
                   </div>
+                  <div className='w-full my-5'>
+                    <button className='flex justify-start items-center gap-2 p-2 bg-[#FF198D] rounded-md w-fit mx-auto'>
+                      <span className='text-lg md:text-xs font-normal text-white'>
+                        Submit Message
+                      </span>
+                      <TbBrandTelegram className='text-white text-lg md:text-xs' />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
