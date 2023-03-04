@@ -407,12 +407,12 @@ export default function Home() {
                 <div className='col-start-7 col-end-10 place-self-start'>
                   <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
                     </div>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-br-md' />
                     </div>
                     <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
                       <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
@@ -444,12 +444,12 @@ export default function Home() {
                 <div className='col-start-10 col-end-13 place-self-start'>
                   <div className='group relative flex flex-col h-[11rem] w-full max-w-[23rem] sm:max-w-[15rem] sm:w-[15rem] mx-auto'>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-tl-md' />
-                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tr-md' />
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-tl-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
                     </div>
                     <div className='flex flex-grow justify-between items-center gap-10 group-hover:hidden'>
-                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-bl-md' />
-                      <div className='h-full flex-grow transform skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent rounded-br-md' />
+                      <div className='h-full flex-grow transform -skew-x-1 -skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-transparent bg-transparent' />
+                      <div className='h-full flex-grow transform skew-x-1 skew-y-1 scale-x-[1.06] scale-y-[1.05] border border-[#FF198D] bg-[#FF198D] rounded-br-md' />
                     </div>
                     <div className='absolute inset-[5px] scale-y-[1.09] lg:scale-y-[1.080] scale-x-[1.057] sm:scale-x-[1.060] lg:scale-x-[1.066] z-10 bg-black rounded-md'>
                       <div className='w-full h-full group-hover:bg-[#0F69E5] group-hover:scale-[1.02] group-hover:bg-opacity-20 text-white p-0 group-hover:p-4 rounded-md'>
