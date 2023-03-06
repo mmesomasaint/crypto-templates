@@ -210,7 +210,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
               </p>
-              <div className='grid grid-cols-3 gap-10 place-items-stretch'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-stretch'>
                 <div className='flex flex-col gap-5 justify-center items-center w-full h-full bg-[#0F69E5] bg-opacity-20 text-white p-6 rounded-md'>
                   <div className='flex flex-col justify-center items-center gap-4'>
                     <div className='border border-[#0F69E5] rounded-lg'>
