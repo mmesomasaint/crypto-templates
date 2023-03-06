@@ -116,7 +116,7 @@ export default function Home() {
                 />
               </div>
               <div className='lg:col-span-2'>
-                <p className='text-sm font-light leading-tight text-white text-center lg:text-left'>
+                <p className='text-3xl lg:text-sm font-light leading-tight text-white text-center lg:text-left mb-7 lg:mb-0'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus tempus dui nec euismod congue. Nulla id libero
                   dignissim, convallis odio id, scelerisque nisl
