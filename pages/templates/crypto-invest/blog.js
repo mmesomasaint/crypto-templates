@@ -56,7 +56,7 @@ export default function Home() {
                 <GiHamburgerMenu className='text-3xl text-white' onClick={handleOpen} />
               </div>
               <div className={`${isOpen ? 'flex' : 'hidden'} bg-[#0F69E5] lg:bg-transparent w-full left-0 top-[100%] lg:w-auto absolute lg:static flex-col lg:flex-row gap-6 px-[5%] py-8 lg:py-0 lg:px-0 lg:flex items-start lg:justify-evenly lg:gap-8 lg:items-center`}>
-                <span className='text-xl lg:text-base font-medium leading-none text-[#FF198D] scale-110'>
+                <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
                   <Link href='/'>Home</Link>
                 </span>
                 <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
@@ -81,7 +81,7 @@ export default function Home() {
                 <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
                   <Link href='/templates/crypto-invest/contact'>Contact</Link>
                 </span>
-                <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
+                <span className='text-xl lg:text-base font-medium leading-none text-[#FF198D] scale-110'>
                   <Link href='/templates/crypto-invest/blog'>Blog</Link>
                 </span>
               </div>
