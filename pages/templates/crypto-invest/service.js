@@ -51,7 +51,7 @@ export default function Home() {
                 alt='company logo'
               />
             </div>
-            <div className='flex justify-between gap-12 items-center'>
+            <div className='flex justify-between gap-6 lg:gap-12 items-center'>
               <div className='block lg:hidden'>
                 <GiHamburgerMenu
                   className='text-3xl text-white'

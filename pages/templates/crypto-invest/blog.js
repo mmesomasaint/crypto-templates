@@ -1,15 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import {useState, useCallback} from 'react'
-import {
-  BsInstagram,
-  BsTwitter,
-} from 'react-icons/bs'
-import {
-  FaFacebookF,
-  FaPinterestP,
-} from 'react-icons/fa'
+import { useState, useCallback } from 'react'
+import { BsInstagram, BsTwitter } from 'react-icons/bs'
+import { FaFacebookF, FaPinterestP } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
@@ -17,7 +11,7 @@ import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
-  const handleOpen = useCallback(() => setIsOpen(open => !open), [])
+  const handleOpen = useCallback(() => setIsOpen((open) => !open), [])
 
   return (
     <div className='bg-black'>
@@ -40,11 +34,18 @@ export default function Home() {
                 alt='company logo'
               />
             </div>
-            <div className='flex justify-between gap-12 items-center'>
+            <div className='flex justify-between gap-6 lg:gap-12 items-center'>
               <div className='block lg:hidden'>
-                <GiHamburgerMenu className='text-3xl text-white' onClick={handleOpen} />
+                <GiHamburgerMenu
+                  className='text-3xl text-white'
+                  onClick={handleOpen}
+                />
               </div>
-              <div className={`${isOpen ? 'flex' : 'hidden'} bg-[#0F69E5] lg:bg-transparent w-full left-0 top-[100%] lg:w-auto absolute lg:static flex-col lg:flex-row gap-6 px-[5%] py-8 lg:py-0 lg:px-0 lg:flex items-start lg:justify-evenly lg:gap-8 lg:items-center`}>
+              <div
+                className={`${
+                  isOpen ? 'flex' : 'hidden'
+                } bg-[#0F69E5] lg:bg-transparent w-full left-0 top-[100%] lg:w-auto absolute lg:static flex-col lg:flex-row gap-6 px-[5%] py-8 lg:py-0 lg:px-0 lg:flex items-start lg:justify-evenly lg:gap-8 lg:items-center`}
+              >
                 <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
                   <Link href='/'>Home</Link>
                 </span>
@@ -60,9 +61,7 @@ export default function Home() {
                   </Link>
                 </span>
                 <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
-                  <Link href='/templates/crypto-invest/roadmap'>
-                    Road Map
-                  </Link>
+                  <Link href='/templates/crypto-invest/roadmap'>Road Map</Link>
                 </span>
                 <span className='text-xl lg:text-base font-medium leading-none text-white hover:scale-110'>
                   <Link href='/templates/crypto-invest/pages'>Pages</Link>

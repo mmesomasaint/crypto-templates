@@ -2,14 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState, useCallback } from 'react'
-import {
-  BsInstagram,
-  BsTwitter,
-} from 'react-icons/bs'
-import {
-  FaFacebookF,
-  FaPinterestP,
-} from 'react-icons/fa'
+import { BsInstagram, BsTwitter } from 'react-icons/bs'
+import { FaFacebookF, FaPinterestP } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import { HiArrowNarrowRight } from 'react-icons/hi'
@@ -40,7 +34,7 @@ export default function Home() {
                 alt='company logo'
               />
             </div>
-            <div className='flex justify-between gap-12 items-center'>
+            <div className='flex justify-between gap-6 lg:gap-12 items-center'>
               <div className='block lg:hidden'>
                 <GiHamburgerMenu
                   className='text-3xl text-white'
