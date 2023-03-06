@@ -116,15 +116,15 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 bg-black'>
-            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
-              <h2 className='text-3xl lg:text-2xl font-normal leading-tight text-white w-full mb-14'>
+            <div className='w-[90%] xl:w-[80%] mx-auto'>
+              <h2 className='text-3xl lg:text-2xl font-normal leading-tight text-white w-full mb-14 text-center'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue. Nulla id libero dignissim,
                 convallis odio id, scelerisque nisl
               </h2>
               <div className='my-9'>
-                <div className='grid grid-cols-2 gap-0 place-items-center mb-24'>
-                  <div className=''>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-0 place-items-center mb-24'>
+                  <div className='hidden md:block'>
                     <Image
                       src='/imgs/crypto-invest/asset-shield.jpg'
                       width={300}
@@ -152,6 +152,14 @@ export default function Home() {
                       amet. Etiam cursus nisl a lorem ullamcorper, pulvinar
                       efficitur ex volutpat
                     </p>
+                    <div className='md:hidden my-6'>
+                      <Image
+                        src='/imgs/crypto-invest/asset-shield.jpg'
+                        width={300}
+                        height={300}
+                        alt='sercurity'
+                      />
+                    </div>
                     <button className='flex justify-start items-center gap-3 px-6 py-3 mt-7 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
                       <span className='text-xl lg:text-base font-medium leading-none text-white'>
                         Learn More
@@ -162,8 +170,8 @@ export default function Home() {
                     </button>
                   </div>
                 </div>
-                <div className='grid grid-cols-2 gap-0 place-items-center mb-24'>
-                  <div className=''>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-0 place-items-center mb-24'>
+                  <div className='hidden md:block'>
                     <Image
                       src='/imgs/crypto-invest/escrow.jpg'
                       width={300}
@@ -191,6 +199,14 @@ export default function Home() {
                       amet. Etiam cursus nisl a lorem ullamcorper, pulvinar
                       efficitur ex volutpat
                     </p>
+                    <div className='md:hidden my-6'>
+                      <Image
+                        src='/imgs/crypto-invest/escrow.jpg'
+                        width={300}
+                        height={300}
+                        alt='escrow'
+                      />
+                    </div>
                     <button className='flex justify-start items-center gap-3 px-6 py-3 mt-7 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
                       <span className='text-xl lg:text-base font-medium leading-none text-white'>
                         Learn More
@@ -201,8 +217,8 @@ export default function Home() {
                     </button>
                   </div>
                 </div>
-                <div className='grid grid-cols-2 gap-0 place-items-center'>
-                  <div className=''>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-0 place-items-center'>
+                  <div className='hidden md:block'>
                     <Image
                       src='/imgs/crypto-invest/performance.jpg'
                       width={300}
@@ -230,6 +246,14 @@ export default function Home() {
                       amet. Etiam cursus nisl a lorem ullamcorper, pulvinar
                       efficitur ex volutpat
                     </p>
+                    <div className='md:hidden my-6'>
+                      <Image
+                        src='/imgs/crypto-invest/performance.jpg'
+                        width={300}
+                        height={300}
+                        alt='performace'
+                      />
+                    </div>
                     <button className='flex justify-start items-center gap-3 px-6 py-3 mt-7 border border-[#FF198D] bg-[#FF198D] rounded-sm shadow-sm'>
                       <span className='text-xl lg:text-base font-medium leading-none text-white'>
                         Learn More
