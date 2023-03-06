@@ -185,11 +185,11 @@ export default function Home() {
                     />
                   </div>
                   <div className='w-full my-5'>
-                    <button className='flex justify-start items-center gap-2 p-2 bg-[#FF198D] rounded-md w-fit mx-auto'>
-                      <span className='text-lg md:text-xs font-normal text-white'>
+                    <button className='flex justify-start items-center gap-2 p-3 bg-[#FF198D] rounded-md w-fit mx-auto'>
+                      <span className='text-xl md:text-base font-medium text-white'>
                         Submit Message
                       </span>
-                      <TbBrandTelegram className='text-white text-lg md:text-xs' />
+                      <TbBrandTelegram className='text-white text-2xl md:text-base' />
                     </button>
                   </div>
                 </div>
