@@ -112,6 +112,99 @@ export default function Home() {
           </div>
           <div className='py-24 bg-black'>
             <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
+              <div className='w-fit mx-auto'>
+                <h4 className='text-white text-2xl md:text-lg font-light leading-normal'>
+                  Trending
+                </h4>
+                <div className='flex gap-0 items-center justify-start'>
+                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
+                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
+                  <div className='border-t border-t-white w-12 md:w-8 flex-grow' />
+                  <div className='border w-[10px] md:w-[8px] h-[10px] md:h-[8px] rounded-full border-white' />
+                </div>
+              </div>
+              <div className='mt-4 mb-7'>
+                <h2 className='text-5xl lg:text-4xl font-semibold text-[#0F69E5] leading-tight'>
+                  Hot Hot Hot Trends
+                </h2>
+              </div>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-24 place-items-stretch'>
+                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-fit sm:h-[29rem]'>
+                  <div className='relative'>
+                    <div className='absolute group-hover:static bottom-0 group-hover:top-0 flex justify-center items-center group-hover:items-end gap-6 w-full px-5 group-hover:py-5 group-hover:border-b  border-b-black'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                        january, 2022
+                      </p>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                        by admin
+                      </p>
+                    </div>
+                    <div className='hidden group-hover:block px-5 py-5 group-hover:border-b  border-b-black'>
+                      <p className='text-lg sm:text-sm font-normal text-white text-center leading-normal'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus tempus dui nec euismod congue. Nulla id libero
+                        dignissim, convallis odio id, scelerisque nisl.
+                        Curabitur augue quam, fringilla quis dictum sed
+                      </p>
+                    </div>
+                    <Image
+                      src='/imgs/crypto-invest/chart.jpg'
+                      width={1000}
+                      height={1000}
+                      alt='investment chart'
+                      className='rounded-md group-hover:hidden'
+                    />
+                  </div>
+                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 py-5 sm:py-0 h-full'>
+                    <h2 className='text-white group-hover:text-[#FF198D] text-2xl sm:text-lg font-medium'>
+                      BCB Bots & Rebuild Implicit
+                    </h2>
+                    <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
+                      <HiArrowNarrowRight className='text-2xl text-[#FF198D] group-hover:text-white' />
+                    </div>
+                  </div>
+                </div>
+                <div className='flex flex-col group bg-[#0F69E5] bg-opacity-40 rounded-md h-fit sm:h-[29rem]'>
+                  <div className='relative'>
+                    <div className='absolute group-hover:static bottom-0 group-hover:top-0 flex justify-center items-center group-hover:items-end gap-6 w-full px-5 group-hover:py-5 group-hover:border-b  border-b-black'>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                        january, 2022
+                      </p>
+                      <p className='w-fit rounded-md text-base sm:text-xs font-normal px-2 py-1 leading-none bg-[#0F69E5] text-white'>
+                        by admin
+                      </p>
+                    </div>
+                    <div className='hidden group-hover:block px-5 py-5 group-hover:border-b  border-b-black'>
+                      <p className='text-lg sm:text-sm font-normal text-white text-center leading-normal'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus tempus dui nec euismod congue. Nulla id libero
+                        dignissim, convallis odio id, scelerisque nisl.
+                        Curabitur augue quam, fringilla quis dictum sed
+                      </p>
+                    </div>
+                    <Image
+                      src='/imgs/crypto-invest/chart.jpg'
+                      width={1000}
+                      height={1000}
+                      alt='investment chart'
+                      className='rounded-md group-hover:hidden'
+                    />
+                  </div>
+                  <div className='flex-grow flex flex-col justify-center items-center gap-5 group-hover:gap-8 px-5 py-5 sm:py-0 h-full'>
+                    <h2 className='text-white group-hover:text-[#FF198D] text-2xl sm:text-lg font-medium'>
+                      BCB Bots & Rebuild Implicit
+                    </h2>
+                    <div className='flex justify-center items-center mx-auto w-10 h-10 rounded-full border border-[#FF198D] bg-transparent group-hover:bg-[#FF198D]'>
+                      <HiArrowNarrowRight className='text-2xl text-[#FF198D] group-hover:text-white' />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 bg-black'>
+            <div className='w-[90%] xl:w-[80%] mx-auto text-center'>
               <p className='text-4xl lg:text-3xl font-normal leading-tight text-white w-full mb-16'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 tempus dui nec euismod congue.
