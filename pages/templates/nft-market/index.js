@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import {BsSearch} from 'react-icons/bs'
+import { BsSearch } from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -66,7 +66,7 @@ export default function Home() {
       <main>
         <div className='max-w-[90rem] mx-auto'>
           <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
-            <div className='bg-[rgba(0,0,0,0.35)] w-full h-full'></div>
+            <div className='bg-[rgba(0,0,255,0.25)] w-full h-full'></div>
           </div>
         </div>
       </main>
