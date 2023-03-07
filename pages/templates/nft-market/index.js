@@ -63,6 +63,13 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <main>
+        <div className='max-w-[90rem] mx-auto'>
+          <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
+            <div className='bg-[rgba(0,0,0,0.35)] w-full h-full'></div>
+          </div>
+        </div>
+      </main>
     </div>
   )
 }
