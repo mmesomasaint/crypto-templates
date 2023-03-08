@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsSearch } from 'react-icons/bs'
+import { BsSearch, BsFillPlayFill } from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -65,9 +65,127 @@ export default function Home() {
       </header>
       <main>
         <div className='max-w-[90rem] mx-auto'>
-          <div className="h-fit md:h-[42rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
+          <div className="h-fit md:h-[50rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
             <div className='bg-[rgba(0,0,255,0.35)] w-full h-full'>
-              <div className='bg-[rgba(0,0,0,0.45)] w-full h-full'></div>
+              <div className='bg-[rgba(0,0,0,0.55)] w-full h-full'>
+                <div className='flex gap-1 justify-center items-center w-[80%] mx-auto h-full'>
+                  <div className='w-full h-fit pt-16'>
+                    <h5 className='text-[#16F24D] text-2xl font-semibold capitalize mb-4'>
+                      Welcome to NFT Market
+                    </h5>
+                    <div className='w-full h-full grid grid-cols-7 gap-10 place-content-center'>
+                      <div className='col-span-4'>
+                        <h1 className='text-5xl font-bold leading-normal text-white'>
+                          Create, Sell or Collect Digital Items.
+                        </h1>
+                        <p className='my-7 text-gray-400 text-2xl font-normal leading-tight'>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Aenean mollis ligula sed diam sollicitudin,
+                          aliquam fermentum sapien consectetur. Donec
+                          consectetur et ex at vulputate
+                        </p>
+                        <div className='mb-7 flex justify-start items-center gap-7'>
+                          <button className='text-black text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md'>
+                            Explore More
+                          </button>
+                          <div className='flex justify-start items-center gap-4'>
+                            <div className='w-8 h-8 bg-white bg-opacity-30 hover:shadow-up-2x rounded-full flex justify-center items-center'>
+                              <BsFillPlayFill className='text-[#16F24D] text-xl' />
+                            </div>
+                            <p className='text-[#16F24D] text-base'>
+                              Watch Video
+                            </p>
+                          </div>
+                        </div>
+                        <div className='flex justify-start items-center gap-7'>
+                          <div className='bg-white hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
+                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white group-hover:bg-opacity-30 rounded-md '>
+                              <p className='block text-base font-semibold leading-none group-hover:text-[#16F24D] text-white'>
+                                2.99k
+                              </p>
+                              <p className='block text-base font-normal leading-none group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                                Live Auction
+                              </p>
+                            </div>
+                          </div>
+                          <div className='bg-white hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
+                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white group-hover:bg-opacity-30 rounded-md '>
+                              <p className='block text-base font-semibold leading-none group-hover:text-[#16F24D] text-white'>
+                                99.15M
+                              </p>
+                              <p className='block text-base font-normal leading-none group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                                NFT Store
+                              </p>
+                            </div>
+                          </div>
+                          <div className='bg-white hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
+                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white group-hover:bg-opacity-30 rounded-md '>
+                              <p className='block text-base font-semibold leading-none group-hover:text-[#16F24D] text-white'>
+                                2.99k
+                              </p>
+                              <p className='block text-base font-normal leading-none group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                                Collection
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-span-3'>
+                        <div className='relative w-full h-full'>
+                          <div className='absolute z-10 -top-[7rem] flex justify-center items-center bg-transparent w-full'>
+                            <Image
+                              src='/imgs/nft-market/silver-hand.png'
+                              width={350}
+                              height={350}
+                              alt='silver hand'
+                            />
+                          </div>
+                          <div className='relative w-fit'>
+                            <div className='absolute bg-transparent grid grid-cols-5 gap-3 place-items-stretch w-full h-full items-end p-5'>
+                              <div className='col-span-2 grid grid-cols-3 gap-1'>
+                                <div className='w-10 h-10 rounded-full bg-white' />
+                                <div className='col-span-2 flex flex-col items-start justify-center gap-1'>
+                                  <p className='text-base font-normal leading-none text-white'>
+                                    MD Name Is
+                                  </p>
+                                  <p className='text-base font-extralight leading-none text-white'>
+                                    ETH 15.99
+                                  </p>
+                                </div>
+                              </div>
+                              <div className='col-span-3 border border-[#16F24D] bg-white bg-opacity-30 rounded-md w-full flex justify-center items-center'>
+                                <div className='w-fit h-fit py-3'>
+                                  <span className='text-lg font-medium text-white leading-none'>
+                                    365<span className='mx-2'>:</span>10
+                                    <span className='mx-2'>:</span>65
+                                    <span className='mx-2'>:</span>13
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div className='absolute -bottom-[7rem] right-20'>
+                              <Image
+                                src='/imgs/nft-market/latest-time.png'
+                                width={100}
+                                height={100}
+                                alt='latest time'
+                                className='rounded-md'
+                              />
+                            </div>
+                            <Image
+                              src='/imgs/nft-market/pattern.jpeg'
+                              width={500}
+                              height={500}
+                              alt='pattern'
+                              className='rounded-md'
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

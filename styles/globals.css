@@ -55,6 +55,10 @@
   .glow {
     filter: drop-shadow(0 0 4.95rem #FF198D);
   }
+
+  .shadow-up-2x {
+    filter: drop-shadow(0 -1mm 6mm rgba(255, 255, 255)) drop-shadow(0 -2mm 6mm rgba(255, 255, 255));
+  }
 }
 
 html,
