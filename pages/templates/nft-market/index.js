@@ -15,7 +15,7 @@ export default function Home() {
         <link rel='icon' href='/imgs/nft-market/favicon.ico' />
       </Head>
       <header className='absolute w-full w-transparent'>
-        <div className='max-w-[90rem] w-[80%] mx-auto py-9'>
+        <div className='max-w-[90rem] w-[80%] mx-auto py-7'>
           <div className='flex justify-between items-center gap-6'>
             <div className=''>
               <Image
@@ -66,7 +66,7 @@ export default function Home() {
       <main>
         <div className='max-w-[90rem] mx-auto'>
           <div className="h-fit md:h-[42rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
-            <div className='bg-[rgba(0,0,255,0.35)] w-full h-full'></div>
+            <div className='bg-[rgba(0,0,255,0.25)] w-full h-full'></div>
           </div>
         </div>
       </main>
