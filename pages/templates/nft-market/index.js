@@ -8,7 +8,7 @@ import {
   BsPaletteFill,
   BsFillBarChartLineFill,
 } from 'react-icons/bs'
-import { MdPhotoLibrary, MdAddToPhotos } from 'react-icons/md'
+import { MdPhotoLibrary, MdAddToPhotos, MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -245,6 +245,29 @@ export default function Home() {
                   <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Art NFT
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 w-[80%] mx-auto'>
+            <div className='flex justify-between items-end gap-7 mb-5'>
+              <h2 className='text-4xl font-semibold leading-none text-white'>NFT Gallery</h2>
+              <div className='flex justify-evenly items-center gap-4'>
+                <div className='flex justify-start items-center gap-2 px-6 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>Art</span>
+                  <MdOutlineKeyboardArrowDown className='text-white text-xl' />
+                </div>
+                <div className='flex justify-start items-center gap-2 px-6 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>3D Shape</span>
+                  <MdOutlineKeyboardArrowDown className='text-white text-xl' />
+                </div>
+                <div className='flex justify-start items-center gap-2 px-6 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>Pixel</span>
+                  <MdOutlineKeyboardArrowDown className='text-white text-xl' />
+                </div>
+                <div className='flex justify-start items-center gap-2 px-6 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>Music</span>
+                  <MdOutlineKeyboardArrowDown className='text-white text-xl' />
                 </div>
               </div>
             </div>
