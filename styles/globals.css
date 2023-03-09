@@ -56,8 +56,12 @@
     filter: drop-shadow(0 0 4.95rem #FF198D);
   }
 
+  .glow-nft-primary {
+    filter: drop-shadow(0mm 0mm 2mm #16F24D);
+  }
+
   .shadow-up-2x {
-    filter: drop-shadow(0 -1mm 6mm rgba(255, 255, 255)) drop-shadow(0 -2mm 6mm rgba(255, 255, 255));
+    filter: drop-shadow(0 -1mm 2mm rgba(255, 255, 255)) drop-shadow(0 -1mm 3mm rgba(255, 255, 255));
   }
 }
 

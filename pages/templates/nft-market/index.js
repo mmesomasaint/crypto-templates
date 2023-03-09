@@ -27,22 +27,22 @@ export default function Home() {
             </div>
             <div className='flex justify-between items-center gap-7'>
               <div className='flex justify-evenly items-center gap-7'>
-                <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px]'>
+                <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
                   <Link href='/templates/nft-market'>Home</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
                   <Link href='/templates/nft-market'>Collection</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
                   <Link href='/templates/nft-market'>About Us</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
                   <Link href='/templates/nft-market'>NFT</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
                   <Link href='/templates/nft-market'>Blog</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
                   <Link href='/templates/nft-market'>Contact</Link>
                 </span>
                 <div className='relative'>
@@ -55,7 +55,7 @@ export default function Home() {
                     <BsSearch className='text-white text-lg text-opacity-70' />
                   </div>
                 </div>
-                <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md'>
+                <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md hover:glow-nft-primary'>
                   Join Now
                 </button>
               </div>
@@ -85,7 +85,7 @@ export default function Home() {
                           consectetur et ex at vulputate
                         </p>
                         <div className='mb-7 flex justify-start items-center gap-7'>
-                          <button className='text-black text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md'>
+                          <button className='text-black text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md hover:glow-nft-primary'>
                             Explore More
                           </button>
                           <div className='flex justify-start items-center gap-4'>
