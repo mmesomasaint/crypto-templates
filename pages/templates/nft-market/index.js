@@ -199,50 +199,50 @@ export default function Home() {
           </div>
           <div className='py-24 w-[80%] mx-auto'>
             <div className='grid grid-cols-6 gap-7 place-items-stretch'>
-              <div className='w-32 h-32 group border border-gray-300 hover:border-[#16F24D] rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white group-hover:border group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Art NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-300 hover:border-[#16F24D] rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsMusicNoteBeamed className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white group-hover:border group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Music NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-300 hover:border-[#16F24D] rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsFillBarChartLineFill className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white group-hover:border group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Current NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-300 hover:border-[#16F24D] rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <MdPhotoLibrary className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white group-hover:border group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Photo NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-300 hover:border-[#16F24D] rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <MdAddToPhotos className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white group-hover:border group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Create NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-300 hover:border-[#16F24D] rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white group-hover:border group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Art NFT
                   </p>
                 </div>
