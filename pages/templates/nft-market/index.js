@@ -288,7 +288,7 @@ export default function Home() {
               </div>
             </div>
             <div className='grid grid-cols-4 gap-10 place-items-stretch'>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -318,7 +318,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -348,7 +348,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -378,7 +378,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -408,7 +408,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -438,7 +438,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded- hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -468,7 +468,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -498,7 +498,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -528,7 +528,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -558,7 +558,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
