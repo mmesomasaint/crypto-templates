@@ -7,9 +7,14 @@ import {
   BsMusicNoteBeamed,
   BsPaletteFill,
   BsFillBarChartLineFill,
-  BsFillHeartFill
+  BsFillHeartFill,
 } from 'react-icons/bs'
-import { MdPhotoLibrary, MdAddToPhotos, MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowRight } from 'react-icons/md'
+import {
+  MdPhotoLibrary,
+  MdAddToPhotos,
+  MdOutlineKeyboardArrowDown,
+  MdOutlineKeyboardArrowRight,
+} from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -252,22 +257,32 @@ export default function Home() {
           </div>
           <div className='py-24 w-[80%] mx-auto'>
             <div className='flex justify-between items-end gap-7 mb-5'>
-              <h2 className='text-5xl font-semibold leading-none text-white'>NFT Gallery</h2>
+              <h2 className='text-5xl font-semibold leading-none text-white'>
+                NFT Gallery
+              </h2>
               <div className='flex justify-evenly items-center gap-4'>
                 <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
-                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>Art</span>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
+                    Art
+                  </span>
                   <MdOutlineKeyboardArrowDown className='text-white text-xl' />
                 </div>
                 <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
-                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>3D Shape</span>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
+                    3D Shape
+                  </span>
                   <MdOutlineKeyboardArrowDown className='text-white text-xl' />
                 </div>
                 <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
-                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>Pixel</span>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
+                    Pixel
+                  </span>
                   <MdOutlineKeyboardArrowDown className='text-white text-xl' />
                 </div>
                 <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
-                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>Music</span>
+                  <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
+                    Music
+                  </span>
                   <MdOutlineKeyboardArrowDown className='text-white text-xl' />
                 </div>
               </div>
@@ -276,162 +291,302 @@ export default function Home() {
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/abstract-art.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/abstract-art.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/fantasy.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/fantasy.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/alien-forest-illustration.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/fluid-nft.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/moon-nft.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/moon-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/snow-nft.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/urban-nft.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/urban-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/fantasy.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/fantasy.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/abstract-art.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/abstract-art.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
-                    <Image src='/imgs/nft-market/fluid-nft.jpg' width={260} height={120} alt='fantasy' className='rounded-md' />
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
                   </div>
                   <div className='text-center py-1'>
-                    <h4 className='block text-white text-xl font-medium'>Joybangla Jitbe Abar</h4>
-                    <p className='block text-white text-lg font-normal'>Item: 236</p>
-                    <p className='block text-gray-500'>ETH-<span className='text-[#16F24D]'>16.21</span></p>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
                     <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>126</p>
+                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
                   </div>
-                </div> 
+                </div>
               </div>
             </div>
           </div>
