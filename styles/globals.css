@@ -61,7 +61,7 @@
   }
 
   .shadow-up-2x {
-    filter: drop-shadow(0 -1mm 2mm rgba(255, 255, 255)) drop-shadow(0 -1mm 3mm rgba(255, 255, 255));
+    filter: drop-shadow(0 -1mm 0mm rgba(255, 255, 255, 0.5)) drop-shadow(0 -1.5mm 0mm rgba(255, 255, 255, 0.5));
   }
 }
 
