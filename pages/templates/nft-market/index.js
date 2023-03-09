@@ -141,9 +141,9 @@ export default function Home() {
                             />
                           </div>
                           <div className='relative w-fit'>
-                            <div className='absolute bg-transparent grid grid-cols-5 gap-3 place-items-stretch w-full h-full items-end p-5'>
+                            <div className='absolute z-20 bg-transparent grid grid-cols-5 gap-3 place-items-stretch w-full h-full items-end p-5'>
                               <div className='col-span-2 grid grid-cols-3 gap-1'>
-                                <div className='w-10 h-10 rounded-full bg-white' />
+                                <div className="w-10 h-10 rounded-full bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
                                 <div className='col-span-2 flex flex-col items-start justify-center gap-1'>
                                   <p className='text-base font-normal leading-none text-white'>
                                     MD Name Is
@@ -166,8 +166,8 @@ export default function Home() {
                             <div className='absolute -bottom-[7rem] right-20'>
                               <Image
                                 src='/imgs/nft-market/latest-time.png'
-                                width={100}
-                                height={100}
+                                width={120}
+                                height={120}
                                 alt='latest time'
                                 className='rounded-md'
                               />
