@@ -31,19 +31,21 @@ export default function Home() {
                   <Link href='/templates/nft-market'>Home</Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market'>Collection</Link>
+                  <Link href='/templates/nft-market/collection'>
+                    Collection
+                  </Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market'>About Us</Link>
+                  <Link href='/templates/nft-market/about'>About Us</Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market'>NFT</Link>
+                  <Link href='/templates/nft-market/nft'>NFT</Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market'>Blog</Link>
+                  <Link href='/templates/nft-market/blog'>Blog</Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market'>Contact</Link>
+                  <Link href='/templates/nft-market/contact'>Contact</Link>
                 </span>
                 <div className='relative'>
                   <input
