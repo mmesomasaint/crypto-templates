@@ -590,6 +590,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="h-[30rem] w-full bg-[url('/imgs/nft-market/game-room.jpg')] bg-no-repeat bg-cover bg-center" />
         </div>
       </main>
     </div>
