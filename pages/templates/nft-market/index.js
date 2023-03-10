@@ -292,7 +292,7 @@ export default function Home() {
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
-                      src='/imgs/nft-market/abstract-art.jpg'
+                      src='/imgs/nft-market/fluid-nft.jpg'
                       width={260}
                       height={120}
                       alt='fantasy'
@@ -322,7 +322,7 @@ export default function Home() {
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
-                      src='/imgs/nft-market/fantasy.jpg'
+                      src='/imgs/nft-market/boy-nft.jpg'
                       width={260}
                       height={120}
                       alt='fantasy'
@@ -502,7 +502,7 @@ export default function Home() {
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
-                      src='/imgs/nft-market/fantasy.jpg'
+                      src='/imgs/nft-market/house-nft.jpg'
                       width={260}
                       height={120}
                       alt='fantasy'
@@ -532,7 +532,7 @@ export default function Home() {
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
-                      src='/imgs/nft-market/abstract-art.jpg'
+                      src='/imgs/nft-market/room-nft.jpg'
                       width={260}
                       height={120}
                       alt='fantasy'
