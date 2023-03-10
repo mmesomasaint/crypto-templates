@@ -591,11 +591,58 @@ export default function Home() {
             </div>
           </div>
           <div className="h-[30rem] w-full bg-[url('/imgs/nft-market/game-room.jpg')] bg-no-repeat bg-cover bg-center" />
-          <div className='py-24 w-[80%] mx-auto'>
+          <div className='py-24 w-[80%] mx-auto h-fit'>
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Create, Sell Your NFT
             </h2>
-            <div className=''></div>
+            <div className='w-fit p-2 bg-[#212429] my-[10rem] relative'>
+              <div className='absolute -top-32 -right-[26rem] flex items-end gap-2'>
+                <div className='relative -bottom-8 bg-[#212429] rounded-md p-2'>
+                  <Image
+                    src='/imgs/nft-market/abstract.jpg'
+                    width={240}
+                    height={250}
+                    alt='abstract'
+                    className='rounded-md border border-white'
+                  />
+                </div>
+                <div className='group w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md'>
+                    <BsMusicNoteBeamed className='text-[#16F24D] text-3xl' />
+                    <div className='py-2'>
+                      <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
+                        Jitbe Abar yigrit
+                      </h4>
+                      <p className='block text-gray-300 text-xs font-light'>
+                        Nulla nulla magna, pretium porttitor lobortis ut, auctor
+                        at felis. Phasellus id lorem a velit venenatis
+                        vestibulum. Aliquam eget cursus lacus. Curabitur rutrum
+                        diam orci, ac aliquet ex congue vel. Maecenas sit amet
+                        vulputate erat. Donec at est pharetra
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='absolute -bottom-24 -left-10 bg-[#212429] p-2 rounded-md'>
+                <Image
+                  src='/imgs/nft-market/abstract.jpg'
+                  width={240}
+                  height={250}
+                  alt='abstract'
+                  className='rounded-md border border-white'
+                />
+              </div>
+              <div className=''>
+                <Image
+                  src='/imgs/nft-market/sailing-ship.jpg'
+                  width={400}
+                  height={400}
+                  alt='sailing-ship'
+                  className='rounded-md border border-white'
+                />
+              </div>
+            </div>
           </div>
         </div>
       </main>
