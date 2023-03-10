@@ -595,6 +595,7 @@ export default function Home() {
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Create, Sell Your NFT
             </h2>
+            <div className=''></div>
           </div>
         </div>
       </main>
