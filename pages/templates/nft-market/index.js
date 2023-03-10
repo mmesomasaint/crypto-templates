@@ -591,6 +591,11 @@ export default function Home() {
             </div>
           </div>
           <div className="h-[30rem] w-full bg-[url('/imgs/nft-market/game-room.jpg')] bg-no-repeat bg-cover bg-center" />
+          <div className='py-24 w-[80%] mx-auto'>
+            <h2 className='text-5xl font-semibold leading-none text-white text-center'>
+              Create, Sell Your NFT
+            </h2>
+          </div>
         </div>
       </main>
     </div>
