@@ -8,6 +8,7 @@ import {
   BsPaletteFill,
   BsFillBarChartLineFill,
   BsFillHeartFill,
+  BsCashCoin
 } from 'react-icons/bs'
 import {
   MdPhotoLibrary,
@@ -15,6 +16,8 @@ import {
   MdOutlineKeyboardArrowDown,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md'
+import {AiOutlineCloudUpload} from 'react-icons/ai'
+import {GiWallet} from 'react-icons/gi'
 
 export default function Home() {
   return (
@@ -595,8 +598,8 @@ export default function Home() {
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Create, Sell Your NFT
             </h2>
-            <div className='w-fit p-2 bg-[#212429] my-[10rem] relative'>
-              <div className='absolute -top-32 -right-[26rem] flex items-end gap-2'>
+            <div className='w-fit mx-auto p-2 bg-[#212429] my-[10rem] relative'>
+              <div className='absolute -top-32 -right-[2rem] flex items-end gap-2'>
                 <div className='relative -bottom-8 bg-[#212429] rounded-md p-2'>
                   <Image
                     src='/imgs/nft-market/abstract.jpg'
@@ -607,9 +610,17 @@ export default function Home() {
                   />
                 </div>
                 <div className='group w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
-                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md'>
-                    <BsMusicNoteBeamed className='text-[#16F24D] text-3xl' />
-                    <div className='py-2'>
+                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                    <div className='absolute -right-12 rotate-45 -top-12 z-10'>
+                      <Image
+                        src='/imgs/nft-market/chip.png'
+                        width={120}
+                        height={120}
+                        alt='chip'
+                      />
+                    </div>
+                    <GiWallet className='text-[#16F24D] text-5xl' />
+                    <div className=''>
                       <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
                         Jitbe Abar yigrit
                       </h4>
@@ -624,23 +635,75 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='absolute -bottom-24 -left-10 bg-[#212429] p-2 rounded-md'>
-                <Image
-                  src='/imgs/nft-market/abstract.jpg'
-                  width={240}
-                  height={250}
-                  alt='abstract'
-                  className='rounded-md border border-white'
-                />
+              <div className='absolute -bottom-[10.6rem] -left-[2rem] flex items-end gap-2'>
+                <div className='relative -top-16 bg-[#212429] rounded-md p-2 flex-shrink-0'>
+                  <Image
+                    src='/imgs/nft-market/abstract.jpg'
+                    width={240}
+                    height={250}
+                    alt='abstract'
+                    className='rounded-md border border-white'
+                  />
+                </div>
+                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                    <div className='absolute -right-12 rotate-45 -top-12 z-10'>
+                      <Image
+                        src='/imgs/nft-market/chip.png'
+                        width={120}
+                        height={120}
+                        alt='chip'
+                      />
+                    </div>
+                    <BsCashCoin className='text-[#16F24D] text-5xl' />
+                    <div className=''>
+                      <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
+                        Jitbe Abar yigrit
+                      </h4>
+                      <p className='block text-gray-300 text-xs font-light'>
+                        Nulla nulla magna, pretium porttitor lobortis ut, auctor
+                        at felis. Phasellus id lorem a velit venenatis
+                        vestibulum. Aliquam eget cursus lacus. Curabitur rutrum
+                        diam orci, ac aliquet ex congue vel. Maecenas sit amet
+                        vulputate erat. Donec at est pharetra
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className=''>
+              <div className='flex items-end gap-3'>
                 <Image
                   src='/imgs/nft-market/sailing-ship.jpg'
                   width={400}
                   height={400}
                   alt='sailing-ship'
-                  className='rounded-md border border-white'
+                  className='rounded-md border border-white flex-shrink-0'
                 />
+                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                    <div className='absolute -right-12 rotate-45 -top-12 z-10'>
+                      <Image
+                        src='/imgs/nft-market/chip.png'
+                        width={120}
+                        height={120}
+                        alt='chip'
+                      />
+                    </div>
+                    <AiOutlineCloudUpload className='text-[#16F24D] text-5xl' />
+                    <div className=''>
+                      <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
+                        Jitbe Abar yigrit
+                      </h4>
+                      <p className='block text-gray-300 text-xs font-light'>
+                        Nulla nulla magna, pretium porttitor lobortis ut, auctor
+                        at felis. Phasellus id lorem a velit venenatis
+                        vestibulum. Aliquam eget cursus lacus. Curabitur rutrum
+                        diam orci, ac aliquet ex congue vel. Maecenas sit amet
+                        vulputate erat. Donec at est pharetra
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
