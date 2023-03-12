@@ -707,6 +707,445 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className='py-24 w-[80%] mx-auto h-fit'>
+            <h2 className='text-5xl font-semibold leading-none text-white text-center'>
+              Popular Collection in NFT
+            </h2>
+            <div className='grid grid-cols-4 place-items-stretch gap-5 py-20'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/house-nft.jpg'
+                      width={260}
+                      height={150}
+                      alt='house'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/game-room.jpg'
+                      width={260}
+                      height={150}
+                      alt='game room'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/purple-cabbage.jpg'
+                      width={260}
+                      height={150}
+                      alt='purple cabbage'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={150}
+                      alt='alien-forest-illustration'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/lotus-flower.jpg'
+                      width={260}
+                      height={150}
+                      alt='lotus'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={150}
+                      alt='fluid'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/st-texture.jpg'
+                      width={260}
+                      height={150}
+                      alt='texture'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/urban-nft.jpg'
+                      width={260}
+                      height={150}
+                      alt='urban'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/ship-nft.jpg'
+                      width={260}
+                      height={150}
+                      alt='ship'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={150}
+                      alt='snow'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/halloween.jpg'
+                      width={260}
+                      height={150}
+                      alt='house'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full relative'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={150}
+                      alt='boy'
+                      className='rounded-md h-[150px]'
+                    />
+                    <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16 absolute -bottom-8 z-10 left-0 right-0 mx-auto" />
+                    <div className='absolute -bottom-6 right-0 w-fit rounded-full flex justify-center items-center gap-1'>
+                      <BsFillHeartFill className='text-gray-500 text-xs flex-shrink-0' />
+                      <p className='text-xs font-light text-gray-500'>120</p>
+                    </div>
+                  </div>
+                  <div className='pt-6 w-full flex justify-between items-center gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        David Rossetti
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        Owner In: 10+
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        Price: 24.66
+                      </p>
+                      <p className='block text-sm font-normal text-gray-500'>
+                        4 in Stock
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
