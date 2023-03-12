@@ -1421,7 +1421,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1433,7 +1435,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1441,7 +1445,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1453,7 +1459,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1461,7 +1469,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1473,7 +1483,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1481,7 +1493,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1493,7 +1507,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1501,7 +1517,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1513,7 +1531,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1521,7 +1541,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1533,7 +1555,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1541,7 +1565,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1553,7 +1579,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1561,7 +1589,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1573,7 +1603,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1581,7 +1613,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1593,7 +1627,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1601,7 +1637,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1613,7 +1651,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1621,7 +1661,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1633,7 +1675,9 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1641,7 +1685,9 @@ export default function Home() {
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
                   <div className='flex justify-between items-center gap-7'>
-                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <h3 className='text-xl text-white font-light leading-none'>
+                      Jame W Cottrell
+                    </h3>
                     <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
                       <FaMedal className='text-sm text-red-900' />
                     </div>
@@ -1653,7 +1699,63 @@ export default function Home() {
                       </div>
                       <p className='text-sm text-gray-500 font-light'>123.99</p>
                     </div>
-                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                    <p className='text-right text-base text-gray-500 font-light'>
+                      Item: 235.99
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 w-[80%] mx-auto h-fit'>
+            <div className='grid grid-cols-7 place-items-stretch gap-16 items-start'>
+              <div className='col-span-3 h-fit'>
+                <h2 className='text-4xl font-semibold leading-tight text-white'>
+                  Discover Unique and
+                  <span className='text-[#16F24D]'> Digital Art </span>
+                </h2>
+                <p className='my-7 text-gray-300 text-base font-light'>
+                  But in certain circumstances owing to the claim of duty or
+                  obligations of a business it will frequently occur that
+                  pleasures have to be repudiated and annoyances accepted.
+                </p>
+                <div className='flex justify-start items-center gap-7'>
+                  <button className='my-7 py-2 px-5 font-normal text-lg text-gray-300 hover:text-[#16F24D] border border-gray-700 hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md'>
+                    Explore Items
+                  </button>
+                  <button className='my-7 py-2 px-5 font-normal text-lg text-gray-300 hover:text-[#16F24D] border border-gray-700 hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md'>
+                    Connect Wallet
+                  </button>
+                </div>
+              </div>
+              <div className='col-span-4'>
+                <div className='relative w-fit'>
+                  <div className='p-2 rounded-md bg-[#212429] z-10'>
+                    <Image
+                      src='/imgs/nft-market/beach-abstract.jpg'
+                      width={300}
+                      height={400}
+                      alt='beach abstract'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='p-2 rounded-md bg-[#212429] absolute -top-1 -right-[15rem] z-30'>
+                    <Image
+                      src='/imgs/nft-market/beach-abstract.jpg'
+                      width={200}
+                      height={200}
+                      alt='beach abstract'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='p-2 rounded-md bg-[#212429] absolute -bottom-32 -right-32 z-20'>
+                    <Image
+                      src='/imgs/nft-market/fluid-pattern.jpg'
+                      width={300}
+                      height={400}
+                      alt='fluid pattern'
+                      className='rounded-md'
+                    />
                   </div>
                 </div>
               </div>
