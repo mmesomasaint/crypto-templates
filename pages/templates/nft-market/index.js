@@ -16,7 +16,7 @@ import {
   MdOutlineKeyboardArrowDown,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md'
-import { AiOutlineCloudUpload } from 'react-icons/ai'
+import { AiOutlineCloudUpload, AiOutlineShareAlt } from 'react-icons/ai'
 import { GiWallet } from 'react-icons/gi'
 
 export default function Home() {
@@ -1141,6 +1141,271 @@ export default function Home() {
                         4 in Stock
                       </p>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 w-[80%] mx-auto h-fit'>
+            <h2 className='text-5xl font-semibold leading-none text-white text-center'>
+              Live Auction
+            </h2>
+            <div className='grid grid-cols-3 place-items-stretch gap-10 py-20'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
+                    <div className='h-fit'>
+                      <Image
+                        src='/imgs/nft-market/nft-demon.jpg'
+                        width={320}
+                        height={150}
+                        alt='nft demon'
+                        className='rounded-md'
+                      />
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-start gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        3D Shape Artiste
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        8.20 ETH
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        120 : 12 : 33 : 12
+                      </p>
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-3'>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                    </div>
+                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                      Price a Bid
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
+                    <div className='h-fit'>
+                      <Image
+                        src='/imgs/nft-market/hispanic-woman.jpg'
+                        width={320}
+                        height={150}
+                        alt='hispanic woman'
+                        className='rounded-md'
+                      />
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-start gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        3D Shape Artiste
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        8.20 ETH
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        120 : 12 : 33 : 12
+                      </p>
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-3'>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                    </div>
+                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                      Price a Bid
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
+                    <div className='h-fit'>
+                      <Image
+                        src='/imgs/nft-market/purple-cabbage.jpg'
+                        width={320}
+                        height={150}
+                        alt='nft demon'
+                        className='rounded-md block'
+                      />
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-start gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        3D Shape Artiste
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        8.20 ETH
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        120 : 12 : 33 : 12
+                      </p>
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-3'>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                    </div>
+                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                      Price a Bid
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
+                    <div className='h-fit'>
+                      <Image
+                        src='/imgs/nft-market/lotus-flower.jpg'
+                        width={320}
+                        height={150}
+                        alt='nft demon'
+                        className='rounded-md block'
+                      />
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-start gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        3D Shape Artiste
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        8.20 ETH
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        120 : 12 : 33 : 12
+                      </p>
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-3'>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                    </div>
+                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                      Price a Bid
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
+                    <div className='h-fit'>
+                      <Image
+                        src='/imgs/nft-market/eye.jpg'
+                        width={320}
+                        height={150}
+                        alt='nft demon'
+                        className='rounded-md block'
+                      />
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-start gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        3D Shape Artiste
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        8.20 ETH
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        120 : 12 : 33 : 12
+                      </p>
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-3'>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                    </div>
+                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                      Price a Bid
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
+                    <div className='h-fit'>
+                      <Image
+                        src='/imgs/nft-market/chameleon.jpg'
+                        width={320}
+                        height={150}
+                        alt='chameleon'
+                        className='rounded-md block'
+                      />
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-start gap-7'>
+                    <div className=''>
+                      <h4 className='block text-white text-base font-medium'>
+                        3D Shape Artiste
+                      </h4>
+                      <p className='block text-gray-500 text-sm font-normal'>
+                        8.20 ETH
+                      </p>
+                    </div>
+                    <div className='text-right'>
+                      <p className='block text-sm font-normal text-[#16F24D]'>
+                        120 : 12 : 33 : 12
+                      </p>
+                    </div>
+                  </div>
+                  <div className='w-full flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-3'>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
+                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      </div>
+                    </div>
+                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                      Price a Bid
+                    </button>
                   </div>
                 </div>
               </div>
