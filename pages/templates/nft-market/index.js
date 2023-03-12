@@ -18,6 +18,7 @@ import {
 } from 'react-icons/md'
 import { AiOutlineCloudUpload, AiOutlineShareAlt } from 'react-icons/ai'
 import { GiWallet } from 'react-icons/gi'
+import { FaEthereum, FaMedal } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -1406,6 +1407,253 @@ export default function Home() {
                     <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-24 w-[80%] mx-auto h-fit'>
+            <h2 className='text-5xl font-semibold leading-none text-white text-center'>
+              NFT Top Creator
+            </h2>
+            <div className='grid grid-cols-3 place-items-stretch gap-10 py-20'>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
+                  </div>
+                </div>
+              </div>
+              <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
+                <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
+                <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
+                  <div className='flex justify-between items-center gap-7'>
+                    <h3 className='text-xl text-white font-light leading-none'>Jame W Cottrell</h3>
+                    <div className='rounded-full bg-yellow-700 w-6 h-6 flex justify-center items-center'>
+                      <FaMedal className='text-sm text-red-900' />
+                    </div>
+                  </div>
+                  <div className='flex justify-between items-center gap-7'>
+                    <div className='flex justify-start items-center gap-2'>
+                      <div className='w-4 h-4 rounded-full bg-[#16F24D] flex justify-center items-center'>
+                        <FaEthereum className='text-white text-xs' />
+                      </div>
+                      <p className='text-sm text-gray-500 font-light'>123.99</p>
+                    </div>
+                    <p className='text-right text-base text-gray-500 font-light'>Item: 235.99</p>
                   </div>
                 </div>
               </div>
