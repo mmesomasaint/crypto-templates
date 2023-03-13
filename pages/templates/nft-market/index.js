@@ -1761,11 +1761,35 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-16 bg-'>
+          <div className='py-16 bg-[#171A1F]'>
             <div className='w-[80%] mx-auto'>
               <div className='grid grid-cols-9 place-items-center gap-10'>
                 <div className=''>
                   <Image src='/imgs/nft-market/microsoft.png' width={50} height={50} alt='microsoft logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/electronics-arts.png' width={50} height={50} alt='electronics arts logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/huawei.png' width={50} height={50} alt='huawei logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/ibm.png' width={50} height={50} alt='ibm logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/linkedin.png' width={50} height={50} alt='linkedin logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/pinterest.png' width={50} height={50} alt='pinterest logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/snapchat.png' width={50} height={50} alt='snapchat logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/tencent.png' width={50} height={50} alt='tencent logo' />
+                </div>
+                <div className=''>
+                  <Image src='/imgs/nft-market/twitch.png' width={50} height={50} alt='twitch logo' />
                 </div>
               </div>
             </div>
