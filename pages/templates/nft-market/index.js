@@ -1761,6 +1761,15 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className='py-16 bg-'>
+            <div className='w-[80%] mx-auto'>
+              <div className='grid grid-cols-9 place-items-center gap-10'>
+                <div className=''>
+                  <Image src='/imgs/nft-market/microsoft.png' width={50} height={50} alt='microsoft logo' />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
