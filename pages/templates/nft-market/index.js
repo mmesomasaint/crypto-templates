@@ -1707,7 +1707,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='pt-24 pb-40 w-[80%] mx-auto h-fit'>
+          <div className='pt-24 pb-52 w-[80%] mx-auto h-fit'>
             <div className='grid grid-cols-7 place-items-stretch gap-16 items-start'>
               <div className='col-span-3 h-fit'>
                 <h2 className='text-4xl font-semibold leading-tight text-white'>
