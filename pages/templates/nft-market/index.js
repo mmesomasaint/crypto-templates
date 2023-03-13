@@ -47,21 +47,21 @@ export default function Home() {
                 <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
                   <Link href='/templates/nft-market'>Home</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                   <Link href='/templates/nft-market/collection'>
                     Collection
                   </Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                   <Link href='/templates/nft-market/about'>About Us</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                   <Link href='/templates/nft-market/nft'>NFT</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                   <Link href='/templates/nft-market/blog'>Blog</Link>
                 </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] hover:glow-nft-primary'>
+                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                   <Link href='/templates/nft-market/contact'>Contact</Link>
                 </span>
                 <div className='relative'>
@@ -74,7 +74,7 @@ export default function Home() {
                     <BsSearch className='text-white text-lg text-opacity-70' />
                   </div>
                 </div>
-                <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   Join Now
                 </button>
               </div>
@@ -104,7 +104,7 @@ export default function Home() {
                           consectetur et ex at vulputate
                         </p>
                         <div className='mb-7 flex justify-start items-center gap-7'>
-                          <button className='text-black text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md hover:glow-nft-primary'>
+                          <button className='text-black text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                             Explore More
                           </button>
                           <div className='flex justify-start items-center gap-4'>
@@ -292,7 +292,7 @@ export default function Home() {
               </div>
             </div>
             <div className='grid grid-cols-4 gap-10 place-items-stretch'>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -322,7 +322,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -352,7 +352,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -382,7 +382,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -412,7 +412,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -442,7 +442,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded- hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded- transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -472,7 +472,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -502,7 +502,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -532,7 +532,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -562,7 +562,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
@@ -610,7 +610,7 @@ export default function Home() {
                     className='rounded-md border border-white'
                   />
                 </div>
-                <div className='group w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='group w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
@@ -646,7 +646,7 @@ export default function Home() {
                     className='rounded-md border border-white'
                   />
                 </div>
-                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
@@ -680,7 +680,7 @@ export default function Home() {
                   alt='sailing-ship'
                   className='rounded-md border border-white flex-shrink-0'
                 />
-                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
@@ -713,7 +713,7 @@ export default function Home() {
               Popular Collection in NFT
             </h2>
             <div className='grid grid-cols-4 place-items-stretch gap-5 py-20'>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -749,7 +749,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -785,7 +785,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -821,7 +821,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -857,7 +857,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -893,7 +893,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -929,7 +929,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -965,7 +965,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -1001,7 +1001,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -1037,7 +1037,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -1073,7 +1073,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -1109,7 +1109,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
@@ -1152,7 +1152,7 @@ export default function Home() {
               Live Auction
             </h2>
             <div className='grid grid-cols-3 place-items-stretch gap-10 py-20'>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
@@ -1195,7 +1195,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
@@ -1238,7 +1238,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
@@ -1281,7 +1281,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
@@ -1324,7 +1324,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
@@ -1367,7 +1367,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
@@ -1720,10 +1720,10 @@ export default function Home() {
                   pleasures have to be repudiated and annoyances accepted.
                 </p>
                 <div className='flex justify-start items-center gap-7'>
-                  <button className='my-7 py-2 px-5 font-normal text-lg text-gray-300 hover:text-[#16F24D] border border-gray-700 hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md'>
+                  <button className='my-7 py-2 px-5 font-normal text-lg text-gray-300 hover:text-[#16F24D] border border-gray-700 transition duration-300 hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md'>
                     Explore Items
                   </button>
-                  <button className='my-7 py-2 px-5 font-normal text-lg text-gray-300 hover:text-[#16F24D] border border-gray-700 hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md'>
+                  <button className='my-7 py-2 px-5 font-normal text-lg text-gray-300 hover:text-[#16F24D] border border-gray-700 transition duration-300 hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md'>
                     Connect Wallet
                   </button>
                 </div>
