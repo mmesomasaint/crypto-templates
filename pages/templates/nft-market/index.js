@@ -1866,7 +1866,8 @@ export default function Home() {
                 Nam ornare justo sit amet laoreet egestas. Etiam vel diam quis
                 erat egestas accumsan et id purus. Suspendisse potenti.
                 Vestibulum vehicula dapibus tellus, et varius libero maximus
-                eget. Quisque quis nisl tellus
+                eget. Quisque quis nisl tellus. Nullam at eros quis nibh iaculis
+                pellentesque eget ac nullaestibulum 
               </p>
               <div className='flex justify-center items-center gap-7'>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
@@ -1916,7 +1917,10 @@ export default function Home() {
             </div>
           </div>
           <div className='pb-7 w-[80%] mx-auto'>
-            <p className='text-center text-gray-300 text-base font-light'>&copy;2023 copyright by <span className='text-[#16F24D]'>mmesoma saint</span></p>
+            <p className='text-center text-gray-300 text-base font-light'>
+              &copy;2023 copyright by
+              <span className='text-[#16F24D]'> mmesoma saint</span>
+            </p>
           </div>
         </div>
       </footer>
