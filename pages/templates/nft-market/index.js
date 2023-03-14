@@ -202,7 +202,7 @@ export default function Home() {
                                 className='rounded-md'
                               />
                             </div>
-                            <div className='flex md:block justify-center items-center border w-full mb-32 md:mb-0'>
+                            <div className='w-full mb-32 md:mb-0'>
                               <Image
                                 src='/imgs/nft-market/pattern.jpeg'
                                 width={500}
