@@ -38,51 +38,53 @@ export default function Home() {
         <link rel='icon' href='/imgs/nft-market/favicon.ico' />
       </Head>
       <header className='absolute w-full w-transparent'>
-        <div className='max-w-[90rem] w-[80%] mx-auto py-9'>
-          <div className='flex justify-between items-center gap-6'>
-            <div className=''>
-              <Image
-                src='/imgs/nft-market/logo.png'
-                width={50}
-                height={30}
-                alt='logo'
-              />
-            </div>
-            <div className='flex justify-between items-center gap-7'>
-              <div className='flex justify-evenly items-center gap-7'>
-                <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
-                  <Link href='/templates/nft-market'>Home</Link>
-                </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market/collection'>
-                    Collection
-                  </Link>
-                </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market/about'>About Us</Link>
-                </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market/nft'>NFT</Link>
-                </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market/blog'>Blog</Link>
-                </span>
-                <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
-                  <Link href='/templates/nft-market/contact'>Contact</Link>
-                </span>
-                <div className='relative'>
-                  <input
-                    type='text'
-                    placeholder='Search Here'
-                    className='pl-10 py-3 text-base text-white bg-white bg-opacity-30 focus:outline-none focus-within:text-black rounded-md leading-none'
-                  />
-                  <div className='absolute top-0 w-fit h-full flex items-center ml-3 pointer-events-none'>
-                    <BsSearch className='text-white text-lg text-opacity-70' />
+        <div className='max-w-[90rem] mx-auto'>
+          <div className='w-[80%] mx-auto py-9'>
+            <div className='flex justify-between items-center gap-6'>
+              <div className=''>
+                <Image
+                  src='/imgs/nft-market/logo.png'
+                  width={50}
+                  height={30}
+                  alt='logo'
+                />
+              </div>
+              <div className='flex justify-between items-center gap-7'>
+                <div className='flex justify-evenly items-center gap-7'>
+                  <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
+                    <Link href='/templates/nft-market'>Home</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
+                    <Link href='/templates/nft-market/collection'>
+                      Collection
+                    </Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
+                    <Link href='/templates/nft-market/about'>About Us</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
+                    <Link href='/templates/nft-market/nft'>NFT</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
+                    <Link href='/templates/nft-market/blog'>Blog</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
+                    <Link href='/templates/nft-market/contact'>Contact</Link>
+                  </span>
+                  <div className='relative'>
+                    <input
+                      type='text'
+                      placeholder='Search Here'
+                      className='pl-10 py-3 text-base text-white bg-white bg-opacity-30 focus:outline-none focus-within:text-black rounded-md leading-none'
+                    />
+                    <div className='absolute top-0 w-fit h-full flex items-center ml-3 pointer-events-none'>
+                      <BsSearch className='text-white text-lg text-opacity-70' />
+                    </div>
                   </div>
+                  <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                    Join Now
+                  </button>
                 </div>
-                <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                  Join Now
-                </button>
               </div>
             </div>
           </div>
@@ -278,11 +280,21 @@ export default function Home() {
                   <MdOutlineKeyboardArrowDown className='text-white text-xl' />
                   <div className='absolute left-0 top-[calc(100%_+_1px)] z-10 hidden group-hover:block w-fit p-4 rounded-md border border-gray-500 backdrop-blur-sm'>
                     <div className='flex flex-col justify-start items-start gap-3'>
-                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Visual Art</p>
-                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Photo Art</p>
-                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Digital Art</p>
-                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Man Art</p>
-                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Logo Art</p>
+                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>
+                        Visual Art
+                      </p>
+                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>
+                        Photo Art
+                      </p>
+                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>
+                        Digital Art
+                      </p>
+                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>
+                        Man Art
+                      </p>
+                      <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>
+                        Logo Art
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1875,7 +1887,7 @@ export default function Home() {
                 erat egestas accumsan et id purus. Suspendisse potenti.
                 Vestibulum vehicula dapibus tellus, et varius libero maximus
                 eget. Quisque quis nisl tellus. Nullam at eros quis nibh iaculis
-                pellentesque eget ac nullaestibulum 
+                pellentesque eget ac nullaestibulum
               </p>
               <div className='flex justify-center items-center gap-7'>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
