@@ -271,7 +271,7 @@ export default function Home() {
                 NFT Gallery
               </h2>
               <div className='flex justify-evenly items-center gap-4'>
-                <div className='relative flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                <div className='relative flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D] rounded-md'>
                   <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
                     Art
                   </span>
@@ -286,19 +286,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D] rounded-md'>
                   <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
                     3D Shape
                   </span>
                   <MdOutlineKeyboardArrowRight className='text-white text-xl' />
                 </div>
-                <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D] rounded-md'>
                   <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
                     Pixel
                   </span>
                   <MdOutlineKeyboardArrowRight className='text-white text-xl' />
                 </div>
-                <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D]'>
+                <div className='flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D] rounded-md'>
                   <span className='text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
                     Music
                   </span>
