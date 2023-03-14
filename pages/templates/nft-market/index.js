@@ -11,7 +11,6 @@ import {
   BsCashCoin,
   BsTwitter,
   BsInstagram,
-  Bs,
 } from 'react-icons/bs'
 import {
   MdPhotoLibrary,
