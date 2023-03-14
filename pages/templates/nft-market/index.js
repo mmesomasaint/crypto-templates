@@ -28,7 +28,7 @@ import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-[#212429]'>
       <Head>
         <title>NFT Market</title>
         <meta
@@ -89,7 +89,7 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <div className='max-w-[90rem] mx-auto bg-[#212429]'>
+        <div className='max-w-[90rem] mx-auto'>
           <div className="h-fit md:h-[50rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
             <div className='bg-[rgba(0,0,255,0.35)] w-full h-full'>
               <div className='bg-[rgba(0,0,0,0.55)] w-full h-full'>
@@ -1857,7 +1857,7 @@ export default function Home() {
         </div>
       </main>
       <footer>
-        <div className='max-w-[90rem] mx-auto bg-[#212429]'>
+        <div className='max-w-[90rem] mx-auto'>
           <div className='pt-24 w-[80%] mx-auto'>
             <div className='flex flex-col justify-start items-center gap-10'>
               <div className='w-32 h-32 bg-[#16F24D] bg-opacity-20 rounded-full'>
