@@ -127,7 +127,7 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                        <div className='flex justify-center md:justify-start items-center gap-7'>
+                        <div className='flex justify-center md:justify-start items-center gap-3 sm:gap-7'>
                           <div className='bg-white transition duration-300 hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 md:w-20 lg:w-24 h-24 md:h-20 lg:h-24'>
                             <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
                               <p className='block text-base md:text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
@@ -221,7 +221,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-12 w-[98%] xl:w-[80%] mx-auto'>
-            <div className='grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-7 place-items-center'>
+            <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-7 place-items-center'>
               <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
@@ -277,7 +277,7 @@ export default function Home() {
               <h2 className='text-5xl font-semibold leading-none text-white'>
                 NFT Gallery
               </h2>
-              <div className='flex justify-evenly items-center gap-2 lg:gap-4'>
+              <div className='flex flex-wrap justify-evenly items-center gap-4 sm:gap-2 lg:gap-4'>
                 <div className='relative flex justify-start items-center gap-2 px-4 py-2 group cursor-pointer border border-gray-500 hover:border-[#16F24D] rounded-md'>
                   <span className='text-base lg:text-lg font-medium leading-none text-white group-hover:text-[#16F24D]'>
                     Art
@@ -323,7 +323,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='grid grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 place-items-stretch'>
+            <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 place-items-center sm:place-items-stretch'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
@@ -632,7 +632,7 @@ export default function Home() {
               Create, Sell Your NFT
             </h2>
             <div className='w-fit mx-auto p-2 bg-[#212429] my-[1rem] lg:my-[10rem] relative flex flex-col lg:block'>
-              <div className='lg:absolute -top-32 -right-[2rem] flex items-end gap-2 my-3 lg:my-0'>
+              <div className='lg:absolute -top-32 -right-[2rem] flex flex-wrap justify-center sm:justify-start items-end gap-2 my-3 lg:my-0'>
                 <div className='lg:relative -bottom-8 bg-[#212429] rounded-md p-0 lg:p-2'>
                   <Image
                     src='/imgs/nft-market/abstract.jpg'
@@ -642,7 +642,7 @@ export default function Home() {
                     className='rounded-md border border-white'
                   />
                 </div>
-                <div className='group w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='group w-fit sm:w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
@@ -668,7 +668,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='lg:absolute -bottom-[10.6rem] -left-[2rem] flex items-end gap-2 my-3 lg:my-0'>
+              <div className='lg:absolute -bottom-[10.6rem] -left-[2rem] flex flex-wrap justify-center sm:justify-start items-end gap-2 my-3 lg:my-0'>
                 <div className='lg:relative -top-16 bg-[#212429] rounded-md p-0 lg:p-2 flex-shrink-0'>
                   <Image
                     src='/imgs/nft-market/abstract.jpg'
@@ -678,7 +678,7 @@ export default function Home() {
                     className='rounded-md border border-white'
                   />
                 </div>
-                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='group flex-shrink sm:flex-shrink-0 w-fit sm:w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
@@ -710,9 +710,9 @@ export default function Home() {
                   width={400}
                   height={400}
                   alt='sailing-ship'
-                  className='w-[350px] lg:w-[400px] rounded-md border border-white flex-shrink-0'
+                  className='w-[240px] sm:w-[350px] lg:w-[400px] rounded-md border border-white flex-shrink-0'
                 />
-                <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='group flex-shrink-0 w-fit sm:w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                   <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
@@ -744,7 +744,7 @@ export default function Home() {
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Popular Collection in NFT
             </h2>
-            <div className='grid grid-cols-3 lg:grid-cols-4 place-items-stretch gap-5 py-20'>
+            <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 place-items-center sm:place-items-stretch gap-5 py-20'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
@@ -1183,7 +1183,7 @@ export default function Home() {
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Live Auction
             </h2>
-            <div className='grid grid-cols-2 lg:grid-cols-3 place-items-stretch gap-10 py-20'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center sm:place-items-stretch gap-10 py-20'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
@@ -1448,7 +1448,7 @@ export default function Home() {
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               NFT Top Creator
             </h2>
-            <div className='grid grid-cols-2 lg:grid-cols-3 place-items-stretch gap-10 py-20'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center sm:w-[200px] sm:w-[300px] place-items-stretch gap-10 py-20'>
               <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
@@ -1768,25 +1768,25 @@ export default function Home() {
                       width={300}
                       height={400}
                       alt='beach abstract'
-                      className='rounded-md'
+                      className='w-[150px] sm:w-[300px] rounded-md'
                     />
                   </div>
-                  <div className='p-2 rounded-md bg-[#212429] absolute -top-1 -right-[75%] z-30'>
+                  <div className='p-2 rounded-md bg-[#212429] absolute top-0 sm:-top-1 -right-[60%] sm:-right-[75%] z-30'>
                     <Image
                       src='/imgs/nft-market/beach-abstract.jpg'
                       width={200}
                       height={200}
                       alt='beach abstract'
-                      className='rounded-md'
+                      className='w-[70px] sm:w-[200px] rounded-md'
                     />
                   </div>
-                  <div className='p-2 rounded-md bg-[#212429] absolute -bottom-32 -right-[50%] z-20'>
+                  <div className='p-2 rounded-md bg-[#212429] absolute -bottom-[40%] -right-[50%] z-20'>
                     <Image
                       src='/imgs/nft-market/fluid-pattern.jpg'
                       width={300}
                       height={400}
                       alt='fluid pattern'
-                      className='rounded-md'
+                      className='w-[150px] sm:w-[300px] rounded-md'
                     />
                   </div>
                 </div>
@@ -1795,7 +1795,7 @@ export default function Home() {
           </div>
           <div className='py-16 bg-[#171A1F]'>
             <div className='w-[98%] xl:w-[80%] mx-auto'>
-              <div className='grid grid-cols-9 place-items-center gap-10'>
+              <div className='grid grid-cols-3 sm:grid-cols-9 place-items-center gap-10'>
                 <div className=''>
                   <Image
                     src='/imgs/nft-market/microsoft.png'
@@ -1916,7 +1916,7 @@ export default function Home() {
           <div className='py-7'>
             <div className='py-7 bg-[#171A1F]'>
               <div className='w-[98%] xl:w-[80%] mx-auto'>
-                <div className='flex justify-center items-center gap-10'>
+                <div className='flex flex-wrap justify-center items-center gap-10'>
                   <span className='font-normal text-lg leading-none text-white'>
                     <Link href='/templates/nft-market'>Home</Link>
                   </span>
