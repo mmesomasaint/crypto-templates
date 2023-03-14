@@ -39,7 +39,7 @@ export default function Home() {
       </Head>
       <header className='absolute w-full w-transparent'>
         <div className='max-w-[90rem] mx-auto'>
-          <div className='w-[80%] mx-auto py-9'>
+          <div className='w-[98%] xl:w-[80%] mx-auto py-9'>
             <div className='flex justify-between items-center gap-6'>
               <div className=''>
                 <Image
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="h-fit md:h-[50rem] w-full bg-[url('/imgs/nft-market/main-sm.jpeg')] bg-no-repeat bg-cover bg-bottom">
             <div className='bg-[rgba(0,0,255,0.35)] w-full h-full'>
               <div className='bg-[rgba(0,0,0,0.55)] w-full h-full'>
-                <div className='flex gap-1 justify-center items-center w-[80%] mx-auto h-full'>
+                <div className='flex gap-1 justify-center items-center w-[98%] xl:w-[80%] mx-auto h-full'>
                   <div className='w-full h-fit pt-16'>
                     <h5 className='text-[#16F24D] text-2xl font-semibold capitalize mb-4'>
                       Welcome to NFT Market
@@ -215,7 +215,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 w-[80%] mx-auto'>
+          <div className='py-24 w-[98%] xl:w-[80%] mx-auto'>
             <div className='grid grid-cols-6 gap-7 place-items-stretch'>
               <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
@@ -267,7 +267,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 w-[80%] mx-auto'>
+          <div className='py-24 w-[98%] xl:w-[80%] mx-auto'>
             <div className='flex justify-between items-end gap-7 mb-5'>
               <h2 className='text-5xl font-semibold leading-none text-white'>
                 NFT Gallery
@@ -622,7 +622,7 @@ export default function Home() {
             </div>
           </div>
           <div className="h-[30rem] w-full bg-[url('/imgs/nft-market/game-room.jpg')] bg-no-repeat bg-cover bg-center" />
-          <div className='py-24 w-[80%] mx-auto h-fit'>
+          <div className='py-24 w-[98%] xl:w-[80%] mx-auto h-fit'>
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Create, Sell Your NFT
             </h2>
@@ -735,7 +735,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 w-[80%] mx-auto h-fit'>
+          <div className='py-24 w-[98%] xl:w-[80%] mx-auto h-fit'>
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Popular Collection in NFT
             </h2>
@@ -1174,7 +1174,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 w-[80%] mx-auto h-fit'>
+          <div className='py-24 w-[98%] xl:w-[80%] mx-auto h-fit'>
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               Live Auction
             </h2>
@@ -1439,7 +1439,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-24 w-[80%] mx-auto h-fit'>
+          <div className='py-24 w-[98%] xl:w-[80%] mx-auto h-fit'>
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               NFT Top Creator
             </h2>
@@ -1734,7 +1734,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='pt-24 pb-52 w-[80%] mx-auto h-fit'>
+          <div className='pt-24 pb-52 w-[98%] xl:w-[80%] mx-auto h-fit'>
             <div className='grid grid-cols-7 place-items-stretch gap-16 items-start'>
               <div className='col-span-3 h-fit'>
                 <h2 className='text-4xl font-semibold leading-tight text-white'>
@@ -1789,7 +1789,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-16 bg-[#171A1F]'>
-            <div className='w-[80%] mx-auto'>
+            <div className='w-[98%] xl:w-[80%] mx-auto'>
               <div className='grid grid-cols-9 place-items-center gap-10'>
                 <div className=''>
                   <Image
@@ -1870,7 +1870,7 @@ export default function Home() {
       </main>
       <footer>
         <div className='max-w-[90rem] mx-auto'>
-          <div className='pt-24 w-[80%] mx-auto'>
+          <div className='pt-24 w-[98%] xl:w-[80%] mx-auto'>
             <div className='flex flex-col justify-start items-center gap-10'>
               <div className='w-32 h-32 bg-[#16F24D] bg-opacity-20 rounded-full'>
                 <div className='w-full h-full rounded-full bg-white bg-opacity-20 flex justify-center items-center'>
@@ -1910,7 +1910,7 @@ export default function Home() {
           </div>
           <div className='py-7'>
             <div className='py-7 bg-[#171A1F]'>
-              <div className='w-[80%] mx-auto'>
+              <div className='w-[98%] xl:w-[80%] mx-auto'>
                 <div className='flex justify-center items-center gap-10'>
                   <span className='font-normal text-lg leading-none text-white'>
                     <Link href='/templates/nft-market'>Home</Link>
@@ -1936,7 +1936,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='pb-7 w-[80%] mx-auto'>
+          <div className='pb-7 w-[98%] xl:w-[80%] mx-auto'>
             <p className='text-center text-gray-300 text-base font-light'>
               &copy;2023 copyright by
               <span className='text-[#16F24D]'> mmesoma saint</span>
