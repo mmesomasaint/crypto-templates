@@ -1805,18 +1805,18 @@ export default function Home() {
                 </div>
                 <div className=''>
                   <Image
-                    src='/imgs/nft-market/linkedin.png'
-                    width={50}
-                    height={50}
-                    alt='linkedin logo'
-                  />
-                </div>
-                <div className=''>
-                  <Image
                     src='/imgs/nft-market/pinterest.png'
                     width={50}
                     height={50}
                     alt='pinterest logo'
+                  />
+                </div>
+                <div className=''>
+                  <Image
+                    src='/imgs/nft-market/linkedin.png'
+                    width={50}
+                    height={50}
+                    alt='linkedin logo'
                   />
                 </div>
                 <div className=''>
