@@ -9,6 +9,9 @@ import {
   BsFillBarChartLineFill,
   BsFillHeartFill,
   BsCashCoin,
+  BsTwitter,
+  BsInstagram,
+  Bs,
 } from 'react-icons/bs'
 import {
   MdPhotoLibrary,
@@ -16,9 +19,13 @@ import {
   MdOutlineKeyboardArrowDown,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md'
-import { AiOutlineCloudUpload, AiOutlineShareAlt } from 'react-icons/ai'
+import {
+  AiOutlineCloudUpload,
+  AiOutlineShareAlt,
+  AiOutlineMail,
+} from 'react-icons/ai'
 import { GiWallet } from 'react-icons/gi'
-import { FaEthereum, FaMedal } from 'react-icons/fa'
+import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -1841,6 +1848,78 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <footer>
+        <div className='max-w-[90rem] mx-auto bg-[#212429]'>
+          <div className='pt-24 w-[80%] mx-auto'>
+            <div className='flex flex-col justify-start items-center gap-10'>
+              <div className='w-32 h-32 bg-[#16F24D] bg-opacity-20 rounded-full'>
+                <div className='w-full h-full rounded-full bg-white bg-opacity-20 flex justify-center items-center'>
+                  <Image
+                    src='/imgs/nft-market/logo.png'
+                    width={80}
+                    height={80}
+                    alt='logo'
+                  />
+                </div>
+              </div>
+              <p className='text-base font-light text-gray-300 w-[70%] text-center'>
+                Nam ornare justo sit amet laoreet egestas. Etiam vel diam quis
+                erat egestas accumsan et id purus. Suspendisse potenti.
+                Vestibulum vehicula dapibus tellus, et varius libero maximus
+                eget. Quisque quis nisl tellus
+              </p>
+              <div className='flex justify-center items-center gap-7'>
+                <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
+                  <FaFacebookF className='text-base text-white group-hover:text-[#16F24D]' />
+                </div>
+                <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
+                  <FaLinkedinIn className='text-base text-white group-hover:text-[#16F24D]' />
+                </div>
+                <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
+                  <BsInstagram className='text-base text-white group-hover:text-[#16F24D]' />
+                </div>
+                <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
+                  <BsTwitter className='text-base text-white group-hover:text-[#16F24D]' />
+                </div>
+                <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
+                  <AiOutlineMail className='text-base text-white group-hover:text-[#16F24D]' />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-7'>
+            <div className='py-7 bg-[#171A1F]'>
+              <div className='w-[80%] mx-auto'>
+                <div className='flex justify-center items-center gap-10'>
+                  <span className='font-normal text-lg leading-none text-white'>
+                    <Link href='/templates/nft-market'>Home</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white'>
+                    <Link href='/templates/nft-market/collection'>
+                      Collection
+                    </Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white'>
+                    <Link href='/templates/nft-market/about'>About Us</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white'>
+                    <Link href='/templates/nft-market/nft'>NFT</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white'>
+                    <Link href='/templates/nft-market/blog'>Blog</Link>
+                  </span>
+                  <span className='font-normal text-lg leading-none text-white'>
+                    <Link href='/templates/nft-market/contact'>Contact</Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='pb-7 w-[80%] mx-auto'>
+            <p className='text-center text-gray-300 text-base font-light'>&copy;2023 copyright by <span className='text-[#16F24D]'>mmesoma saint</span></p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
