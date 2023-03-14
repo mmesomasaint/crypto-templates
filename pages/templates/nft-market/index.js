@@ -276,7 +276,7 @@ export default function Home() {
                     Art
                   </span>
                   <MdOutlineKeyboardArrowDown className='text-white text-xl' />
-                  <div className='absolute left-0 top-[100%] z-10 hidden group-hover:block w-fit p-4 rounded-md border border-gray-500 backdrop-blur-sm'>
+                  <div className='absolute left-0 top-[calc(100%_+_1px)] z-10 hidden group-hover:block w-fit p-4 rounded-md border border-gray-500 backdrop-blur-sm'>
                     <div className='flex flex-col justify-start items-start gap-3'>
                       <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Visual Art</p>
                       <p className='transition duration-300 border-b border-white hover:border-[#16F24D] text-white hover:text-[#16F24D] text-base font-light pr-10 pb-1 whitespace-nowrap'>Photo Art</p>
