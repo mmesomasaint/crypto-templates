@@ -1448,7 +1448,7 @@ export default function Home() {
             <h2 className='text-5xl font-semibold leading-none text-white text-center'>
               NFT Top Creator
             </h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center sm:w-[200px] sm:w-[300px] place-items-stretch gap-10 py-20'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center sm:place-items-stretch gap-10 py-20'>
               <div className='flex justify-start items-center gap-3 p-3 rounded-md border border-gray-700'>
                 <div className="bg-[url('/imgs/nft-market/black-model.jpg')] bg-center bg-cover bg-no-repeat rounded-full w-16 h-16" />
                 <div className='flex flex-col justify-start items-stretch flex-grow gap-y-3'>
