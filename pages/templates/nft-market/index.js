@@ -81,13 +81,13 @@ export default function Home() {
                       <BsSearch className='text-white text-lg text-opacity-70' />
                     </div>
                   </div>
-                  <div className='lg:hidden'>
-                    <BsSearch className='text-white text-lg lg:text-xl' />
-                  </div>
-                  <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                    Join Now
-                  </button>
                 </div>
+                <div className='lg:hidden'>
+                  <BsSearch className='text-white text-lg lg:text-xl' />
+                </div>
+                <button className='text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                  Join Now
+                </button>
               </div>
             </div>
           </div>
