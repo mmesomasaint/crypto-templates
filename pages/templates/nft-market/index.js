@@ -1189,11 +1189,11 @@ export default function Home() {
                   </div>
                   <div className='w-full flex justify-between items-center gap-7'>
                     <div className='flex justify-start items-center gap-3'>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <AiOutlineShareAlt className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
                     </div>
                     <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
@@ -1232,11 +1232,11 @@ export default function Home() {
                   </div>
                   <div className='w-full flex justify-between items-center gap-7'>
                     <div className='flex justify-start items-center gap-3'>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <AiOutlineShareAlt className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
                     </div>
                     <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
@@ -1275,11 +1275,11 @@ export default function Home() {
                   </div>
                   <div className='w-full flex justify-between items-center gap-7'>
                     <div className='flex justify-start items-center gap-3'>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <AiOutlineShareAlt className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
                     </div>
                     <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
@@ -1318,11 +1318,11 @@ export default function Home() {
                   </div>
                   <div className='w-full flex justify-between items-center gap-7'>
                     <div className='flex justify-start items-center gap-3'>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <AiOutlineShareAlt className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
                     </div>
                     <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
@@ -1361,11 +1361,11 @@ export default function Home() {
                   </div>
                   <div className='w-full flex justify-between items-center gap-7'>
                     <div className='flex justify-start items-center gap-3'>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <AiOutlineShareAlt className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
                     </div>
                     <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
@@ -1404,11 +1404,11 @@ export default function Home() {
                   </div>
                   <div className='w-full flex justify-between items-center gap-7'>
                     <div className='flex justify-start items-center gap-3'>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <BsFillHeartFill className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
-                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500'>
-                        <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
+                      <div className=' w-6 h-6 flex justify-center items-center rounded-full border border-gray-500 transition duration-300 group-hover:border-[#16F24D]'>
+                        <AiOutlineShareAlt className='text-gray-500 transition duration-300 group-hover:text-[#16F24D] text-sm flex-shrink-0' />
                       </div>
                     </div>
                     <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
