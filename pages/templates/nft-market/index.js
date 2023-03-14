@@ -50,7 +50,7 @@ export default function Home() {
                 />
               </div>
               <div className='flex justify-between items-center gap-7'>
-                <div className='flex justify-evenly items-center gap-7'>
+                <div className='hidden md:flex justify-evenly items-center gap-7'>
                   <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
                     <Link href='/templates/nft-market'>Home</Link>
                   </span>
@@ -99,68 +99,68 @@ export default function Home() {
             <div className='bg-[rgba(0,0,255,0.35)] w-full h-full'>
               <div className='bg-[rgba(0,0,0,0.55)] w-full h-full'>
                 <div className='flex gap-1 justify-center items-center w-[98%] xl:w-[80%] mx-auto h-full'>
-                  <div className='w-full h-fit pt-16'>
-                    <h5 className='text-[#16F24D] text-xl lg:text-2xl font-semibold capitalize mb-4'>
+                  <div className='w-full h-fit pt-32 md:pt-16'>
+                    <h5 className='text-[#16F24D] text-xl lg:text-2xl text-center md:text-left font-semibold capitalize mb-4'>
                       Welcome to NFT Market
                     </h5>
-                    <div className='w-full h-full grid grid-cols-7 gap-10 place-content-center'>
-                      <div className='col-span-4'>
-                        <h1 className='text-4xl lg:text-5xl font-bold leading-normal text-white'>
+                    <div className='w-full h-full grid grid-cols-1 md:grid-cols-7 gap-10 place-content-center'>
+                      <div className='col-span-full md:col-span-4'>
+                        <h1 className='text-5xl md:text-4xl lg:text-5xl font-bold leading-normal text-white text-center md:text-left'>
                           Create, Sell or Collect Digital Items.
                         </h1>
-                        <p className='my-7 text-gray-400 text-lg lg:text-2xl font-normal leading-tight'>
+                        <p className='my-7 text-gray-400 text-2xl md:text-lg lg:text-2xl text-center md:text-left font-normal leading-tight w-[80%] md:w-full mx-auto md:mx-auto'>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Aenean mollis ligula sed diam sollicitudin,
                           aliquam fermentum sapien consectetur. Donec
                           consectetur et ex at vulputate
                         </p>
-                        <div className='mb-7 flex justify-start items-center gap-7'>
-                          <button className='text-black text-sm lg:text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                        <div className='mb-7 flex justify-center md:justify-start items-center gap-7'>
+                          <button className='text-black text-base md:text-sm lg:text-base py-4 px-7 font-medium leading-none bg-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                             Explore More
                           </button>
                           <div className='flex justify-start items-center gap-4'>
                             <div className='w-8 h-8 bg-white bg-opacity-30 hover:shadow-up-2x rounded-full flex justify-center items-center'>
                               <BsFillPlayFill className='text-[#16F24D] text-xl' />
                             </div>
-                            <p className='text-[#16F24D] text-sm lg:text-base'>
+                            <p className='text-[#16F24D] text-base md:text-sm lg:text-base'>
                               Watch Video
                             </p>
                           </div>
                         </div>
-                        <div className='flex justify-start items-center gap-7'>
-                          <div className='bg-white transition duration-300 hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-20 lg:w-24 h-20 lg:h-24'>
+                        <div className='flex justify-center md:justify-start items-center gap-7'>
+                          <div className='bg-white transition duration-300 hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 md:w-20 lg:w-24 h-24 md:h-20 lg:h-24'>
                             <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
-                              <p className='block text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
+                              <p className='block text-base md:text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
                                 2.99k
                               </p>
-                              <p className='block text-sm lg:text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                              <p className='block text-base md:text-sm lg:text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
                                 Live Auction
                               </p>
                             </div>
                           </div>
-                          <div className='bg-white hover:bg-[#16F24D] transition duration-300 hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-20 lg:w-24 h-20 lg:h-24'>
+                          <div className='bg-white hover:bg-[#16F24D] transition duration-300 hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 md:w-20 lg:w-24 h-24 md:h-20 lg:h-24'>
                             <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
-                              <p className='block text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
+                              <p className='block text-base md:text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
                                 99.15M
                               </p>
-                              <p className='block text-sm lg:text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                              <p className='block text-base md:text-sm lg:text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
                                 NFT Store
                               </p>
                             </div>
                           </div>
-                          <div className='bg-white hover:bg-[#16F24D] transition duration-300 hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-20 lg:w-24 h-20 lg:h-24'>
+                          <div className='bg-white hover:bg-[#16F24D] transition duration-300 hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 md:w-20 lg:w-24 h-24 md:h-20 lg:h-24'>
                             <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
-                              <p className='block text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
+                              <p className='block text-base md:text-sm lg:text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
                                 2.99k
                               </p>
-                              <p className='block text-sm lg:text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                              <p className='block text-base md:text-sm lg:text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
                                 Collection
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className='col-span-3'>
+                      <div className='col-span-full md:col-span-3'>
                         <div className='relative w-full h-full'>
                           <div className='absolute z-10 -top-[7rem] flex justify-center items-center bg-transparent w-full'>
                             <Image
@@ -170,25 +170,25 @@ export default function Home() {
                               alt='silver hand'
                             />
                           </div>
-                          <div className='relative w-fit'>
+                          <div className='relative w-fit mt-24 md:mt-0 mx-auto md:mx-0'>
                             <div className='absolute z-20 bg-transparent grid grid-cols-5 gap-2 lg:gap-3 place-items-stretch w-full h-full items-end p-2 lg:p-5'>
                               <div className='col-span-2 grid grid-cols-3 gap-4 lg:gap-1'>
                                 <div className="w-10 h-10 rounded-full bg-[url('/imgs/nft-market/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
                                 <div className='col-span-2 flex flex-col items-start justify-center gap-1'>
-                                  <p className='text-xs lg:text-base font-normal leading-none text-white'>
+                                  <p className='text-base md:text-xs lg:text-base font-normal leading-none text-white'>
                                     MD Name Is
                                   </p>
-                                  <p className='text-xs lg:text-base font-extralight leading-none text-white'>
+                                  <p className='text-base md:text-xs lg:text-base font-extralight leading-none text-white'>
                                     ETH 15.99
                                   </p>
                                 </div>
                               </div>
                               <div className='col-span-3 border border-[#16F24D] bg-white bg-opacity-30 rounded-md w-full flex justify-center items-center'>
-                                <div className='w-fit h-fit py-1 lg:py-3'>
-                                  <span className='text-sm lg:text-lg font-medium text-white leading-none'>
-                                    365<span className='mx-1 lg:mx-2'>:</span>10
-                                    <span className='mx-1 lg:mx-2'>:</span>65
-                                    <span className='mx-1 lg:mx-2'>:</span>13
+                                <div className='w-fit h-fit py-3 md:py-1 lg:py-3'>
+                                  <span className='text-lg md:text-sm lg:text-lg font-medium text-white leading-none'>
+                                    365<span className='mx-2 md:mx-1 lg:mx-2'>:</span>10
+                                    <span className='mx-2 md:mx-1 lg:mx-2'>:</span>65
+                                    <span className='mx-2 md:mx-1 lg:mx-2'>:</span>13
                                   </span>
                                 </div>
                               </div>
@@ -202,13 +202,15 @@ export default function Home() {
                                 className='rounded-md'
                               />
                             </div>
-                            <Image
-                              src='/imgs/nft-market/pattern.jpeg'
-                              width={500}
-                              height={500}
-                              alt='pattern'
-                              className='rounded-md'
-                            />
+                            <div className='flex md:block justify-center items-center border w-full mb-32 md:mb-0'>
+                              <Image
+                                src='/imgs/nft-market/pattern.jpeg'
+                                width={500}
+                                height={500}
+                                alt='pattern'
+                                className='w-[400px] md:w-[500px] rounded-md'
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -219,7 +221,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-12 w-[98%] xl:w-[80%] mx-auto'>
-            <div className='grid grid-cols-5 lg:grid-cols-6 gap-7 place-items-center'>
+            <div className='grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-7 place-items-center'>
               <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
@@ -271,7 +273,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-12 w-[98%] xl:w-[80%] mx-auto'>
-            <div className='flex justify-between items-end gap-3 lg:gap-7 mb-5'>
+            <div className='flex flex-col md:flex-row justify-between items-center md:items-end gap-7 md:gap-3 lg:gap-7 mb-5'>
               <h2 className='text-5xl font-semibold leading-none text-white'>
                 NFT Gallery
               </h2>
@@ -321,7 +323,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='grid grid-cols-3 lg:grid-cols-4 gap-10 place-items-stretch'>
+            <div className='grid grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 place-items-stretch'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
@@ -702,7 +704,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='flex items-end gap-3 my-3 lg:my-0 order-first'>
+              <div className='flex flex-wrap justify-center md:justify-start items-end gap-3 my-3 lg:my-0 order-first'>
                 <Image
                   src='/imgs/nft-market/sailing-ship.jpg'
                   width={400}
@@ -1759,7 +1761,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='col-span-full lg:col-span-4'>
-                <div className='relative w-fit mx-[13%] lg:mx-0'>
+                <div className='relative w-fit mx-[6%] md:mx-[13%] lg:mx-0'>
                   <div className='p-2 rounded-md bg-[#212429] z-10'>
                     <Image
                       src='/imgs/nft-market/beach-abstract.jpg'
