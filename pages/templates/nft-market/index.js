@@ -216,7 +216,7 @@ export default function Home() {
             </div>
           </div>
           <div className='py-24 w-[98%] xl:w-[80%] mx-auto'>
-            <div className='grid grid-cols-6 gap-7 place-items-stretch'>
+            <div className='grid grid-cols-6 gap-7 place-items-center'>
               <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
                 <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
