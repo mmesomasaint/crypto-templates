@@ -1196,7 +1196,7 @@ export default function Home() {
                         <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
                       </div>
                     </div>
-                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                    <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
                   </div>
@@ -1239,7 +1239,7 @@ export default function Home() {
                         <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
                       </div>
                     </div>
-                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                    <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
                   </div>
@@ -1282,7 +1282,7 @@ export default function Home() {
                         <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
                       </div>
                     </div>
-                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                    <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
                   </div>
@@ -1325,7 +1325,7 @@ export default function Home() {
                         <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
                       </div>
                     </div>
-                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                    <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
                   </div>
@@ -1368,7 +1368,7 @@ export default function Home() {
                         <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
                       </div>
                     </div>
-                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                    <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
                   </div>
@@ -1411,7 +1411,7 @@ export default function Home() {
                         <AiOutlineShareAlt className='text-gray-500 text-sm flex-shrink-0' />
                       </div>
                     </div>
-                    <button className='border border-gray-500 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
+                    <button className='border border-gray-500 transition duration-300 group-hover:border-[#16F24D] rounded-md py-1 px-5 text-gray-500 group-hover:text-[#16F24D]'>
                       Price a Bid
                     </button>
                   </div>
