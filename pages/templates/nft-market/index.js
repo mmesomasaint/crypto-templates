@@ -124,32 +124,32 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='flex justify-start items-center gap-7'>
-                          <div className='bg-white hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
-                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white group-hover:bg-opacity-30 rounded-md '>
-                              <p className='block text-base font-semibold leading-none group-hover:text-[#16F24D] text-white'>
+                          <div className='bg-white transition duration-300 hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
+                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
+                              <p className='block text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
                                 2.99k
                               </p>
-                              <p className='block text-base font-normal leading-none group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                              <p className='block text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
                                 Live Auction
                               </p>
                             </div>
                           </div>
-                          <div className='bg-white hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
-                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white group-hover:bg-opacity-30 rounded-md '>
-                              <p className='block text-base font-semibold leading-none group-hover:text-[#16F24D] text-white'>
+                          <div className='bg-white hover:bg-[#16F24D] transition duration-300 hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
+                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
+                              <p className='block text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
                                 99.15M
                               </p>
-                              <p className='block text-base font-normal leading-none group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                              <p className='block text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
                                 NFT Store
                               </p>
                             </div>
                           </div>
-                          <div className='bg-white hover:bg-[#16F24D] hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
-                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white group-hover:bg-opacity-30 rounded-md '>
-                              <p className='block text-base font-semibold leading-none group-hover:text-[#16F24D] text-white'>
+                          <div className='bg-white hover:bg-[#16F24D] transition duration-300 hover:bg-opacity-30 bg-opacity-30 group rounded-md flex justify-center items-center w-24 h-24'>
+                            <div className='flex flex-col items-center justify-center gap-4 w-full h-full group-hover:bg-white transition duration-300 group-hover:bg-opacity-30 rounded-md '>
+                              <p className='block text-base font-semibold leading-none transition duration-300 group-hover:text-[#16F24D] text-white'>
                                 2.99k
                               </p>
-                              <p className='block text-base font-normal leading-none group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
+                              <p className='block text-base font-normal leading-none transition duration-300 group-hover:font-semibold text-[#16F24D] group-hover:text-white'>
                                 Collection
                               </p>
                             </div>
@@ -216,50 +216,50 @@ export default function Home() {
           </div>
           <div className='py-24 w-[80%] mx-auto'>
             <div className='grid grid-cols-6 gap-7 place-items-stretch'>
-              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
-                <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
+                <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent transition duration-300 group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Art NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
-                <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
+                <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsMusicNoteBeamed className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent transition duration-300 group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Music NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
-                <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
+                <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsFillBarChartLineFill className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent transition duration-300 group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Current NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
-                <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
+                <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <MdPhotoLibrary className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent transition duration-300 group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Photo NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
-                <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
+                <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <MdAddToPhotos className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent transition duration-300 group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Create NFT
                   </p>
                 </div>
               </div>
-              <div className='w-32 h-32 group border border-gray-500 hover:border-[#16F24D] rounded-md'>
-                <div className='backdrop-blur bg-[#26292E] hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
+              <div className='w-32 h-32 group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded-md'>
+                <div className='backdrop-blur bg-[#26292E] transition duration-300 hover:bg-black flex flex-col justify-center items-center gap-4 h-full rounded-md'>
                   <BsPaletteFill className='text-[#16F24D] text-6xl' />
-                  <p className='text-lg font-medium leading-none text-white border border-transparent group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
+                  <p className='text-lg font-medium leading-none text-white border border-transparent transition duration-300 group-hover:border-[#16F24D] group-hover:text-[#16F24D] p-1 rounded-md'>
                     Art NFT
                   </p>
                 </div>
@@ -300,7 +300,7 @@ export default function Home() {
             </div>
             <div className='grid grid-cols-4 gap-10 place-items-stretch'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/fluid-nft.jpg'
@@ -322,15 +322,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/boy-nft.jpg'
@@ -352,15 +352,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/alien-forest-illustration.jpg'
@@ -382,15 +382,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/fluid-nft.jpg'
@@ -412,15 +412,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/moon-nft.jpg'
@@ -442,15 +442,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 hover:border-[#16F24D] rounded- transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+              <div className='group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded- transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/snow-nft.jpg'
@@ -472,15 +472,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/urban-nft.jpg'
@@ -502,15 +502,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/house-nft.jpg'
@@ -532,15 +532,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/room-nft.jpg'
@@ -562,15 +562,15 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
                       src='/imgs/nft-market/fluid-nft.jpg'
@@ -592,8 +592,8 @@ export default function Home() {
                     </p>
                   </div>
                   <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
-                    <BsFillHeartFill className='text-gray-500 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
-                    <p className='hidden group-hover:block text-xs font-light text-gray-500'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
                       126
                     </p>
                   </div>
@@ -618,7 +618,7 @@ export default function Home() {
                   />
                 </div>
                 <div className='group w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                  <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
                         src='/imgs/nft-market/chip.png'
@@ -629,7 +629,7 @@ export default function Home() {
                     </div>
                     <GiWallet className='text-[#16F24D] text-5xl' />
                     <div className=''>
-                      <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
+                      <h4 className='block text-white transition duration-300 group-hover:text-[#16F24D] text-xl font-medium'>
                         Jitbe Abar yigrit
                       </h4>
                       <p className='block text-gray-300 text-xs font-light'>
@@ -654,7 +654,7 @@ export default function Home() {
                   />
                 </div>
                 <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                  <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
                         src='/imgs/nft-market/chip.png'
@@ -665,7 +665,7 @@ export default function Home() {
                     </div>
                     <BsCashCoin className='text-[#16F24D] text-5xl' />
                     <div className=''>
-                      <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
+                      <h4 className='block text-white transition duration-300 group-hover:text-[#16F24D] text-xl font-medium'>
                         Jitbe Abar yigrit
                       </h4>
                       <p className='block text-gray-300 text-xs font-light'>
@@ -688,7 +688,7 @@ export default function Home() {
                   className='rounded-md border border-white flex-shrink-0'
                 />
                 <div className='group flex-shrink-0 w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                  <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                  <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
                     <div className='absolute -right-12 rotate-45 -top-12 z-10'>
                       <Image
                         src='/imgs/nft-market/chip.png'
@@ -699,7 +699,7 @@ export default function Home() {
                     </div>
                     <AiOutlineCloudUpload className='text-[#16F24D] text-5xl' />
                     <div className=''>
-                      <h4 className='block text-white group-hover:text-[#16F24D] text-xl font-medium'>
+                      <h4 className='block text-white transition duration-300 group-hover:text-[#16F24D] text-xl font-medium'>
                         Jitbe Abar yigrit
                       </h4>
                       <p className='block text-gray-300 text-xs font-light'>
@@ -721,7 +721,7 @@ export default function Home() {
             </h2>
             <div className='grid grid-cols-4 place-items-stretch gap-5 py-20'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/house-nft.jpg'
@@ -757,7 +757,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/game-room.jpg'
@@ -793,7 +793,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/purple-cabbage.jpg'
@@ -829,7 +829,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/alien-forest-illustration.jpg'
@@ -865,7 +865,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/lotus-flower.jpg'
@@ -901,7 +901,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/fluid-nft.jpg'
@@ -937,7 +937,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/st-texture.jpg'
@@ -973,7 +973,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/urban-nft.jpg'
@@ -1009,7 +1009,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/ship-nft.jpg'
@@ -1045,7 +1045,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/snow-nft.jpg'
@@ -1081,7 +1081,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/halloween.jpg'
@@ -1117,7 +1117,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full relative'>
                     <Image
                       src='/imgs/nft-market/boy-nft.jpg'
@@ -1160,7 +1160,7 @@ export default function Home() {
             </h2>
             <div className='grid grid-cols-3 place-items-stretch gap-10 py-20'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
                       <Image
@@ -1203,7 +1203,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
                       <Image
@@ -1246,7 +1246,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
                       <Image
@@ -1289,7 +1289,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
                       <Image
@@ -1332,7 +1332,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
-                <div className='relative backdrop-blur bg-[#26292E] group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='h-[220px] flex items-center justify-center overflow-hidden rounded-md'>
                     <div className='h-fit'>
                       <Image
@@ -1870,19 +1870,19 @@ export default function Home() {
               </p>
               <div className='flex justify-center items-center gap-7'>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
-                  <FaFacebookF className='text-base text-white group-hover:text-[#16F24D]' />
+                  <FaFacebookF className='text-base text-white transition duration-300 group-hover:text-[#16F24D]' />
                 </div>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
-                  <FaLinkedinIn className='text-base text-white group-hover:text-[#16F24D]' />
+                  <FaLinkedinIn className='text-base text-white transition duration-300 group-hover:text-[#16F24D]' />
                 </div>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
-                  <BsInstagram className='text-base text-white group-hover:text-[#16F24D]' />
+                  <BsInstagram className='text-base text-white transition duration-300 group-hover:text-[#16F24D]' />
                 </div>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
-                  <BsTwitter className='text-base text-white group-hover:text-[#16F24D]' />
+                  <BsTwitter className='text-base text-white transition duration-300 group-hover:text-[#16F24D]' />
                 </div>
                 <div className='w-10 h-10 bg-[#212429] group hover:bg-black border border-gray-700 transition duration-300 hover:border-[#16F24D] rounded-full flex justify-center items-center'>
-                  <AiOutlineMail className='text-base text-white group-hover:text-[#16F24D]' />
+                  <AiOutlineMail className='text-base text-white transition duration-300 group-hover:text-[#16F24D]' />
                 </div>
               </div>
             </div>
