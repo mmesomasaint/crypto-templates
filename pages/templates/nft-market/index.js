@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState, useCallback } from 'react'
 import {
   BsSearch,
   BsFillPlayFill,
@@ -23,10 +24,13 @@ import {
   AiOutlineShareAlt,
   AiOutlineMail,
 } from 'react-icons/ai'
-import { GiWallet } from 'react-icons/gi'
+import { GiWallet, GiHamburgerMenu } from 'react-icons/gi'
 import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false)
+  const handleOpen = useCallback(() => setIsOpen((open) => !open), [])
+
   return (
     <div className='bg-[#212429]'>
       <Head>
@@ -38,7 +42,11 @@ export default function Home() {
         <link rel='icon' href='/imgs/nft-market/favicon.ico' />
       </Head>
       <header className='absolute w-full w-transparent'>
-        <div className='max-w-[90rem] mx-auto'>
+        <div
+          className={`relative max-w-[90rem] mx-auto ${
+            isOpen && 'bg-[#212429] sm:bg-transparent'
+          }`}
+        >
           <div className='w-[98%] xl:w-[80%] mx-auto py-9'>
             <div className='flex justify-between items-center gap-6'>
               <div className=''>
@@ -50,7 +58,17 @@ export default function Home() {
                 />
               </div>
               <div className='flex justify-between items-center gap-7'>
-                <div className='hidden md:flex justify-evenly items-center gap-7'>
+                <div className='block lg:hidden'>
+                  <GiHamburgerMenu
+                    className='text-3xl text-white'
+                    onClick={handleOpen}
+                  />
+                </div>
+                <div
+                  className={`${
+                    isOpen ? 'flex bg-[#212429] sm:bg-transparent' : 'hidden'
+                  } w-full md:w-fit flex-col md:flex-row absolute top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
+                >
                   <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
                     <Link href='/templates/nft-market'>Home</Link>
                   </span>
@@ -186,9 +204,19 @@ export default function Home() {
                               <div className='col-span-3 border border-[#16F24D] bg-white bg-opacity-30 rounded-md w-full flex justify-center items-center'>
                                 <div className='w-fit h-fit py-3 md:py-1 lg:py-3'>
                                   <span className='text-lg md:text-sm lg:text-lg font-medium text-white leading-none'>
-                                    365<span className='mx-2 md:mx-1 lg:mx-2'>:</span>10
-                                    <span className='mx-2 md:mx-1 lg:mx-2'>:</span>65
-                                    <span className='mx-2 md:mx-1 lg:mx-2'>:</span>13
+                                    365
+                                    <span className='mx-2 md:mx-1 lg:mx-2'>
+                                      :
+                                    </span>
+                                    10
+                                    <span className='mx-2 md:mx-1 lg:mx-2'>
+                                      :
+                                    </span>
+                                    65
+                                    <span className='mx-2 md:mx-1 lg:mx-2'>
+                                      :
+                                    </span>
+                                    13
                                   </span>
                                 </div>
                               </div>

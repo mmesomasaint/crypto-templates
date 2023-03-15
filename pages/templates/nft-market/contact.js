@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState, useCallback } from 'react'
 import {
   BsSearch,
   BsFillPlayFill,
@@ -11,7 +12,7 @@ import {
   BsCashCoin,
   BsTwitter,
   BsInstagram,
-  BsTelephone
+  BsTelephone,
 } from 'react-icons/bs'
 import {
   MdPhotoLibrary,
@@ -29,6 +30,9 @@ import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { GoLocation } from 'react-icons/go'
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false)
+  const handleOpen = useCallback(() => setIsOpen((open) => !open), [])
+
   return (
     <div className='bg-[#212429]'>
       <Head>
@@ -40,7 +44,11 @@ export default function Home() {
         <link rel='icon' href='/imgs/nft-market/favicon.ico' />
       </Head>
       <header className='absolute w-full w-transparent'>
-        <div className='max-w-[90rem] mx-auto'>
+        <div
+          className={`relative max-w-[90rem] mx-auto ${
+            isOpen && 'bg-[#212429] sm:bg-transparent'
+          }`}
+        >
           <div className='w-[98%] xl:w-[80%] mx-auto py-9'>
             <div className='flex justify-between items-center gap-6'>
               <div className=''>
@@ -52,7 +60,17 @@ export default function Home() {
                 />
               </div>
               <div className='flex justify-between items-center gap-7'>
-                <div className='hidden md:flex justify-evenly items-center gap-7'>
+                <div className='block lg:hidden'>
+                  <GiHamburgerMenu
+                    className='text-3xl text-white'
+                    onClick={handleOpen}
+                  />
+                </div>
+                <div
+                  className={`${
+                    isOpen ? 'flex bg-[#212429] sm:bg-transparent' : 'hidden'
+                  } w-full md:w-fit flex-col md:flex-row absolute top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
+                >
                   <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                     <Link href='/templates/nft-market'>Home</Link>
                   </span>
@@ -116,40 +134,75 @@ export default function Home() {
           <div className='py-16 w-[98%] xl:w-[80%] mx-auto'>
             <div className='grid grid-cols-5 gap-10 place-items-stretch'>
               <div className='col-span-2'>
-                <Image src='/imgs/nft-market/contact.png' width={500} height={500} alt='contact' />
+                <Image
+                  src='/imgs/nft-market/contact.png'
+                  width={500}
+                  height={500}
+                  alt='contact'
+                />
                 <div className='flex flex-col justify-start items-start border border-gray-700 rounded-md p-5 gap-5 w-[80%]'>
                   <div className='flex justify-start items-center gap-3'>
                     <div className='w-12 h-12 bg-black flex justify-center items-center'>
                       <BsTelephone className='text-base text-[#16F24D]' />
                     </div>
-                    <p className='text-gray-300 text-xl font-medium'>+23491-234-9094</p>
+                    <p className='text-gray-300 text-xl font-medium'>
+                      +23491-234-9094
+                    </p>
                   </div>
                   <div className='flex justify-start items-center gap-3'>
                     <div className='w-12 h-12 bg-black flex justify-center items-center'>
                       <AiOutlineMail className='text-base text-[#16F24D]' />
                     </div>
-                    <p className='text-gray-300 text-xl font-medium'>nftmarket@gmail.com</p>
+                    <p className='text-gray-300 text-xl font-medium'>
+                      nftmarket@gmail.com
+                    </p>
                   </div>
                   <div className='flex justify-start items-center gap-3'>
                     <div className='w-12 h-12 bg-black flex justify-center items-center'>
                       <GoLocation className='text-base text-[#16F24D]' />
                     </div>
-                    <p className='text-gray-300 text-xl font-medium'>16 Justi avenue</p>
+                    <p className='text-gray-300 text-xl font-medium'>
+                      16 Justi avenue
+                    </p>
                   </div>
                 </div>
               </div>
               <div className='col-span-3'>
                 <div className='border border-gray-700 rounded-md px-20 py-10'>
-                  <h2 className='text-4xl font-semibold leading-none text-center text-white mb-12'>Express Your Opinion Here</h2>
+                  <h2 className='text-4xl font-semibold leading-none text-center text-white mb-12'>
+                    Express Your Opinion Here
+                  </h2>
                   <div className='flex flex-col gap-10 items-center justify-start'>
                     <div className='flex justify-between items-center gap-10 w-full'>
-                      <input type='text' placeholder='First Name' className='flex-grow rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]' />
-                      <input type='text' placeholder='Last Name' className='flex-grow rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]' />
+                      <input
+                        type='text'
+                        placeholder='First Name'
+                        className='flex-grow rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]'
+                      />
+                      <input
+                        type='text'
+                        placeholder='Last Name'
+                        className='flex-grow rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]'
+                      />
                     </div>
-                    <input type='email' placeholder='Email Address' className='w-full rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]' />
-                    <input type='password' placeholder='Enter Your Password' className='w-full rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]' />
-                    <textarea rows='7' placeholder='Type a Message' className='w-full rounded-md py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]' />
-                    <button className='w-full rounded-full py-3 text-center bg-black text-white border border-[#16F24D] focus:outline-none'>Send Your Message</button>
+                    <input
+                      type='email'
+                      placeholder='Email Address'
+                      className='w-full rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]'
+                    />
+                    <input
+                      type='password'
+                      placeholder='Enter Your Password'
+                      className='w-full rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]'
+                    />
+                    <textarea
+                      rows='7'
+                      placeholder='Type a Message'
+                      className='w-full rounded-md py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-[#16F24D]'
+                    />
+                    <button className='w-full rounded-full py-3 text-center bg-black text-white border border-[#16F24D] focus:outline-none'>
+                      Send Your Message
+                    </button>
                   </div>
                 </div>
               </div>
