@@ -192,7 +192,9 @@ export default function Home() {
                   <span className='text-3xl font-bold leading-none'>
                     25-35-56
                   </span>
-                  <span className='text-4xl font-semibold leading-none mx-2'>|</span>
+                  <span className='text-4xl font-semibold leading-none mx-2'>
+                    |
+                  </span>
                   <span className='text-2xl font-semibold leading-none'>
                     Live Time
                   </span>
