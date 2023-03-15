@@ -132,16 +132,16 @@ export default function Home() {
             </div>
           </div>
           <div className='py-16 w-[98%] xl:w-[80%] mx-auto'>
-            <div className='grid grid-cols-5 gap-10 place-items-stretch'>
-              <div className='col-span-2'>
+            <div className='grid grid-cols-1 lg:grid-cols-5 gap-10 place-items-center lg:place-items-stretch'>
+              <div className='col-span-full lg:col-span-2'>
                 <Image
                   src='/imgs/nft-market/contact.png'
                   width={500}
                   height={500}
                   alt='contact'
                 />
-                <div className='flex flex-col justify-start items-start border border-gray-700 rounded-md p-5 gap-5 w-[80%]'>
-                  <div className='flex justify-start items-center gap-3'>
+                <div className='flex flex-col justify-start items-start border border-gray-700 rounded-md p-5 gap-5 w-[80%] mx-auto lg:mx-0'>
+                  <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3'>
                     <div className='w-12 h-12 bg-black flex justify-center items-center'>
                       <BsTelephone className='text-base text-[#16F24D]' />
                     </div>
@@ -149,7 +149,7 @@ export default function Home() {
                       +23491-234-9094
                     </p>
                   </div>
-                  <div className='flex justify-start items-center gap-3'>
+                  <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3'>
                     <div className='w-12 h-12 bg-black flex justify-center items-center'>
                       <AiOutlineMail className='text-base text-[#16F24D]' />
                     </div>
@@ -157,7 +157,7 @@ export default function Home() {
                       nftmarket@gmail.com
                     </p>
                   </div>
-                  <div className='flex justify-start items-center gap-3'>
+                  <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3'>
                     <div className='w-12 h-12 bg-black flex justify-center items-center'>
                       <GoLocation className='text-base text-[#16F24D]' />
                     </div>
@@ -167,13 +167,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='col-span-3'>
-                <div className='border border-gray-700 rounded-md px-20 py-10'>
+              <div className='col-span-full lg:col-span-3 order-first lg:order-none'>
+                <div className='border border-gray-700 rounded-md px-10 lg:px-20 py-10'>
                   <h2 className='text-4xl font-semibold leading-none text-center text-white mb-12'>
                     Express Your Opinion Here
                   </h2>
                   <div className='flex flex-col gap-10 items-center justify-start'>
-                    <div className='flex justify-between items-center gap-10 w-full'>
+                    <div className='flex flex-wrap justify-between items-center gap-10 w-full'>
                       <input
                         type='text'
                         placeholder='First Name'
