@@ -119,7 +119,7 @@ export default function Home() {
             <div className='bg-[rgba(0,0,255,0.35)] w-full h-full'>
               <div className='bg-[rgba(0,0,0,0.55)] w-full h-full'>
                 <div className='flex gap-1 justify-center items-center w-[98%] xl:w-[80%] mx-auto h-full'>
-                  <div className='w-full h-fit pt-32 md:pt-16'>
+                  <div className='w-full h-fit pt-32 md:pt-16 pb-16 md:pb-0'>
                     <h5 className='text-[#16F24D] text-xl lg:text-2xl text-center font-semibold capitalize mb-4'>
                       Welcome To NFT Market
                     </h5>
