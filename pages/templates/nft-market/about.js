@@ -188,7 +188,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className='flex justify-center items-center p-8 bg-black border-2 border-[#16F24D] text-white w-[60%] rounded-md'>
+                <div className='flex justify-center items-center px-2 py-8 sm:p-8  bg-black border-2 border-[#16F24D] text-white w-full sm:w-[60%] rounded-md'>
                   <span className='text-3xl font-bold leading-none'>
                     25-35-56
                   </span>
