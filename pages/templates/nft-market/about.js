@@ -135,8 +135,8 @@ export default function Home() {
             <h2 className='text-4xl lg:text-5xl font-semibold leading-tight text-white text-center'>
               Why Choose Our Product
             </h2>
-            <div className='grid grid-cols-7 gap-10 place-items-stretch mt-10'>
-              <div className='col-span-full md:col-span-3'>
+            <div className='grid grid-cols-1 lg:grid-cols-7 gap-10 place-items-stretch mt-10'>
+              <div className='col-span-full lg:col-span-3'>
                 <div className='flex justify-center items-center relative border-2 border-[#16F24D] rounded-md w-fit mx-auto'>
                   <div className='bg-[#16F24D] w-20 h-20 rounded-full flex justify-center items-center absolute inset-0 mx-auto my-auto z-10'>
                     <BsFillPlayFill className='text-white text-8xl' />
@@ -150,7 +150,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className='col-span-full md:col-span-4'>
+              <div className='col-span-full lg:col-span-4'>
                 <p className='text-gray-300 text-lg font-normal mb-10'>
                   Written in this book is a treatise on the Theory of Ethics
                   very popular during the renaissance. The first line of Lorem
