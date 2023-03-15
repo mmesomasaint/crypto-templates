@@ -27,7 +27,7 @@ import {
 } from 'react-icons/ai'
 import { GiWallet, GiHamburgerMenu } from 'react-icons/gi'
 import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
-import { GoLocation } from 'react-icons/go'
+import { GoLocation, GoPrimitiveDot } from 'react-icons/go'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -126,6 +126,188 @@ export default function Home() {
                     <h1 className='text-white text-5xl lg:text-6xl text-center font-bold capitalize mb-4'>
                       About Us
                     </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-16 w-[98%] xl:w-[80%] mx-auto'>
+            <h2 className='text-4xl lg:text-5xl font-semibold leading-tight text-white text-center'>
+              Why Choose Our Product
+            </h2>
+            <div className='grid grid-cols-7 gap-10 place-items-stretch mt-10'>
+              <div className='col-span-full md:col-span-3'>
+                <div className='flex justify-center items-center relative border-2 border-[#16F24D] rounded-md w-fit mx-auto'>
+                  <div className='bg-[#16F24D] w-20 h-20 rounded-full flex justify-center items-center absolute inset-0 mx-auto my-auto z-10'>
+                    <BsFillPlayFill className='text-white text-8xl' />
+                  </div>
+                  <Image
+                    src='/imgs/nft-market/color-model.jpg'
+                    width={350}
+                    height={350}
+                    alt='color model'
+                    className='rounded-md'
+                  />
+                </div>
+              </div>
+              <div className='col-span-full md:col-span-4'>
+                <p className='text-gray-300 text-lg font-normal mb-10'>
+                  Written in this book is a treatise on the Theory of Ethics
+                  very popular during the renaissance. The first line of Lorem
+                  Ipsum "Lorem Ipsum Dolor Sit Amet".
+                </p>
+                <div className='flex flex-col justify-start items-start gap-5 mb-10'>
+                  <div className='flex justify-start items-center gap-2'>
+                    <GoPrimitiveDot className='text-[#16F24D] text-base' />
+                    <p className='text-gray-300 text-lg font-normal'>
+                      Except to obtain some advantage from it
+                    </p>
+                  </div>
+                  <div className='flex justify-start items-center gap-2'>
+                    <GoPrimitiveDot className='text-[#16F24D] text-base' />
+                    <p className='text-gray-300 text-lg font-normal'>
+                      Nullam at eros quis nibh iaculis pelle nullaestibulum
+                    </p>
+                  </div>
+                  <div className='flex justify-start items-center gap-2'>
+                    <GoPrimitiveDot className='text-[#16F24D] text-base' />
+                    <p className='text-gray-300 text-lg font-normal'>
+                      Nulo obtain some at eros quis nibh iaculis
+                    </p>
+                  </div>
+                  <div className='flex justify-start items-center gap-2'>
+                    <GoPrimitiveDot className='text-[#16F24D] text-base' />
+                    <p className='text-gray-300 text-lg font-normal'>
+                      Nullam at eros quis nibh iaculis pellentesque eget from
+                    </p>
+                  </div>
+                  <div className='flex justify-start items-center gap-2'>
+                    <GoPrimitiveDot className='text-[#16F24D] text-base' />
+                    <p className='text-gray-300 text-lg font-normal'>
+                      Except to obtain some teros iaculis some advantage from it
+                    </p>
+                  </div>
+                </div>
+                <div className='flex justify-center items-center p-8 bg-black border-2 border-[#16F24D] text-white w-[60%] rounded-md'>
+                  <span className='text-3xl font-bold leading-none'>
+                    25-35-56
+                  </span>
+                  <span className='text-4xl font-semibold leading-none mx-2'>|</span>
+                  <span className='text-2xl font-semibold leading-none'>
+                    Live Time
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-12 w-[98%] xl:w-[80%] mx-auto h-fit'>
+            <h2 className='text-5xl font-semibold leading-none text-white text-center'>
+              Create, Sell Your NFT
+            </h2>
+            <div className='w-fit mx-auto p-2 bg-[#212429] my-[1rem] lg:my-[10rem] relative flex flex-col lg:block'>
+              <div className='lg:absolute -top-32 -right-[2rem] flex flex-wrap justify-center sm:justify-start items-end gap-2 my-3 lg:my-0'>
+                <div className='lg:relative -bottom-8 bg-[#212429] rounded-md p-0 lg:p-2'>
+                  <Image
+                    src='/imgs/nft-market/abstract.jpg'
+                    width={240}
+                    height={250}
+                    alt='abstract'
+                    className='rounded-md border border-white'
+                  />
+                </div>
+                <div className='group w-fit sm:w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                  <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                    <div className='absolute -right-12 rotate-45 -top-12 z-10'>
+                      <Image
+                        src='/imgs/nft-market/chip.png'
+                        width={120}
+                        height={120}
+                        alt='chip'
+                      />
+                    </div>
+                    <GiWallet className='text-[#16F24D] text-5xl' />
+                    <div className=''>
+                      <h4 className='block text-white transition duration-300 group-hover:text-[#16F24D] text-xl font-medium'>
+                        Jitbe Abar yigrit
+                      </h4>
+                      <p className='block text-gray-300 text-xs font-light'>
+                        Nulla nulla magna, pretium porttitor lobortis ut, auctor
+                        at felis. Phasellus id lorem a velit venenatis
+                        vestibulum. Aliquam eget cursus lacus. Curabitur rutrum
+                        diam orci, ac aliquet ex congue vel. Maecenas sit amet
+                        vulputate erat. Donec at est pharetra
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='lg:absolute -bottom-[10.6rem] -left-[2rem] flex flex-wrap justify-center sm:justify-start items-end gap-2 my-3 lg:my-0'>
+                <div className='lg:relative -top-16 bg-[#212429] rounded-md p-0 lg:p-2 flex-shrink-0'>
+                  <Image
+                    src='/imgs/nft-market/abstract.jpg'
+                    width={240}
+                    height={250}
+                    alt='abstract'
+                    className='rounded-md border border-white'
+                  />
+                </div>
+                <div className='group flex-shrink sm:flex-shrink-0 w-fit sm:w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                  <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                    <div className='absolute -right-12 rotate-45 -top-12 z-10'>
+                      <Image
+                        src='/imgs/nft-market/chip.png'
+                        width={120}
+                        height={120}
+                        alt='chip'
+                      />
+                    </div>
+                    <BsCashCoin className='text-[#16F24D] text-5xl' />
+                    <div className=''>
+                      <h4 className='block text-white transition duration-300 group-hover:text-[#16F24D] text-xl font-medium'>
+                        Jitbe Abar yigrit
+                      </h4>
+                      <p className='block text-gray-300 text-xs font-light'>
+                        Nulla nulla magna, pretium porttitor lobortis ut, auctor
+                        at felis. Phasellus id lorem a velit venenatis
+                        vestibulum. Aliquam eget cursus lacus. Curabitur rutrum
+                        diam orci, ac aliquet ex congue vel. Maecenas sit amet
+                        vulputate erat. Donec at est pharetra
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='flex flex-wrap justify-center md:justify-start items-end gap-3 my-3 lg:my-0 order-first'>
+                <Image
+                  src='/imgs/nft-market/sailing-ship.jpg'
+                  width={400}
+                  height={400}
+                  alt='sailing-ship'
+                  className='w-[240px] sm:w-[350px] lg:w-[400px] rounded-md border border-white flex-shrink-0'
+                />
+                <div className='group flex-shrink-0 w-fit sm:w-[23rem] h-fit border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                  <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-start items-start gap-2 p-2 h-full rounded-md overflow-x-hidden'>
+                    <div className='absolute -right-12 rotate-45 -top-12 z-10'>
+                      <Image
+                        src='/imgs/nft-market/chip.png'
+                        width={120}
+                        height={120}
+                        alt='chip'
+                      />
+                    </div>
+                    <AiOutlineCloudUpload className='text-[#16F24D] text-5xl' />
+                    <div className=''>
+                      <h4 className='block text-white transition duration-300 group-hover:text-[#16F24D] text-xl font-medium'>
+                        Jitbe Abar yigrit
+                      </h4>
+                      <p className='block text-gray-300 text-xs font-light'>
+                        Nulla nulla magna, pretium porttitor lobortis ut, auctor
+                        at felis. Phasellus id lorem a velit venenatis
+                        vestibulum. Aliquam eget cursus lacus. Curabitur rutrum
+                        diam orci, ac aliquet ex congue vel. Maecenas sit amet
+                        vulputate erat. Donec at est pharetra
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
