@@ -1761,23 +1761,23 @@ export default function Home() {
                 </div>
               </div>
               <div className='col-span-full lg:col-span-4'>
-                <div className='relative w-fit mx-[6%] md:mx-[13%] lg:mx-0'>
+                <div className='relative w-fit mx-0 sm:mx-[6%] md:mx-[13%] lg:mx-0'>
                   <div className='p-2 rounded-md bg-[#212429] z-10'>
                     <Image
                       src='/imgs/nft-market/beach-abstract.jpg'
                       width={300}
                       height={400}
                       alt='beach abstract'
-                      className='w-[150px] sm:w-[300px] rounded-md'
+                      className='w-[180px] sm:max-w-none sm:w-[300px] rounded-md'
                     />
                   </div>
-                  <div className='p-2 rounded-md bg-[#212429] absolute top-0 sm:-top-1 -right-[60%] sm:-right-[75%] z-30'>
+                  <div className='p-2 rounded-md bg-[#212429] absolute -top-1 -right-[60%] sm:-right-[75%] z-30'>
                     <Image
                       src='/imgs/nft-market/beach-abstract.jpg'
                       width={200}
                       height={200}
                       alt='beach abstract'
-                      className='w-[70px] sm:w-[200px] rounded-md'
+                      className='w-[100px] sm:max-w-none sm:w-[200px] rounded-md'
                     />
                   </div>
                   <div className='p-2 rounded-md bg-[#212429] absolute -bottom-[40%] -right-[50%] z-20'>
@@ -1786,7 +1786,7 @@ export default function Home() {
                       width={300}
                       height={400}
                       alt='fluid pattern'
-                      className='w-[150px] sm:w-[300px] rounded-md'
+                      className='w-[180px] sm:max-w-none sm:w-[300px] rounded-md'
                     />
                   </div>
                 </div>
