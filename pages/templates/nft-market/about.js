@@ -300,29 +300,29 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-16 w-[80%] mx-auto'>
-            <div className='flex justify-center items-center gap-10'>
-              <div className='border broder-gray-700 transition duration-300 group hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md flex flex-col items-center justify-center gap-4 w-52 py-5'>
-                <p className='text-white text-3xl font-semibold leading-none'>
+          <div className='py-16 w-[98%] xl:w-[80%] mx-auto'>
+            <div className='flex flex-wrap justify-center items-center gap-10'>
+              <div className='flex-shrink-0 border broder-gray-700 transition duration-300 group hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md flex flex-col items-center justify-center gap-4 w-52 sm:w-32 md:w-52 py-5'>
+                <p className='text-white text-3xl sm:text-xl md:text-3xl font-semibold leading-none'>
                   Art
                 </p>
-                <p className='text-[#16F24D] text-3xl font-semibold leading-none'>
+                <p className='text-[#16F24D] text-3xl sm:text-xl md:text-3xl font-semibold leading-none'>
                   40230 K
                 </p>
               </div>
-              <div className='border broder-gray-700 transition duration-300 group hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md flex flex-col items-center justify-center gap-4 w-52 py-5'>
-                <p className='text-white text-3xl font-semibold leading-none'>
+              <div className='flex-shrink-0 border broder-gray-700 transition duration-300 group hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md flex flex-col items-center justify-center gap-4 w-52 sm:w-32 md:w-52 py-5'>
+                <p className='text-white text-3xl sm:text-xl md:text-3xl font-semibold leading-none'>
                   Live Action
                 </p>
-                <p className='text-[#16F24D] text-3xl font-semibold leading-none'>
+                <p className='text-[#16F24D] text-3xl sm:text-xl md:text-3xl font-semibold leading-none'>
                   3215 K
                 </p>
               </div>
-              <div className='border broder-gray-700 transition duration-300 group hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md flex flex-col items-center justify-center gap-4 w-52 py-5'>
-                <p className='text-white text-3xl font-semibold leading-none'>
+              <div className='flex-shrink-0 border broder-gray-700 transition duration-300 group hover:border-[#16F24D] bg-transparent hover:bg-black rounded-md flex flex-col items-center justify-center gap-4 w-52 sm:w-32 md:w-52 py-5'>
+                <p className='text-white text-3xl sm:text-xl md:text-3xl font-semibold leading-none'>
                   All Items
                 </p>
-                <p className='text-[#16F24D] text-3xl font-semibold leading-none'>
+                <p className='text-[#16F24D] text-3xl sm:text-xl md:text-3xl font-semibold leading-none'>
                   326413 B
                 </p>
               </div>
