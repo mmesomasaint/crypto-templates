@@ -502,7 +502,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className='group border border-gray-500 transition duration-300 hover:border-[#16F24D] rounded- transition duration-300 hover:glow-nft-primary'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
                     <Image
