@@ -8,9 +8,7 @@ import {
   BsTwitter,
   BsInstagram,
 } from 'react-icons/bs'
-import {
-  AiOutlineMail,
-} from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { RxDoubleArrowLeft, RxDoubleArrowRight } from 'react-icons/rx'
