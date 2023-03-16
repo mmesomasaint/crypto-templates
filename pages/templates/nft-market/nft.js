@@ -116,7 +116,7 @@ export default function NFT() {
             </div>
           </div>
           <div className='py-16 w-[80%] mx-auto'>
-            <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 place-items-center sm:place-items-stretch mb-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 place-items-center sm:place-items-stretch mb-5 md:mb-10'>
               <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
                 <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
                   <div className='w-full'>
