@@ -31,7 +31,7 @@ export default function Home() {
       <header className='absolute w-full w-transparent'>
         <div
           className={`relative max-w-[90rem] mx-auto ${
-            isOpen && 'bg-[#212429] sm:bg-transparent'
+            isOpen && 'bg-[#212429] md:bg-transparent'
           }`}
         >
           <div className='w-[98%] xl:w-[80%] mx-auto py-9'>
@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
                 <div
                   className={`${
-                    isOpen ? 'flex bg-[#212429] sm:bg-transparent' : 'hidden'
+                    isOpen ? 'flex bg-[#212429] md:bg-transparent' : 'hidden'
                   } w-full md:w-fit flex-col md:flex-row absolute top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
                 >
                   <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
