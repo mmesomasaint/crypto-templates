@@ -12,6 +12,7 @@ import {
   BsCashCoin,
   BsTwitter,
   BsInstagram,
+  BsThreeDots,
 } from 'react-icons/bs'
 import {
   MdPhotoLibrary,
@@ -26,8 +27,9 @@ import {
 } from 'react-icons/ai'
 import { GiWallet, GiHamburgerMenu } from 'react-icons/gi'
 import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
+import { RxDoubleArrowLeft, RxDoubleArrowRight } from 'react-icons/rx'
 
-export default function Home() {
+export default function NFT() {
   const [isOpen, setIsOpen] = useState(false)
   const handleOpen = useCallback(() => setIsOpen((open) => !open), [])
 
@@ -126,6 +128,1009 @@ export default function Home() {
                     </h1>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-16 w-[80%] mx-auto'>
+            <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 place-items-center sm:place-items-stretch mb-5'>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/moon-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/urban-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/house-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/room-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/urban-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/boy-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/urban-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/fluid-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/urban-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/alien-forest-illustration.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='group border border-gray-500 hover:border-[#16F24D] rounded-md transition duration-300 hover:glow-nft-primary'>
+                <div className='relative backdrop-blur bg-[#26292E] transition duration-300 group-hover:bg-black flex flex-col justify-center items-center gap-4 p-2 h-full rounded-md'>
+                  <div className='w-full'>
+                    <Image
+                      src='/imgs/nft-market/snow-nft.jpg'
+                      width={260}
+                      height={120}
+                      alt='fantasy'
+                      className='rounded-md'
+                    />
+                  </div>
+                  <div className='text-center py-1'>
+                    <h4 className='block text-white text-xl font-medium'>
+                      Joybangla Jitbe Abar
+                    </h4>
+                    <p className='block text-white text-lg font-normal'>
+                      Item: 236
+                    </p>
+                    <p className='block text-gray-500'>
+                      ETH-<span className='text-[#16F24D]'>16.21</span>
+                    </p>
+                  </div>
+                  <div className='absolute bottom-3 right-3 w-7 h-7 group-hover:w-fit rounded-full border group-hover:border-none border-gray-500 flex justify-center items-center gap-1'>
+                    <BsFillHeartFill className='text-gray-500 transition duration-300 group-hover:text-red-700 text-base group-hover:text-xs flex-shrink-0' />
+                    <p className='hidden transition duration-300 group-hover:block text-xs font-light text-gray-500'>
+                      126
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='w-fit mx-auto flex justify-center items-stretch gap-6'>
+              <div className='flex justify-center items-center gap-2 px-4 py-1 border border-gray-700 group hover:border-[#16F24D] bg-transparent hover:bg-black transition duration-300 rounded-md'>
+                <RxDoubleArrowLeft className='text-gray-300 text-lg group-hover:text-white' />
+                <p className='hidden md:block text-gray-300 group-hover:text-white text-lg font-light'>
+                  Preview
+                </p>
+              </div>
+              <div className='flex justify-evenly items-center gap-6'>
+                <div className='px-4 py-1 border border-[#16F24D] bg-black rounded-md'>
+                  <p className='text-white text-lg font-light'>01</p>
+                </div>
+                <div className='hidden sm:block px-4 py-1 border border-gray-700 group hover:border-[#16F24D] bg-transparent hover:bg-black transition duration-300 rounded-md'>
+                  <p className='text-gray-300 group-hover:text-white text-lg font-light'>
+                    02
+                  </p>
+                </div>
+                <div className='hidden sm:block px-4 py-1 border border-gray-700 group hover:border-[#16F24D] bg-transparent hover:bg-black transition duration-300 rounded-md'>
+                  <p className='text-gray-300 group-hover:text-white text-lg font-light'>
+                    03
+                  </p>
+                </div>
+                <div className='hidden sm:block px-4 py-1 border border-gray-700 group hover:border-[#16F24D] bg-transparent hover:bg-black transition duration-300 rounded-md'>
+                  <p className='text-gray-300 group-hover:text-white text-lg font-light'>
+                    04
+                  </p>
+                </div>
+                <div className='hidden sm:block px-4 py-1 border border-gray-700 group hover:border-[#16F24D] bg-transparent hover:bg-black transition duration-300 rounded-md'>
+                  <p className='text-gray-300 group-hover:text-white text-lg font-light'>
+                    05
+                  </p>
+                </div>
+              </div>
+              <div className='flex justify-center items-center gap-2 px-4 py-1 border border-gray-700 group hover:border-[#16F24D] bg-transparent hover:bg-black transition duration-300 rounded-md'>
+                <p className='hidden md:block text-gray-300 group-hover:text-white text-lg font-light'>
+                  Next
+                </p>
+                <RxDoubleArrowRight className='text-gray-300 text-lg group-hover:text-white' />
               </div>
             </div>
           </div>
