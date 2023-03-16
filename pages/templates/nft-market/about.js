@@ -5,29 +5,17 @@ import { useState, useCallback } from 'react'
 import {
   BsSearch,
   BsFillPlayFill,
-  BsMusicNoteBeamed,
-  BsPaletteFill,
-  BsFillBarChartLineFill,
-  BsFillHeartFill,
   BsCashCoin,
   BsTwitter,
   BsInstagram,
-  BsTelephone,
 } from 'react-icons/bs'
 import {
-  MdPhotoLibrary,
-  MdAddToPhotos,
-  MdOutlineKeyboardArrowDown,
-  MdOutlineKeyboardArrowRight,
-} from 'react-icons/md'
-import {
   AiOutlineCloudUpload,
-  AiOutlineShareAlt,
   AiOutlineMail,
 } from 'react-icons/ai'
 import { GiWallet, GiHamburgerMenu } from 'react-icons/gi'
-import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
-import { GoLocation, GoPrimitiveDot } from 'react-icons/go'
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
+import { GoPrimitiveDot } from 'react-icons/go'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
