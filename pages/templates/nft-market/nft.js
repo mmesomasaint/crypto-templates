@@ -4,29 +4,15 @@ import Link from 'next/link'
 import { useState, useCallback } from 'react'
 import {
   BsSearch,
-  BsFillPlayFill,
-  BsMusicNoteBeamed,
-  BsPaletteFill,
-  BsFillBarChartLineFill,
   BsFillHeartFill,
-  BsCashCoin,
   BsTwitter,
   BsInstagram,
-  BsThreeDots,
 } from 'react-icons/bs'
 import {
-  MdPhotoLibrary,
-  MdAddToPhotos,
-  MdOutlineKeyboardArrowDown,
-  MdOutlineKeyboardArrowRight,
-} from 'react-icons/md'
-import {
-  AiOutlineCloudUpload,
-  AiOutlineShareAlt,
   AiOutlineMail,
 } from 'react-icons/ai'
-import { GiWallet, GiHamburgerMenu } from 'react-icons/gi'
-import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { RxDoubleArrowLeft, RxDoubleArrowRight } from 'react-icons/rx'
 
 export default function NFT() {
