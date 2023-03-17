@@ -4,28 +4,13 @@ import Link from 'next/link'
 import { useState, useCallback } from 'react'
 import {
   BsSearch,
-  BsFillPlayFill,
-  BsMusicNoteBeamed,
-  BsPaletteFill,
-  BsFillBarChartLineFill,
   BsFillHeartFill,
-  BsCashCoin,
   BsTwitter,
   BsInstagram,
 } from 'react-icons/bs'
-import {
-  MdPhotoLibrary,
-  MdAddToPhotos,
-  MdOutlineKeyboardArrowDown,
-  MdOutlineKeyboardArrowRight,
-} from 'react-icons/md'
-import {
-  AiOutlineCloudUpload,
-  AiOutlineShareAlt,
-  AiOutlineMail,
-} from 'react-icons/ai'
-import { GiWallet, GiHamburgerMenu } from 'react-icons/gi'
-import { FaEthereum, FaMedal, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
+import { AiOutlineShareAlt, AiOutlineMail } from 'react-icons/ai'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
