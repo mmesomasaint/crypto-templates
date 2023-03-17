@@ -114,7 +114,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='py-16'>
+          <div className='py-24'>
             <div className='max-w-[90rem] w-[80%] xl:w-[70%] mx-auto'>
               <div className='h-fit w-full bg-black group border border-[#16F24D] rounded-md glow-nft-primary'>
                 <div className='p-5 sm:p-10'>
