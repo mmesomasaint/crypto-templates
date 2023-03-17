@@ -53,7 +53,7 @@ export default function NFT() {
                 <div
                   className={`${
                     isOpen ? 'flex bg-[#212429] md:bg-transparent' : 'hidden'
-                  } w-full md:w-fit flex-col md:flex-row absolute top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
+                  } w-full md:w-fit flex-col md:flex-row absolute z-10 top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
                 >
                   <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                     <Link href='/templates/nft-market'>Home</Link>
