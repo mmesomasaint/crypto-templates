@@ -139,7 +139,7 @@ export default function Home() {
                 <p className='text-gray-300 text-lg font-normal mb-10'>
                   Written in this book is a treatise on the Theory of Ethics
                   very popular during the renaissance. The first line of Lorem
-                  Ipsum "Lorem Ipsum Dolor Sit Amet".
+                  Ipsum &quot;Lorem Ipsum Dolor Sit Amet&quot;.
                 </p>
                 <div className='flex flex-col justify-start items-start gap-5 mb-10'>
                   <div className='flex justify-start items-center gap-2'>
