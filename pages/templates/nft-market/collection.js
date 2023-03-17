@@ -57,7 +57,7 @@ export default function Home() {
                   <span className='font-normal text-lg leading-none text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
                     <Link href='/templates/nft-market'>Home</Link>
                   </span>
-                  <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary text-white hover:text-[#16F24D] transition duration-300 hover:glow-nft-primary'>
+                  <span className='font-normal text-lg leading-none text-[#16F24D] scale-105 underline underline-offset-[6px] glow-nft-primary'>
                     <Link href='/templates/nft-market/collection'>
                       Collection
                     </Link>
