@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsFillBagFill, BsFillPersonFill } from 'react-icons/bs'
+import { BsFillBagFill, BsFillPersonFill, BsFillHeartFill } from 'react-icons/bs'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 
 export default function Home() {
@@ -65,8 +65,8 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <section>
-          <div className='max-w-[90rem] mx-auto'>
+        <div className='max-w-[90rem] mx-auto'>
+          <section>
             <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/cryptex/showcase.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='flex justify-center items-center h-full'>
                 <div className='w-full h-fit text-center pt-0 md:pt-10 py-16 md:py-0'>
@@ -95,9 +95,358 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        {/*End of showcase section*/}
+          </section>
+          {/*End of showcase section*/}
+          <section>
+            <div className="h-fit w-full bg-[url('/imgs/cryptex/blue-cubes.jpg')] bg-no-repeat bg-cover bg-center">
+              <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
+                <div className='w-[80%] mx-auto py-32'>
+                  <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                    Popular Item
+                  </h2>
+                  <div className='grid grid-cols-4 place-items-stretch gap-10'>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/house-sun.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/pattern.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/leafs.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/house-sun.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/flame-sun.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/pattern.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/leafs.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-3'>
+                        <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className=''>
+                          <div className='text-sm font-medium text-white'>
+                            Alija Amil
+                          </div>
+                          <div className='text-xs font-light text-white'>
+                            @AlijaAmil
+                          </div>
+                        </div>
+                      </div>
+                      <div className='relative'>
+                        <Image
+                          src='/imgs/cryptex/flame-sun.jpg'
+                          width={300}
+                          height={300}
+                          alt='house-sun'
+                          className='rounded-md my-5'
+                        />
+                        <div className='w-fit absolute -bottom-5 left-0 right-0 mx-auto rounded-full bg-black py-2 px-4 flex justify-start items-center gap-3'>
+                          <span className='text-white text-sm font-medium'>
+                            256h
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            59m
+                          </span>
+                          <span className='text-white text-sm font-medium'>
+                            17s
+                          </span>
+                        </div>
+                      </div>
+                      <div className='flex justify-between items-center gap-5 mt-10'>
+                        <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
+                          Create Account
+                        </button>
+                        <div className='flex justify-start items-center gap-2'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </main>
     </div>
   )

@@ -60,6 +60,10 @@
     filter: drop-shadow(0mm 0mm 2mm #16F24D);
   }
 
+  .glow-cpt-primary {
+    filter: drop-shadow(0mm 0mm 2mm #000);
+  }
+
   .shadow-up-2x {
     filter: drop-shadow(0 -1mm 0mm rgba(255, 255, 255, 0.5)) drop-shadow(0 -1.5mm 0mm rgba(255, 255, 255, 0.5));
   }
