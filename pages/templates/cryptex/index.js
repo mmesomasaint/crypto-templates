@@ -14,7 +14,7 @@ export default function Home() {
         />
         <link rel='icon' href='/imgs/cryptex/favicon.ico' />
       </Head>
-      <header className='absolute w-full bg-black'>
+      <header className='absolute w-full bg-gradient-to-b from-zinc-900 via-zinc-900 to-black'>
         <div className='relative max-w-[90rem] mx-auto'>
           <div className='w-[98%] xl:w-[80%] mx-auto py-7'>
             <div className='flex justify-between items-center gap-6'>
