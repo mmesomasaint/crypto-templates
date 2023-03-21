@@ -65,36 +65,39 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <div className='max-w-[90rem] mx-auto'>
-          <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/cryptex/showcase.jpg')] bg-no-repeat bg-cover bg-center">
-            <div className='flex justify-center items-center h-full'>
-              <div className='w-full h-fit text-center pt-0 md:pt-10 py-16 md:py-0'>
-                <h1 className='block w-[90%] sm:w-[60%] md:w-[50%] lg:w-[40%] mx-auto text-5xl font-bold leading-tight text-white mb-4'>
-                  Create <span className='text-primary'>Digital Items</span>,
-                  Sell Them Yourself Or Keep Collecting
-                </h1>
-                <p className='block w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus tempus dui nec euismod congue. Nulla id libero
-                  dignissim, convallis odio
-                </p>
-                <div className='flex justify-center gap-8 items-center'>
-                  <button className='flex justify-start items-center gap-3 px-6 py-3 border-2 border-primary bg-transparent shadow-sm rounded-full'>
-                    <span className='text-xl lg:text-lg font-medium leading-none text-white'>
-                      Explore More
-                    </span>
-                    <span className='w-fit mx-auto'>
-                      <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
-                    </span>
-                  </button>
-                  <button className='text-xl lg:text-lg font-medium leading-none px-6 py-3 border-2 border-primary bg-transparent text-white shadow-sm rounded-full'>
-                    Create Account
-                  </button>
+        <section>
+          <div className='max-w-[90rem] mx-auto'>
+            <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/cryptex/showcase.jpg')] bg-no-repeat bg-cover bg-center">
+              <div className='flex justify-center items-center h-full'>
+                <div className='w-full h-fit text-center pt-0 md:pt-10 py-16 md:py-0'>
+                  <h1 className='block w-[90%] sm:w-[60%] md:w-[50%] lg:w-[40%] mx-auto text-5xl font-bold leading-tight text-white mb-4'>
+                    Create <span className='text-primary'>Digital Items</span>,
+                    Sell Them Yourself Or Keep Collecting
+                  </h1>
+                  <p className='block w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempus dui nec euismod congue. Nulla id libero
+                    dignissim, convallis odio
+                  </p>
+                  <div className='flex justify-center gap-8 items-center'>
+                    <button className='flex justify-start items-center gap-3 px-6 py-3 border-2 border-primary bg-transparent shadow-sm rounded-full'>
+                      <span className='text-xl lg:text-lg font-medium leading-none text-white'>
+                        Explore More
+                      </span>
+                      <span className='w-fit mx-auto'>
+                        <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
+                      </span>
+                    </button>
+                    <button className='text-xl lg:text-lg font-medium leading-none px-6 py-3 border-2 border-primary bg-transparent text-white shadow-sm rounded-full'>
+                      Create Account
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        {/*End of showcase section*/}
       </main>
     </div>
   )
