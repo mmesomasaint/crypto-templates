@@ -30,28 +30,28 @@ export default function Home() {
                 <div
                   className={`w-full md:w-fit flex-col md:flex-row absolute z-10 top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
                 >
-                  <span className='font-normal text-lg leading-none text-primary scale-105 underline underline-offset-[6px] glow-nft-primary'>
+                  <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
                     <Link href='/templates/nft-market'>Home</Link>
                   </span>
-                  <span className='font-normal text-lg leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/nft-market/discover'>Discover</Link>
                   </span>
-                  <span className='font-normal text-lg leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/nft-market/shop'>Shop</Link>
                   </span>
-                  <span className='font-normal text-lg leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/nft-market/about'>About</Link>
                   </span>
-                  <span className='font-normal text-lg leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/nft-market/contact'>Contact</Link>
                   </span>
-                  <span className='font-normal text-lg leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/nft-market/blog'>Blog</Link>
                   </span>
                 </div>
               </div>
               <div className='flex justify-center items-center gap-7'>
-                <button className='text-white text-base py-4 px-7 font-medium leading-none bg-transparent border-2 border-primary rounded-full'>
+                <button className='text-white text-lg py-3 px-6 font-medium leading-none bg-transparent border-2 border-primary rounded-full'>
                   Connect Wallet
                 </button>
                 <div className='flex justify-center items-center gap-5'>
