@@ -446,6 +446,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          {/* End of Design Section */}
         </div>
       </main>
     </div>
