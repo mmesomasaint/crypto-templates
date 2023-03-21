@@ -32,22 +32,22 @@ export default function Home() {
                   className={`w-full md:w-fit flex-col md:flex-row absolute z-10 top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
                 >
                   <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
-                    <Link href='/templates/nft-market'>Home</Link>
+                    <Link href='/templates/cryptex'>Home</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
-                    <Link href='/templates/nft-market/discover'>Discover</Link>
+                    <Link href='/templates/cryptex/discover'>Discover</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
-                    <Link href='/templates/nft-market/shop'>Shop</Link>
+                    <Link href='/templates/cryptex/shop'>Shop</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
-                    <Link href='/templates/nft-market/about'>About</Link>
+                    <Link href='/templates/cryptex/about'>About</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
-                    <Link href='/templates/nft-market/contact'>Contact</Link>
+                    <Link href='/templates/cryptex/contact'>Contact</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
-                    <Link href='/templates/nft-market/blog'>Blog</Link>
+                    <Link href='/templates/cryptex/blog'>Blog</Link>
                   </span>
                 </div>
               </div>
