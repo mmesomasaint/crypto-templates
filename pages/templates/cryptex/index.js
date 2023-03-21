@@ -5,7 +5,7 @@ import { BsFillBagFill, BsFillPersonFill } from 'react-icons/bs'
 
 export default function Home() {
   return (
-    <div className='bg-black'>
+    <div>
       <Head>
         <title>Cryptex</title>
         <meta
