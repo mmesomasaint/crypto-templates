@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsFillBagFill, BsFillPersonFill, BsFillHeartFill } from 'react-icons/bs'
+import {
+  BsFillBagFill,
+  BsFillPersonFill,
+  BsFillHeartFill,
+} from 'react-icons/bs'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 
 export default function Home() {
@@ -139,11 +143,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -181,11 +187,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -223,11 +231,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -265,11 +275,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -307,11 +319,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -349,11 +363,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -391,11 +407,13 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -433,14 +451,22 @@ export default function Home() {
                       </div>
                       <div className='flex justify-between items-center gap-5 mt-10'>
                         <button className='text-base lg:text-sm font-medium px-4 py-2 transition duration-300 group-hover:bg-primary border border-primary bg-transparent text-white shadow-sm rounded-full'>
-                          Create Account
+                          Price A Bid
                         </button>
                         <div className='flex justify-start items-center gap-2'>
                           <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
-                          <span className='text-gray-300 text-sm font-normal'>320</span>
+                          <span className='text-gray-300 text-sm font-normal'>
+                            320
+                          </span>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  {/* End of grid */}
+                  <div className='text-center mt-14'>
+                    <button className='text-xl lg:text-lg font-medium leading-none px-6 py-3 bg-primary text-white shadow-sm rounded-full'>
+                      View More
+                    </button>
                   </div>
                 </div>
               </div>
