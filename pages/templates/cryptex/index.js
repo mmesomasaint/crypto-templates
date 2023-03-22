@@ -6,7 +6,7 @@ import {
   BsFillPersonFill,
   BsFillHeartFill,
 } from 'react-icons/bs'
-import { MdOutlineArrowForwardIos } from 'react-icons/md'
+import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -539,6 +539,14 @@ export default function Home() {
                       <span className='text-white text-base font-medium leading-none'>120 ETH 20/40</span>
                       <span className='text-white text-base font-medium leading-none'>BID 50 ETH</span>
                     </div>
+                  </div>
+                </div>
+                <div className='flex justify-center items-center gap-10 mt-14'>
+                  <div className='w-10 h-10 rounded-full bg-gray-500 transition duration-300 hover:bg-primary hover:glow-white flex justify-center items-center'>
+                    <MdOutlineArrowBackIos className='text-white text-xl' />
+                  </div>
+                  <div className='w-10 h-10 rounded-full bg-gray-500 transition duration-300 hover:bg-primary hover:glow-white flex justify-center items-center'>
+                    <MdOutlineArrowForwardIos className='text-white text-xl' />
                   </div>
                 </div>
               </div>
