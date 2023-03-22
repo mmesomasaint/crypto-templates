@@ -612,8 +612,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>James Smith</span>
-                        <span className='text-white text-base font-normal'>126.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          James Smith
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          126.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -626,8 +630,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Treymayne Harris</span>
-                        <span className='text-white text-base font-normal'>186.66 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Treymayne Harris
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          186.66 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -640,8 +648,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>James Smith</span>
-                        <span className='text-white text-base font-normal'>126.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          James Smith
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          126.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -654,8 +666,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Tony Johnson</span>
-                        <span className='text-white text-base font-normal'>126.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Tony Johnson
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          126.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -668,8 +684,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Ryan Evans</span>
-                        <span className='text-white text-base font-normal'>226.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Ryan Evans
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          226.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -682,8 +702,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Steven Statten</span>
-                        <span className='text-white text-base font-normal'>255.52 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Steven Statten
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          255.52 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -696,8 +720,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Jeff Choata</span>
-                        <span className='text-white text-base font-normal'>126.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Jeff Choata
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          126.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -710,8 +738,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Steven Craig</span>
-                        <span className='text-white text-base font-normal'>234.77 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Steven Craig
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          234.77 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -724,8 +756,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Jacob Detten</span>
-                        <span className='text-white text-base font-normal'>226.74 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Jacob Detten
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          226.74 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -738,8 +774,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Shawn Busbae</span>
-                        <span className='text-white text-base font-normal'>443.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Shawn Busbae
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          443.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -752,8 +792,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Jacob Elder</span>
-                        <span className='text-white text-base font-normal'>643.64 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Jacob Elder
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          643.64 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -766,8 +810,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>Bruce White</span>
-                        <span className='text-white text-base font-normal'>176.25 ETH</span>
+                        <span className='text-white text-base font-normal'>
+                          Bruce White
+                        </span>
+                        <span className='text-white text-base font-normal'>
+                          176.25 ETH
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -776,6 +824,346 @@ export default function Home() {
             </div>
           </section>
           {/* ENd of top-sellers section */}
+          <section>
+            <div className='bg-zinc-900'>
+              <div className='w-[80%] mx-auto py-32'>
+                <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                  Featured Assets
+                </h2>
+                <div className='grid grid-cols-4 place-items-stretch gap-14'>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/house-sun.jpg'
+                        width={300}
+                        height={300}
+                        alt='house-sun'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Scarecrow in Daylight
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/leafs.jpg'
+                        width={300}
+                        height={300}
+                        alt='leafs'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Super Neophormism
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/pattern.jpg'
+                        width={300}
+                        height={300}
+                        alt='pattern'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      AI generated pattern
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/leafs-2.jpg'
+                        width={300}
+                        height={300}
+                        alt='leafs-2'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Super Creative Nature
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/flame-sun.jpg'
+                        width={300}
+                        height={300}
+                        alt='flame-sun'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Night Sunset Flame
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/leafs.jpg'
+                        width={300}
+                        height={300}
+                        alt='leafs'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Leaves From Life
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/flame-sun.jpg'
+                        width={300}
+                        height={300}
+                        alt='flame-sun'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Twilight Fracture City
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                  <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
+                    <div>
+                      <Image
+                        src='/imgs/cryptex/house-sun.jpg'
+                        width={300}
+                        height={300}
+                        alt='house-sun'
+                        className='rounded-md'
+                      />
+                    </div>
+                    <div className='flex justify-between items-center gap-5 mt-3'>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <div className='relative rounded-md w-fit'>
+                          <div className="w-8 h-8 rounded-md bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-1 w-3 h-3 bg-teal-500 border border-white flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
+                        </div>
+                      </div>
+                      <div className='flex justify-start items-center gap-2'>
+                        <div className='w-8 h-8 rounded-full bg-stone-900 flex justify-center items-center'>
+                          <BsFillHeartFill className='text-gray-300 transition duration-300 group-hover:text-primary text-base' />
+                        </div>
+                        <span className='text-gray-300 text-sm font-normal'>
+                          320 Likes
+                        </span>
+                      </div>
+                    </div>
+                    <div className='text-white transition duration-300 group-hover:text-primary text-lg font-medium mt-3'>
+                      Dream Sequence Night
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3 mt-3'>
+                      <span className='text-white text-sm font-normal leading-none'>
+                        Current Bid
+                      </span>
+                      <span className='text-white group-hover:text-primary text-sm font-normal leading-none'>
+                        BID 50 ETH
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of featured section */}
         </div>
       </main>
     </div>
