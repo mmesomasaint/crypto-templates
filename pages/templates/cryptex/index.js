@@ -473,6 +473,78 @@ export default function Home() {
             </div>
           </section>
           {/* End of Design Section */}
+          <section>
+            <div className='bg-black'>
+              <div className='w-[80%] mx-auto py-32'>
+                <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                  Trending Artwork
+                </h2>
+                <div className='grid grid-cols-3 place-items-stretch gap-14'>
+                  <div className='bg-gray-900 rounded-md p-3'>
+                    <div className='relative mb-8'>
+                      <Image src='/imgs/cryptex/bg-paint.jpg' width={350} height={350} alt='background paint' className='rounded-md' />
+                      <div className='absolute top-2 right-2 p-2 bg-black flex justify-start items-center gap-3 rounded-full border border-gray-300'>
+                        <BsFillHeartFill className='text-base text-yellow-800' />
+                        <span className='text-gray-300 text-xs font-normal'>128</span>
+                      </div>
+                      <div className='bg-black flex justify-center items-center gap-3 pr-3 rounded-full absolute -bottom-4 left-0 right-0 w-fit mx-auto'>
+                        <div className="w-10 h-10 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <span className='text-base font-normal text-gray-300'>@albonisin</span>
+                      </div>
+                    </div>
+                    <div className='my-6 text-white font-medium text-xl leading-none'>
+                      Walking On Air
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3'>
+                      <span className='text-white text-base font-medium leading-none'>120 ETH 20/40</span>
+                      <span className='text-white text-base font-medium leading-none'>BID 50 ETH</span>
+                    </div>
+                  </div>
+                  <div className='bg-gray-900 rounded-md p-3'>
+                    <div className='relative mb-8'>
+                      <Image src='/imgs/cryptex/peeling-woman.jpg' width={350} height={350} alt='background paint' className='rounded-md' />
+                      <div className='absolute top-2 right-2 p-2 bg-black flex justify-start items-center gap-3 rounded-full border border-gray-300'>
+                        <BsFillHeartFill className='text-base text-yellow-800' />
+                        <span className='text-gray-300 text-xs font-normal'>128</span>
+                      </div>
+                      <div className='bg-black flex justify-center items-center gap-3 pr-3 rounded-full absolute -bottom-4 left-0 right-0 w-fit mx-auto'>
+                        <div className="w-10 h-10 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <span className='text-base font-normal text-gray-300'>@albonisin</span>
+                      </div>
+                    </div>
+                    <div className='my-6 text-white font-medium text-xl leading-none'>
+                      Walking On Air
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3'>
+                      <span className='text-white text-base font-medium leading-none'>120 ETH 20/40</span>
+                      <span className='text-white text-base font-medium leading-none'>BID 50 ETH</span>
+                    </div>
+                  </div>
+                  <div className='bg-gray-900 rounded-md p-3'>
+                    <div className='relative mb-8'>
+                      <Image src='/imgs/cryptex/bg-colored.jpg' width={350} height={350} alt='background paint' className='rounded-md' />
+                      <div className='absolute top-2 right-2 p-2 bg-black flex justify-start items-center gap-3 rounded-full border border-gray-300'>
+                        <BsFillHeartFill className='text-base text-yellow-800' />
+                        <span className='text-gray-300 text-xs font-normal'>128</span>
+                      </div>
+                      <div className='bg-black flex justify-center items-center gap-3 pr-3 rounded-full absolute -bottom-4 left-0 right-0 w-fit mx-auto'>
+                        <div className="w-10 h-10 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                        <span className='text-base font-normal text-gray-300'>@albonisin</span>
+                      </div>
+                    </div>
+                    <div className='my-6 text-white font-medium text-xl leading-none'>
+                      Walking On Air
+                    </div>
+                    <div className='rounded-md bg-black flex justify-between items-center p-3'>
+                      <span className='text-white text-base font-medium leading-none'>120 ETH 20/40</span>
+                      <span className='text-white text-base font-medium leading-none'>BID 50 ETH</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of Trending Section */}
         </div>
       </main>
     </div>
