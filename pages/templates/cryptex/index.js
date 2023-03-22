@@ -603,7 +603,7 @@ export default function Home() {
                   Our Top Sellers
                 </h2>
                 <div className='grid grid-cols-3 place-items-stretch gap-14'>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -617,7 +617,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -631,7 +631,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -645,7 +645,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -659,7 +659,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -673,7 +673,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -687,7 +687,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -701,7 +701,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -715,7 +715,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -729,7 +729,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -743,7 +743,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -757,7 +757,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-full p-2 transition duration-300 hover:bg-none hover:bg-stone-700 bg-gradient-to-r from-stone-700 via-stone-700 to-zinc-900'>
+                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                     <div className='flex justify-start items-center gap-4'>
                       <div className='relative rounded-full w-fit'>
                         <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
