@@ -1453,7 +1453,7 @@ export default function Home() {
                         placeholder='Email'
                         className='bg-white rounded-l-md py-3 px-2 text-zinc-900 flex-grow'
                       />
-                      <button className='bg-primary py-4 px-6 rounded-r-md'>
+                      <button className='relative -left-2 bg-primary py-4 px-6 rounded-md'>
                         <TbBrandTelegram className='text-white text-2xl' />
                       </button>
                     </div>
