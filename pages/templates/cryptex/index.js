@@ -9,6 +9,7 @@ import {
 } from 'react-icons/bs'
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
 import { TbBrandTelegram } from 'react-icons/tb'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       </Head>
       <header className='absolute w-full bg-gradient-to-b from-zinc-900 via-zinc-900 to-black'>
         <div className='relative max-w-[90rem] mx-auto'>
-          <div className='w-[98%] xl:w-[80%] mx-auto py-7'>
+          <div className='w-[98%] xl:w-[98%] lg:w-[80%] mx-auto py-7'>
             <div className='flex justify-between items-center gap-6'>
               <div className=''>
                 <Image
@@ -35,7 +36,7 @@ export default function Home() {
               </div>
               <div className='flex justify-between items-center gap-7'>
                 <div
-                  className={`w-full md:w-fit flex-col md:flex-row absolute z-10 top-[99%] left-0 md:static md:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
+                  className={`hidden w-full md:w-fit flex-col md:flex-row absolute z-10 top-[99%] left-0 md:static lg:flex justify-evenly items-start md:items-center gap-7 px-[1%] py-5 md:p-0`}
                 >
                   <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
                     <Link href='/templates/cryptex'>Home</Link>
@@ -58,6 +59,9 @@ export default function Home() {
                 </div>
               </div>
               <div className='flex justify-center items-center gap-7'>
+                <div className='block lg:hidden'>
+                  <GiHamburgerMenu className='text-3xl text-white' />
+                </div>
                 <button className='text-white text-lg py-3 px-6 font-medium leading-none bg-transparent border-2 border-primary rounded-full'>
                   Connect Wallet
                 </button>
@@ -76,11 +80,11 @@ export default function Home() {
             <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/cryptex/showcase.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='flex justify-center items-center h-full'>
                 <div className='w-full h-fit text-center pt-0 md:pt-10 py-16 md:py-0'>
-                  <h1 className='block w-[90%] sm:w-[60%] md:w-[50%] lg:w-[40%] mx-auto text-5xl font-bold leading-tight text-white mb-4'>
+                  <h1 className='block w-[90%] sm:w-[60%] lg:w-[40%] mx-auto text-5xl font-bold leading-tight text-white mb-4'>
                     Create <span className='text-primary'>Digital Items</span>,
                     Sell Them Yourself Or Keep Collecting
                   </h1>
-                  <p className='block w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
+                  <p className='block w-[90%] sm:w-[80%] md:w-[70%] lg:w-[50%] xl:w-[40%] mx-auto text-xl lg:text-base font-normal leading-tight text-white mb-8'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vivamus tempus dui nec euismod congue. Nulla id libero
                     dignissim, convallis odio
@@ -106,7 +110,7 @@ export default function Home() {
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/blue-cubes.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
-                <div className='w-[80%] mx-auto py-32'>
+                <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                   <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Popular Item
                   </h2>
@@ -477,7 +481,7 @@ export default function Home() {
           {/* End of Design Section */}
           <section>
             <div className='bg-black'>
-              <div className='w-[80%] mx-auto py-32'>
+              <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                 <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Trending Artwork
                 </h2>
@@ -600,11 +604,11 @@ export default function Home() {
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/spiral.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
-                <div className='w-[80%] mx-auto py-32'>
+                <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                   <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Our Top Sellers
                   </h2>
-                  <div className='grid grid-cols-3 place-items-stretch gap-14'>
+                  <div className='grid grid-cols-3 place-items-stretch gap-7 lg:gap-14'>
                     <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                       <div className='flex justify-start items-center gap-4'>
                         <div className='relative rounded-full w-fit'>
@@ -829,7 +833,7 @@ export default function Home() {
           {/* ENd of top-sellers section */}
           <section>
             <div className='bg-zinc-900'>
-              <div className='w-[80%] mx-auto py-32'>
+              <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                 <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Featured Assets
                 </h2>
@@ -1170,7 +1174,7 @@ export default function Home() {
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/dark-red.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
-                <div className='w-[80%] mx-auto py-32'>
+                <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                   <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Best Place To Collect NFT
                   </h2>
@@ -1201,7 +1205,7 @@ export default function Home() {
           {/* End of collect section */}
           <section>
             <div className='bg-zinc-900'>
-              <div className='w-[80%] mx-auto py-32'>
+              <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                 <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Popular Collection
                 </h2>
@@ -1339,7 +1343,7 @@ export default function Home() {
           {/* End of popular collection section */}
           <section>
             <div className='bg-black'>
-              <div className='w-[80%] mx-auto py-32'>
+              <div className='w-[98%] lg:w-[80%] mx-auto py-32'>
                 <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Latest Post of NFTs
                 </h2>
@@ -1437,9 +1441,9 @@ export default function Home() {
         <div className='max-w-[90rem] mx-auto'>
           <section>
             <div className='bg-stone-900'>
-              <div className='w-[80%] mx-auto pt-32 pb-16'>
-                <div className='grid grid-cols-3 place-items-stretch gap-10'>
-                  <div className=''>
+              <div className='w-[98%] lg:w-[80%] mx-auto pt-24 lg:pt-32 pb-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 place-items-stretch gap-20 lg:gap-10'>
+                  <div className='w-[70%] lg:w-full'>
                     <h3 className='text-xl font-medium leading-none text-white mb-8'>
                       Newsletter
                     </h3>
@@ -1459,7 +1463,7 @@ export default function Home() {
                       </button>
                     </div>
                   </div>
-                  <div className='col-span-2'>
+                  <div className='col-span-full lg:col-span-2'>
                     <div className='grid grid-cols-4 gap-5 place-items-stretch'>
                       <div className=''>
                         <h3 className='text-xl font-medium leading-none text-white mb-8'>
@@ -1544,7 +1548,7 @@ export default function Home() {
           {/* End of Footer Body Section */}
           <section>
             <div className='bg-zinc-900'>
-              <div className='w-[80%] mx-auto py-7'>
+              <div className='w-[98%] lg:w-[80%] mx-auto py-7'>
                 <p className='text-white text-base font-normal text-center'>
                   Copyright &copy; 2021 by Cryptex
                   <span className='mx-4'>&middot;</span>
