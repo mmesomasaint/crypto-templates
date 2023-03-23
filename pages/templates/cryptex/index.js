@@ -1334,6 +1334,93 @@ export default function Home() {
             </div>
           </section>
           {/* End of popular collection section */}
+          <section>
+            <div className='bg-black'>
+              <div className='w-[80%] mx-auto py-32'>
+                <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                  Latest Post of NFTs
+                </h2>
+                <div className='grid grid-cols-3 place-items-center place-content-center gap-10'>
+                  <div className='rounded-md group w-[32]'>
+                    <div className='relative w-fit rounded-t-md'>
+                      <Image
+                        src='/imgs/cryptex/bg-colored.jpg'
+                        width={350}
+                        height={350}
+                        alt='colored bg'
+                        className='rounded-t-md transition duration-300 group-hover:rounded-md'
+                      />
+                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>New Post</div>
+                    </div>
+                    <div className='bg-zinc-900 transition duration-300 group-hover:bg-gray-900 p-4 rounded-b-md'>
+                      <p className='text-base font-normal text-white transition duration-300 group-hover:text-primary mb-4'>
+                        Pencil Drawing Text Stock Images In HD and Millions
+                      </p>
+                      <div className='flex justify-between items-center gap-5'>
+                        <p className='text-xs font-light text-white'>
+                          Dec 14, 2021
+                        </p>
+                        <p className='text-xs font-normal text-primary underline underline-offset-2'>
+                          Read More
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='rounded-md group w-[32]'>
+                    <div className='relative w-fit rounded-t-md'>
+                      <Image
+                        src='/imgs/cryptex/peeling-woman.jpg'
+                        width={350}
+                        height={350}
+                        alt='woman peeling'
+                        className='rounded-t-md transition duration-300 group-hover:rounded-md'
+                      />
+                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>New Post</div>
+                    </div>
+                    <div className='bg-zinc-900 transition duration-300 group-hover:bg-gray-900 p-4 rounded-b-md'>
+                      <p className='text-base font-normal text-white transition duration-300 group-hover:text-primary mb-4'>
+                        Pencil Drawing Text Stock Images In HD and Millions
+                      </p>
+                      <div className='flex justify-between items-center gap-5'>
+                        <p className='text-xs font-light text-white'>
+                          Dec 14, 2021
+                        </p>
+                        <p className='text-xs font-normal text-primary underline underline-offset-2'>
+                          Read More
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='rounded-md group w-[32]'>
+                    <div className='relative w-fit rounded-t-md'>
+                      <Image
+                        src='/imgs/cryptex/bg-paint.jpg'
+                        width={350}
+                        height={350}
+                        alt='paint bg'
+                        className='rounded-t-md transition duration-300 group-hover:rounded-md'
+                      />
+                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>New Post</div>
+                    </div>
+                    <div className='bg-zinc-900 transition duration-300 group-hover:bg-gray-900 p-4 rounded-b-md'>
+                      <p className='text-base font-normal text-white transition duration-300 group-hover:text-primary mb-4'>
+                        Pencil Drawing Text Stock Images In HD and Millions
+                      </p>
+                      <div className='flex justify-between items-center gap-5'>
+                        <p className='text-xs font-light text-white'>
+                          Dec 14, 2021
+                        </p>
+                        <p className='text-xs font-normal text-primary underline underline-offset-2'>
+                          Read More
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of Latest Post section */}
         </div>
       </main>
     </div>
