@@ -1164,6 +1164,38 @@ export default function Home() {
             </div>
           </section>
           {/* End of featured section */}
+          <section>
+            <div className="h-fit w-full bg-[url('/imgs/cryptex/dark-red.jpg')] bg-no-repeat bg-cover bg-center">
+              <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
+                <div className='w-[80%] mx-auto py-32'>
+                  <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                    Best Place To Collect NFT
+                  </h2>
+                  <p className='text-2xl font-normal leading-normal text-white text-center w-[70%] mx-auto mb-14'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean mollis ligula sed diam sollicitudin, aliquam
+                    fermentum sapien consectetur. Donec consectetur et ex at
+                    vulputate consectetur adipiscing elit. Aenean mollis ligula
+                    sed diam sollicitudin, aliquam
+                  </p>
+                  <div className='flex justify-center gap-8 items-center'>
+                    <button className='flex justify-start items-center gap-3 px-6 py-3 border-2 border-primary bg-transparent tramsition duration-300 hover:bg-primary shadow-sm rounded-full'>
+                      <span className='text-xl lg:text-lg font-medium leading-none text-white'>
+                        Create
+                      </span>
+                      <span className='w-fit mx-auto'>
+                        <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
+                      </span>
+                    </button>
+                    <button className='text-xl lg:text-lg font-medium leading-none px-6 py-3 border-2 border-primary bg-transparent tramsition duration-300 hover:bg-primary text-white shadow-sm rounded-full'>
+                      Connect Account
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of collect section */}
         </div>
       </main>
     </div>
