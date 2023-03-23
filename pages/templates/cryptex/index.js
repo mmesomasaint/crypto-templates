@@ -1333,6 +1333,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          {/* End of popular collection section */}
         </div>
       </main>
     </div>
