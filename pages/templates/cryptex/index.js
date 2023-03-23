@@ -1439,10 +1439,10 @@ export default function Home() {
               <div className='w-[80%] mx-auto py-32'>
                 <div className='grid grid-cols-3 place-items-stretch gap-10'>
                   <div className=''>
-                    <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                    <h3 className='text-xl font-medium leading-none text-white mb-8'>
                       Newsletter
                     </h3>
-                    <p className='text-xl font-light text-white mb-10'>
+                    <p className='text-base font-light text-white mb-10'>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Aenean mollis ligula sed diam sollicitudin, aliquam
                       fermentum
@@ -1461,73 +1461,75 @@ export default function Home() {
                   <div className='col-span-2'>
                     <div className='grid grid-cols-4 gap-5 place-items-stretch'>
                       <div className=''>
-                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                        <h3 className='text-xl font-medium leading-none text-white mb-8'>
                           Market Place
                         </h3>
                         <div className='flex flex-col gap-3 items-start justify-start'>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Market Art
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             All NFTs
                           </p>
-                          <p className='text-xl font-light text-white'>Art</p>
-                          <p className='text-xl font-light text-white'>Music</p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>Art</p>
+                          <p className='text-base font-light text-white'>
+                            Music
+                          </p>
+                          <p className='text-base font-light text-white'>
                             Trending Cards
                           </p>
                         </div>
                       </div>
                       <div className=''>
-                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                        <h3 className='text-xl font-medium leading-none text-white mb-8'>
                           My Account
                         </h3>
                         <div className='flex flex-col gap-3 items-start justify-start'>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Authors
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Collection
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Author Profile
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Create Collection
                           </p>
                         </div>
                       </div>
                       <div className=''>
-                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                        <h3 className='text-xl font-medium leading-none text-white mb-8'>
                           Resources
                         </h3>
                         <div className='flex flex-col gap-3 items-start justify-start'>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Helps & Support
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Live Auctions
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Item Details
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Activity
                           </p>
                         </div>
                       </div>
                       <div className=''>
-                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                        <h3 className='text-xl font-medium leading-none text-white mb-8'>
                           Company
                         </h3>
                         <div className='flex flex-col gap-3 items-start justify-start'>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             About Us
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Our Blog
                           </p>
-                          <p className='text-xl font-light text-white'>
+                          <p className='text-base font-light text-white'>
                             Discover
                           </p>
                         </div>
