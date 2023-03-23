@@ -111,7 +111,7 @@ export default function Home() {
                   <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Popular Item
                   </h2>
-                  <div className='grid grid-cols-4 place-items-stretch gap-10'>
+                  <div className='grid grid-cols-3 xl:grid-cols-4 place-items-stretch gap-10'>
                     <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
                       <div className='flex justify-start items-center gap-3'>
                         <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -482,7 +482,7 @@ export default function Home() {
                 <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Trending Artwork
                 </h2>
-                <div className='grid grid-cols-3 place-items-stretch gap-14'>
+                <div className='grid grid-cols-3 place-items-stretch gap-7 xl:gap-14'>
                   <div className='bg-gray-900 rounded-md p-3'>
                     <div className='relative mb-8'>
                       <Image
@@ -834,7 +834,7 @@ export default function Home() {
                 <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Featured Assets
                 </h2>
-                <div className='grid grid-cols-4 place-items-stretch gap-14'>
+                <div className='grid grid-cols-3 xl:grid-cols-4 place-items-stretch gap-14'>
                   <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
                     <div>
                       <Image
