@@ -6,7 +6,6 @@ import {
   BsFillPersonFill,
   BsFillHeartFill,
   BsCheck,
-  BsTelegram,
 } from 'react-icons/bs'
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
 import { TbBrandTelegram } from 'react-icons/tb'
