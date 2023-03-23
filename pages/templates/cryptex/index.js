@@ -65,7 +65,7 @@ export default function Home() {
                 <button className='text-white text-base md:text-lg py-2 md:py-3 px-4 md:px-6 font-medium leading-none bg-transparent border-2 border-primary rounded-full'>
                   Connect Wallet
                 </button>
-                <div className='flex justify-center items-center gap-5'>
+                <div className='hidden xs:flex justify-center items-center gap-5'>
                   <BsFillBagFill className='text-white text-lg md:text-xl' />
                   <BsFillPersonFill className='text-white text-lg md:text-xl' />
                 </div>
@@ -89,16 +89,16 @@ export default function Home() {
                     Vivamus tempus dui nec euismod congue. Nulla id libero
                     dignissim, convallis odio
                   </p>
-                  <div className='flex justify-center gap-8 items-center'>
-                    <button className='flex justify-start items-center gap-3 px-6 py-3 border-2 border-primary bg-transparent shadow-sm rounded-full'>
-                      <span className='text-xl lg:text-lg font-medium leading-none text-white'>
+                  <div className='flex flex-col xs:flex-row lg justify-center gap-8 items-center'>
+                    <button className='flex-shrink-0 flex justify-start items-center gap-1 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 border-2 border-primary bg-transparent shadow-sm rounded-full'>
+                      <span className='text-lg xs:text-xl lg:text-lg font-medium leading-none text-white'>
                         Explore More
                       </span>
                       <span className='w-fit mx-auto'>
-                        <MdOutlineArrowForwardIos className='text-xl text-white z-20' />
+                        <MdOutlineArrowForwardIos className='text-lg xs:text-xl text-white z-20' />
                       </span>
                     </button>
-                    <button className='text-xl lg:text-lg font-medium leading-none px-6 py-3 border-2 border-primary bg-transparent text-white shadow-sm rounded-full'>
+                    <button className='flex-shrink-0 text-lg xs:text-xl lg:text-lg font-medium leading-none px-4 sm:px-6 py-2 sm:py-3 border-2 border-primary bg-transparent text-white shadow-sm rounded-full'>
                       Create Account
                     </button>
                   </div>
@@ -114,7 +114,7 @@ export default function Home() {
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Popular Item
                   </h2>
-                  <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-stretch gap-5 md:gap-10'>
+                  <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-center xs:place-items-stretch gap-5 md:gap-10'>
                     <div className='p-3 bg-zinc-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
                       <div className='flex justify-start items-center gap-3'>
                         <div className="w-8 h-8 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
@@ -608,7 +608,7 @@ export default function Home() {
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Our Top Sellers
                   </h2>
-                  <div className='grid grid-cols-2 md:grid-cols-3 place-items-stretch gap-7 lg:gap-14'>
+                  <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 place-items-stretch gap-7 lg:gap-14'>
                     <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
                       <div className='flex justify-start items-center gap-4'>
                         <div className='relative rounded-full w-fit'>
@@ -837,7 +837,7 @@ export default function Home() {
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Featured Assets
                 </h2>
-                <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-center md:place-items-stretch gap-7 md:gap-14'>
+                <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-center md:place-items-stretch gap-7 md:gap-14'>
                   <div className='p-3 bg-gray-900 rounded-md transition duration-300 group hover:glow-cpt-primary'>
                     <div>
                       <Image
@@ -1178,14 +1178,14 @@ export default function Home() {
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-7 md:mb-14'>
                     Best Place To Collect NFT
                   </h2>
-                  <p className='text-lg md:text-2xl font-normal leading-normal text-white text-center w-[70%] mx-auto mb-7 md:mb-14'>
+                  <p className='text-lg md:text-2xl font-normal leading-normal text-white text-center w-full xs:w-[70%] mx-auto mb-7 md:mb-14'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean mollis ligula sed diam sollicitudin, aliquam
                     fermentum sapien consectetur. Donec consectetur et ex at
                     vulputate consectetur adipiscing elit. Aenean mollis ligula
                     sed diam sollicitudin, aliquam
                   </p>
-                  <div className='flex justify-center gap-8 items-center'>
+                  <div className='flex flex-col xs:flex-row justify-center gap-8 items-center'>
                     <button className='flex justify-start items-center gap-3 px-4 md:px-6 py-2 md:py-3 border-2 border-primary bg-transparent tramsition duration-300 hover:bg-primary shadow-sm rounded-full'>
                       <span className='text-lg md:text-xl lg:text-lg font-medium leading-none text-white'>
                         Create
@@ -1209,7 +1209,7 @@ export default function Home() {
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Popular Collection
                 </h2>
-                <div className='grid grid-cols-2 md:grid-cols-3 place-items-stretch gap-7 md:gap-14'>
+                <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 place-items-stretch gap-7 md:gap-14'>
                   <div className=''>
                     <div className='relative w-fit border-[3px] border-white'>
                       <Image
@@ -1347,7 +1347,7 @@ export default function Home() {
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Latest Post of NFTs
                 </h2>
-                <div className='grid grid-cols-2 md:grid-cols-3 place-items-center place-content-center gap-10'>
+                <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 place-items-center place-content-center gap-10'>
                   <div className='rounded-md group'>
                     <div className='relative w-fit rounded-t-md'>
                       <Image
@@ -1443,7 +1443,7 @@ export default function Home() {
             <div className='bg-stone-900'>
               <div className='w-[98%] lg:w-[80%] mx-auto pt-24 lg:pt-32 pb-16'>
                 <div className='grid grid-cols-1 lg:grid-cols-3 place-items-stretch gap-20 lg:gap-10'>
-                  <div className='w-[70%] lg:w-full'>
+                  <div className='w-full xs:w-[70%] lg:w-full'>
                     <h3 className='text-xl font-medium leading-none text-white mb-8'>
                       Newsletter
                     </h3>
@@ -1464,7 +1464,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='col-span-full lg:col-span-2'>
-                    <div className='grid grid-cols-4 gap-5 place-items-stretch'>
+                    <div className='grid grid-cols-1 xs:grid-cols-4 gap-10 xs:gap-5 place-items-stretch'>
                       <div className=''>
                         <h3 className='text-xl font-medium leading-none text-white mb-8'>
                           Market Place
@@ -1551,12 +1551,12 @@ export default function Home() {
               <div className='w-[98%] lg:w-[80%] mx-auto py-7'>
                 <p className='text-white text-base font-normal text-center'>
                   Copyright &copy; 2021 by Cryptex
-                  <span className='mx-4'>&middot;</span>
+                  <span className='mx-4 block xs:inline'>&middot;</span>
                   Designed by{' '}
                   <span className='text-primary font-medium'>
                     Mmesoma Saint
                   </span>
-                  <span className='mx-4'>&middot;</span>
+                  <span className='mx-4 block xs:inline'>&middot;</span>
                   All Rights Reserved
                 </p>
               </div>
