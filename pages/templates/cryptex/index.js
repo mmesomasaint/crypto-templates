@@ -1541,6 +1541,23 @@ export default function Home() {
             </div>
           </section>
           {/* End of Footer Body Section */}
+          <section>
+            <div className='bg-zinc-900'>
+              <div className='w-[80%] mx-auto py-7'>
+                <p className='text-white text-base font-normal text-center'>
+                  Copyright &copy; 2021 by Cryptex
+                  <span className='mx-4'>&middot;</span>
+                  Designed by{' '}
+                  <span className='text-primary font-medium'>
+                    Mmesoma Saint
+                  </span>
+                  <span className='mx-4'>&middot;</span>
+                  All Rights Reserved
+                </p>
+              </div>
+            </div>
+          </section>
+          {/* End of footer base section */}
         </div>
       </footer>
       {/* End of Footer */}
