@@ -1345,12 +1345,12 @@ export default function Home() {
                   Latest Post of NFTs
                 </h2>
                 <div className='grid grid-cols-3 place-items-center place-content-center gap-10'>
-                  <div className='rounded-md group w-[32]'>
+                  <div className='rounded-md group'>
                     <div className='relative w-fit rounded-t-md'>
                       <Image
                         src='/imgs/cryptex/bg-colored.jpg'
-                        width={350}
-                        height={350}
+                        width={500}
+                        height={500}
                         alt='colored bg'
                         className='rounded-t-md transition duration-300 group-hover:rounded-md'
                       />
@@ -1372,12 +1372,12 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-md group w-[32]'>
+                  <div className='rounded-md group'>
                     <div className='relative w-fit rounded-t-md'>
                       <Image
                         src='/imgs/cryptex/peeling-woman.jpg'
-                        width={350}
-                        height={350}
+                        width={500}
+                        height={500}
                         alt='woman peeling'
                         className='rounded-t-md transition duration-300 group-hover:rounded-md'
                       />
@@ -1399,12 +1399,12 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='rounded-md group w-[32]'>
+                  <div className='rounded-md grop0'>
                     <div className='relative w-fit rounded-t-md'>
                       <Image
                         src='/imgs/cryptex/bg-paint.jpg'
-                        width={350}
-                        height={350}
+                        width={500}
+                        height={500}
                         alt='paint bg'
                         className='rounded-t-md transition duration-300 group-hover:rounded-md'
                       />
