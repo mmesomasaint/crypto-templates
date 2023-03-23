@@ -599,225 +599,227 @@ export default function Home() {
           </section>
           {/* End of Trending Section */}
           <section>
-            <div className='bg-zinc-900'>
-              <div className='w-[80%] mx-auto py-32'>
-                <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
-                  Our Top Sellers
-                </h2>
-                <div className='grid grid-cols-3 place-items-stretch gap-14'>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+            <div className="h-fit w-full bg-[url('/imgs/cryptex/spiral.jpg')] bg-no-repeat bg-cover bg-center">
+              <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
+                <div className='w-[80%] mx-auto py-32'>
+                  <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                    Our Top Sellers
+                  </h2>
+                  <div className='grid grid-cols-3 place-items-stretch gap-14'>
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          James Smith
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          126.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            James Smith
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            126.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Treymayne Harris
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          186.66 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Treymayne Harris
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            186.66 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          James Smith
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          126.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            James Smith
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            126.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Tony Johnson
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          126.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Tony Johnson
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            126.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Ryan Evans
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          226.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Ryan Evans
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            226.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Steven Statten
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          255.52 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Steven Statten
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            255.52 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Jeff Choata
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          126.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Jeff Choata
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            126.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Steven Craig
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          234.77 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Steven Craig
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            234.77 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Jacob Detten
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          226.74 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Jacob Detten
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            226.74 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Shawn Busbae
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          443.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Shawn Busbae
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            443.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Jacob Elder
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          643.64 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Jacob Elder
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            643.64 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
-                    <div className='flex justify-start items-center gap-4'>
-                      <div className='relative rounded-full w-fit'>
-                        <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
-                        <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
-                          <BsCheck className='text-white text-base' />
+                    <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
+                      <div className='flex justify-start items-center gap-4'>
+                        <div className='relative rounded-full w-fit'>
+                          <div className="w-14 h-14 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                          <div className='absolute rounded-full bottom-0 -right-2 w-5 h-5 bg-teal-500 flex justify-center items-center'>
+                            <BsCheck className='text-white text-base' />
+                          </div>
                         </div>
-                      </div>
-                      <div className='flex flex-col justify-between items-start gap-1'>
-                        <span className='text-white text-base font-normal'>
-                          Bruce White
-                        </span>
-                        <span className='text-white text-base font-normal'>
-                          176.25 ETH
-                        </span>
+                        <div className='flex flex-col justify-between items-start gap-1'>
+                          <span className='text-white text-base font-normal'>
+                            Bruce White
+                          </span>
+                          <span className='text-white text-base font-normal'>
+                            176.25 ETH
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
