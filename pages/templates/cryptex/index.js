@@ -1436,7 +1436,7 @@ export default function Home() {
         <div className='max-w-[90rem] mx-auto'>
           <section>
             <div className='bg-stone-900'>
-              <div className='w-[80%] mx-auto py-32'>
+              <div className='w-[80%] mx-auto pt-32 pb-16'>
                 <div className='grid grid-cols-3 place-items-stretch gap-10'>
                   <div className=''>
                     <h3 className='text-xl font-medium leading-none text-white mb-8'>
