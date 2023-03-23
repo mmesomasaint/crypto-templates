@@ -6,8 +6,10 @@ import {
   BsFillPersonFill,
   BsFillHeartFill,
   BsCheck,
+  BsTelegram,
 } from 'react-icons/bs'
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
+import { TbBrandTelegram } from 'react-icons/tb'
 
 export default function Home() {
   return (
@@ -1429,6 +1431,117 @@ export default function Home() {
           {/* End of Latest Post section */}
         </div>
       </main>
+      {/* End of Main */}
+      <footer>
+        <div className='max-w-[90rem] mx-auto'>
+          <section>
+            <div className='bg-stone-900'>
+              <div className='w-[80%] mx-auto py-32'>
+                <div className='grid grid-cols-3 place-items-stretch gap-10'>
+                  <div className=''>
+                    <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                      Newsletter
+                    </h3>
+                    <p className='text-xl font-light text-white mb-10'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean mollis ligula sed diam sollicitudin, aliquam
+                      fermentum
+                    </p>
+                    <div className='flex justify-start items-stretch gap-0'>
+                      <input
+                        type='email'
+                        placeholder='Email'
+                        className='bg-white rounded-l-md py-3 px-2 text-zinc-900 flex-grow'
+                      />
+                      <button className='bg-primary py-4 px-6 rounded-r-md'>
+                        <TbBrandTelegram className='text-white text-2xl' />
+                      </button>
+                    </div>
+                  </div>
+                  <div className='col-span-2'>
+                    <div className='grid grid-cols-4 gap-5 place-items-stretch'>
+                      <div className=''>
+                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                          Market Place
+                        </h3>
+                        <div className='flex flex-col gap-3 items-start justify-start'>
+                          <p className='text-xl font-light text-white'>
+                            Market Art
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            All NFTs
+                          </p>
+                          <p className='text-xl font-light text-white'>Art</p>
+                          <p className='text-xl font-light text-white'>Music</p>
+                          <p className='text-xl font-light text-white'>
+                            Trending Cards
+                          </p>
+                        </div>
+                      </div>
+                      <div className=''>
+                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                          My Account
+                        </h3>
+                        <div className='flex flex-col gap-3 items-start justify-start'>
+                          <p className='text-xl font-light text-white'>
+                            Authors
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Collection
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Author Profile
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Create Collection
+                          </p>
+                        </div>
+                      </div>
+                      <div className=''>
+                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                          Resources
+                        </h3>
+                        <div className='flex flex-col gap-3 items-start justify-start'>
+                          <p className='text-xl font-light text-white'>
+                            Helps & Support
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Live Auctions
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Item Details
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Activity
+                          </p>
+                        </div>
+                      </div>
+                      <div className=''>
+                        <h3 className='text-2xl font-medium leading-none text-white mb-10'>
+                          Company
+                        </h3>
+                        <div className='flex flex-col gap-3 items-start justify-start'>
+                          <p className='text-xl font-light text-white'>
+                            About Us
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Our Blog
+                          </p>
+                          <p className='text-xl font-light text-white'>
+                            Discover
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of Footer Body Section */}
+        </div>
+      </footer>
+      {/* End of Footer */}
     </div>
   )
 }
