@@ -1350,7 +1350,9 @@ export default function Home() {
                         alt='colored bg'
                         className='rounded-t-md transition duration-300 group-hover:rounded-md'
                       />
-                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>New Post</div>
+                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>
+                        New Post
+                      </div>
                     </div>
                     <div className='bg-zinc-900 transition duration-300 group-hover:bg-gray-900 p-4 rounded-b-md'>
                       <p className='text-base font-normal text-white transition duration-300 group-hover:text-primary mb-4'>
@@ -1375,7 +1377,9 @@ export default function Home() {
                         alt='woman peeling'
                         className='rounded-t-md transition duration-300 group-hover:rounded-md'
                       />
-                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>New Post</div>
+                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>
+                        New Post
+                      </div>
                     </div>
                     <div className='bg-zinc-900 transition duration-300 group-hover:bg-gray-900 p-4 rounded-b-md'>
                       <p className='text-base font-normal text-white transition duration-300 group-hover:text-primary mb-4'>
@@ -1400,7 +1404,9 @@ export default function Home() {
                         alt='paint bg'
                         className='rounded-t-md transition duration-300 group-hover:rounded-md'
                       />
-                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>New Post</div>
+                      <div className='text-base font-light text-white transition duration-300 group-hover:text-yellow-700 absolute top-5 left-5 z-10'>
+                        New Post
+                      </div>
                     </div>
                     <div className='bg-zinc-900 transition duration-300 group-hover:bg-gray-900 p-4 rounded-b-md'>
                       <p className='text-base font-normal text-white transition duration-300 group-hover:text-primary mb-4'>
