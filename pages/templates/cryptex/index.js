@@ -1196,6 +1196,143 @@ export default function Home() {
             </div>
           </section>
           {/* End of collect section */}
+          <section>
+            <div className='bg-zinc-900'>
+              <div className='w-[80%] mx-auto py-32'>
+                <h2 className='text-5xl font-semibold leading-none text-white text-center mb-14'>
+                  Popular Collection
+                </h2>
+                <div className='grid grid-cols-3 place-items-stretch gap-14'>
+                  <div className=''>
+                    <div className='relative w-fit border-[3px] border-white'>
+                      <Image
+                        src='/imgs/cryptex/pattern.jpg'
+                        width={500}
+                        height={500}
+                        alt='pattern'
+                      />
+                      <div className='absolute -bottom-12 left-0 right-0 mx-auto rounded-full w-fit border-[3px] border-primary'>
+                        <div className="w-24 h-24 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                      </div>
+                    </div>
+                    <div className='mt-14'>
+                      <h3 className='text-white font-light text-3xl leading-none text-center mb-4'>
+                        Todd MacWilliams
+                      </h3>
+                      <p className='text-sm font-normal text-white text-center'>
+                        By <span className='text-primary'>Shape Master</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className=''>
+                    <div className='relative w-fit border-[3px] border-white'>
+                      <Image
+                        src='/imgs/cryptex/leafs.jpg'
+                        width={500}
+                        height={500}
+                        alt='leafs'
+                      />
+                      <div className='absolute -bottom-12 left-0 right-0 mx-auto rounded-full w-fit border-[3px] border-primary'>
+                        <div className="w-24 h-24 rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                      </div>
+                    </div>
+                    <div className='mt-14'>
+                      <h3 className='text-white font-light text-3xl leading-none text-center mb-4'>
+                        Todd MacWilliams
+                      </h3>
+                      <p className='text-sm font-normal text-white text-center'>
+                        By <span className='text-primary'>Bit Coin</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className=''>
+                    <div className='relative w-fit border-[3px] border-white'>
+                      <Image
+                        src='/imgs/cryptex/leafs-2.jpg'
+                        width={500}
+                        height={500}
+                        alt='leafs 2'
+                      />
+                      <div className='absolute -bottom-12 left-0 right-0 mx-auto rounded-full w-fit border-[3px] border-primary'>
+                        <div className="w-24 h-24 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                      </div>
+                    </div>
+                    <div className='mt-14'>
+                      <h3 className='text-white font-light text-3xl leading-none text-center mb-4'>
+                        Todd MacWilliams
+                      </h3>
+                      <p className='text-sm font-normal text-white text-center'>
+                        By <span className='text-primary'>Art</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className=''>
+                    <div className='relative w-fit border-[3px] border-white'>
+                      <Image
+                        src='/imgs/cryptex/flame-sun.jpg'
+                        width={500}
+                        height={500}
+                        alt='flame sun'
+                      />
+                      <div className='absolute -bottom-12 left-0 right-0 mx-auto rounded-full w-fit border-[3px] border-primary'>
+                        <div className="w-24 h-24 rounded-full bg-[url('/imgs/cryptex/avatar-2.jpg')] bg-no-repeat bg-center bg-cover" />
+                      </div>
+                    </div>
+                    <div className='mt-14'>
+                      <h3 className='text-white font-light text-3xl leading-none text-center mb-4'>
+                        Todd MacWilliams
+                      </h3>
+                      <p className='text-sm font-normal text-white text-center'>
+                        By <span className='text-primary'>Shape Master</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className=''>
+                    <div className='relative w-fit border-[3px] border-white'>
+                      <Image
+                        src='/imgs/cryptex/house-sun.jpg'
+                        width={500}
+                        height={500}
+                        alt='house sun'
+                      />
+                      <div className='absolute -bottom-12 left-0 right-0 mx-auto rounded-full w-fit border-[3px] border-primary'>
+                        <div className="w-24 h-24 rounded-full bg-[url('/imgs/cryptex/avatar-3.jpg')] bg-no-repeat bg-center bg-cover" />
+                      </div>
+                    </div>
+                    <div className='mt-14'>
+                      <h3 className='text-white font-light text-3xl leading-none text-center mb-4'>
+                        Todd MacWilliams
+                      </h3>
+                      <p className='text-sm font-normal text-white text-center'>
+                        By <span className='text-primary'>Bit Coin</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className=''>
+                    <div className='relative w-fit border-[3px] border-white'>
+                      <Image
+                        src='/imgs/cryptex/leafs.jpg'
+                        width={500}
+                        height={500}
+                        alt='leafs'
+                      />
+                      <div className='absolute -bottom-12 left-0 right-0 mx-auto rounded-full w-fit border-[3px] border-primary'>
+                        <div className="w-24 h-24 rounded-full bg-[url('/imgs/cryptex/avatar-1.jpg')] bg-no-repeat bg-center bg-cover" />
+                      </div>
+                    </div>
+                    <div className='mt-14'>
+                      <h3 className='text-white font-light text-3xl leading-none text-center mb-4'>
+                        Todd MacWilliams
+                      </h3>
+                      <p className='text-sm font-normal text-white text-center'>
+                        By <span className='text-primary'>Art</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
     </div>
