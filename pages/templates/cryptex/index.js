@@ -40,7 +40,9 @@ export default function Home() {
               </div>
               <div className='flex justify-between items-center gap-7'>
                 <div
-                  className={`${isOpen ? 'flex bg-black' : 'hidden'} w-full lg:w-fit flex-col lg:flex-row absolute z-10 top-[99%] left-0 lg:static lg:bg-transparent lg:flex justify-evenly items-start lg:items-center gap-7 px-[1%] py-5 lg:p-0`}
+                  className={`${
+                    isOpen ? 'flex bg-black' : 'hidden'
+                  } w-full lg:w-fit flex-col lg:flex-row absolute z-10 top-[99%] left-0 lg:static lg:bg-transparent lg:flex justify-evenly items-start lg:items-center gap-7 px-[1%] py-5 lg:p-0`}
                 >
                   <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
                     <Link href='/templates/cryptex'>Home</Link>
@@ -64,7 +66,10 @@ export default function Home() {
               </div>
               <div className='flex justify-center items-center gap-7'>
                 <div className='block lg:hidden'>
-                  <GiHamburgerMenu className='text-3xl text-white' onClick={handleOpen} />
+                  <GiHamburgerMenu
+                    className='text-3xl text-white'
+                    onClick={handleOpen}
+                  />
                 </div>
                 <button className='text-white text-base md:text-lg py-2 md:py-3 px-4 md:px-6 font-medium leading-none bg-transparent border-2 border-primary rounded-full'>
                   Connect Wallet
