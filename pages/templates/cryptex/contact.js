@@ -5,12 +5,15 @@ import { useState, useCallback } from 'react'
 import {
   BsFillBagFill,
   BsFillPersonFill,
+  BsTelephone,
   BsFillHeartFill,
   BsCheck,
 } from 'react-icons/bs'
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
 import { TbBrandTelegram } from 'react-icons/tb'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { GoLocation } from 'react-icons/go'
+import { AiOutlineMail } from 'react-icons/ai'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -112,6 +115,88 @@ export default function Home() {
             </div>
           </section>
           {/* End of showcase section */}
+          <section>
+            <div className='bg-black'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto pt-24 lg:pt-32 pb-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-5 gap-10 place-items-center lg:place-items-stretch'>
+                  <div className='col-span-full lg:col-span-2'>
+                    <Image
+                      src='/imgs/nft-market/contact.png'
+                      width={500}
+                      height={500}
+                      alt='contact'
+                    />
+                    <div className='flex flex-col justify-start items-start border border-gray-700 rounded-md p-5 gap-5 w-[80%] mx-auto lg:mx-0'>
+                      <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3'>
+                        <div className='w-12 h-12 bg-black flex justify-center items-center'>
+                          <BsTelephone className='text-base text-primary' />
+                        </div>
+                        <p className='text-gray-300 text-xl font-medium'>
+                          +23491-234-9094
+                        </p>
+                      </div>
+                      <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3'>
+                        <div className='w-12 h-12 bg-black flex justify-center items-center'>
+                          <AiOutlineMail className='text-base text-primary' />
+                        </div>
+                        <p className='text-gray-300 text-xl font-medium'>
+                          nftmarket@gmail.com
+                        </p>
+                      </div>
+                      <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3'>
+                        <div className='w-12 h-12 bg-black flex justify-center items-center'>
+                          <GoLocation className='text-base text-primary' />
+                        </div>
+                        <p className='text-gray-300 text-xl font-medium'>
+                          16 Justi avenue
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='col-span-full lg:col-span-3 order-first lg:order-none'>
+                    <div className='border border-gray-700 rounded-md px-10 lg:px-20 py-10'>
+                      <h2 className='text-4xl font-semibold leading-none text-center text-white mb-12'>
+                        Express Your Opinion Here
+                      </h2>
+                      <div className='flex flex-col gap-10 items-center justify-start'>
+                        <div className='flex flex-wrap justify-between items-center gap-10 w-full'>
+                          <input
+                            type='text'
+                            placeholder='First Name'
+                            className='flex-grow rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-primary'
+                          />
+                          <input
+                            type='text'
+                            placeholder='Last Name'
+                            className='flex-grow rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-primary'
+                          />
+                        </div>
+                        <input
+                          type='email'
+                          placeholder='Email Address'
+                          className='w-full rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-primary'
+                        />
+                        <input
+                          type='password'
+                          placeholder='Enter Your Password'
+                          className='w-full rounded-full py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-primary'
+                        />
+                        <textarea
+                          rows='7'
+                          placeholder='Type a Message'
+                          className='w-full rounded-md py-3 px-4 text-gray-300 bg-transparent border border-gray-700 focus:outline-none focus:border-primary'
+                        />
+                        <button className='w-full rounded-full py-3 text-center bg-black text-white border border-primary focus:outline-none'>
+                          Send Your Message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of Message Section */}
         </div>
       </main>
       {/* End of Main */}
