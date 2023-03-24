@@ -89,7 +89,7 @@ export default function Home() {
             <div className="h-fit md:h-[40rem] w-full bg-[url('/imgs/cryptex/showcase.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='flex justify-center items-center h-full'>
                 <div className='w-full h-fit text-center pt-40 md:pt-10 py-16 md:py-0'>
-                  <h1 className='block w-[90%] sm:w-[60%] lg:w-[40%] mx-auto text-4xl md:text-5xl font-bold leading-tight text-white mb-4'>
+                  <h1 className='block w-[90%] sm:w-[60%] lg:w-[50%] xl:w-[35%] mx-auto text-4xl md:text-5xl font-bold leading-tight text-white mb-4'>
                     Create <span className='text-primary'>Digital Items</span>,
                     Sell Them Yourself Or Keep Collecting
                   </h1>
