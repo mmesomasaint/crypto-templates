@@ -118,7 +118,7 @@ export default function Home() {
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
                 <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
-                    Our Top Sellers
+                    Our Top Authors
                   </h2>
                   <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 place-items-stretch gap-7 lg:gap-14'>
                     <div className='rounded-full p-2 transition duration-300 bg-stone-700 hover:bg-gradient-to-r hover:from-stone-700 hover:via-stone-700 hover:to-black hover:glow-cpt-primary'>
@@ -342,7 +342,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* ENd of top-sellers section */}
+          {/* ENd of top-authors section */}
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/blue-cubes.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
