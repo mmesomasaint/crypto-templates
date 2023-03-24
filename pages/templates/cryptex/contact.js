@@ -6,10 +6,7 @@ import {
   BsFillBagFill,
   BsFillPersonFill,
   BsTelephone,
-  BsFillHeartFill,
-  BsCheck,
 } from 'react-icons/bs'
-import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
 import { TbBrandTelegram } from 'react-icons/tb'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GoLocation } from 'react-icons/go'
