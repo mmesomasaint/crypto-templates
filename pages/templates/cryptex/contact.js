@@ -105,7 +105,7 @@ export default function Home() {
                       &gt;{' '}
                     </span>
                     <span className='text-primary font-normal text-lg md:text-xl'>
-                      about
+                      contact
                     </span>
                   </div>
                 </div>
