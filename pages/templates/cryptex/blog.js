@@ -50,7 +50,7 @@ export default function Home() {
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/cryptex/discover'>Discover</Link>
                   </span>
-                  <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/cryptex/shop'>Shop</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
@@ -59,7 +59,7 @@ export default function Home() {
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/cryptex/contact'>Contact</Link>
                   </span>
-                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
                     <Link href='/templates/cryptex/blog'>Blog</Link>
                   </span>
                 </div>
