@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Cryptex</title>
+        <title>Discover | Cryptex</title>
         <meta
           name='description'
           content='create, exchange or collect digital items'
