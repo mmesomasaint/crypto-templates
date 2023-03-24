@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <header className='absolute w-full bg-gradient-to-b from-zinc-900 via-zinc-900 to-black'>
         <div className='relative max-w-[90rem] mx-auto'>
-          <div className='w-[98%] xl:w-[98%] lg:w-[80%] mx-auto py-4 md:py-7'>
+          <div className='w-[98%] lg:w-[90%] xl:w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-4 md:py-7'>
             <div className='flex justify-between items-center gap-6'>
               <div className=''>
                 <Image
@@ -119,7 +119,7 @@ export default function Home() {
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/blue-cubes.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
-                <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+                <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Popular Item
                   </h2>
@@ -490,7 +490,7 @@ export default function Home() {
           {/* End of Design Section */}
           <section>
             <div className='bg-black'>
-              <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Trending Artwork
                 </h2>
@@ -613,7 +613,7 @@ export default function Home() {
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/spiral.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
-                <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+                <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                     Our Top Sellers
                   </h2>
@@ -842,7 +842,7 @@ export default function Home() {
           {/* ENd of top-sellers section */}
           <section>
             <div className='bg-zinc-900'>
-              <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Featured Assets
                 </h2>
@@ -1183,7 +1183,7 @@ export default function Home() {
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/dark-red.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
-                <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+                <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                   <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-7 md:mb-14'>
                     Best Place To Collect NFT
                   </h2>
@@ -1214,7 +1214,7 @@ export default function Home() {
           {/* End of collect section */}
           <section>
             <div className='bg-zinc-900'>
-              <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Popular Collection
                 </h2>
@@ -1352,7 +1352,7 @@ export default function Home() {
           {/* End of popular collection section */}
           <section>
             <div className='bg-black'>
-              <div className='w-[98%] lg:w-[80%] mx-auto py-24 md:py-32'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Latest Post of NFTs
                 </h2>
@@ -1450,7 +1450,7 @@ export default function Home() {
         <div className='max-w-[90rem] mx-auto'>
           <section>
             <div className='bg-stone-900'>
-              <div className='w-[98%] lg:w-[80%] mx-auto pt-24 lg:pt-32 pb-16'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto pt-24 lg:pt-32 pb-16'>
                 <div className='grid grid-cols-1 lg:grid-cols-3 place-items-stretch gap-20 lg:gap-10'>
                   <div className='w-full xs:w-[70%] lg:w-full'>
                     <h3 className='text-xl font-medium leading-none text-white mb-8'>
@@ -1557,7 +1557,7 @@ export default function Home() {
           {/* End of Footer Body Section */}
           <section>
             <div className='bg-zinc-900'>
-              <div className='w-[98%] lg:w-[80%] mx-auto py-7'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-7'>
                 <p className='text-white text-base font-normal text-center'>
                   Copyright &copy; 2021 by Cryptex
                   <span className='mx-4 block xs:inline'>&middot;</span>
