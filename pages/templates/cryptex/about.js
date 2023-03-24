@@ -44,7 +44,7 @@ export default function Home() {
                     isOpen ? 'flex bg-black' : 'hidden'
                   } w-full lg:w-fit flex-col lg:flex-row absolute z-10 top-[99%] left-0 lg:static lg:bg-transparent lg:flex justify-evenly items-start lg:items-center gap-7 px-[1%] py-5 lg:p-0`}
                 >
-                  <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
+                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/cryptex'>Home</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
@@ -53,7 +53,7 @@ export default function Home() {
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
                     <Link href='/templates/cryptex/shop'>Shop</Link>
                   </span>
-                  <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
+                  <span className='font-normal text-xl leading-none text-primary scale-105 underline underline-offset-[6px]'>
                     <Link href='/templates/cryptex/about'>About</Link>
                   </span>
                   <span className='font-normal text-xl leading-none text-white hover:text-gray-300'>
