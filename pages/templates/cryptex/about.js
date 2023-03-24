@@ -116,6 +116,37 @@ export default function Home() {
             <div className='bg-zinc-900'>
               <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
                 <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
+                  What We Aim For
+                </h2>
+                <p className='text-lg md:text-2xl font-normal leading-normal text-white text-center w-full xs:w-[70%] mx-auto mb-7 md:mb-14'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  consectetur et ex at vulputate consectetur adipiscing elit.
+                  Aenean mollis ligula sed diam sollicitudin, aliquam Aenean
+                  mollis ligula sed diam sollicitudin, aliquam fermentum sapien
+                  consectetur. Aenean mollis ligula sed diam sollicitudin,
+                  aliquam. Donec consectetur et ex at vulputate consectetur
+                  adipiscing elit. Aenean mollis ligula sed diam sollicitudin,
+                  aliquam
+                </p>
+                <div className='w-fit mx-auto'>
+                  <div className="w-24 h-24 mx-auto rounded-full bg-[url('/imgs/cryptex/avatar-4.jpg')] bg-no-repeat bg-center bg-cover" />
+                  <div className='text-center mt-3'>
+                    <p className='text-xl font-medium text-primary leading-none'>
+                      Angela Dewis
+                    </p>
+                    <p className='text-base font-light text-gray-300'>
+                      Head of Sales
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* End of Aim Section */}
+          <section>
+            <div className='bg-zinc-900'>
+              <div className='w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-24 md:py-32'>
+                <h2 className='text-4xl md:text-5xl font-semibold leading-none text-white text-center mb-14'>
                   Popular Collection
                 </h2>
                 <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 place-items-stretch gap-7 md:gap-14'>
