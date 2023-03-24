@@ -8,7 +8,7 @@ import {
   BsFillHeartFill,
   BsCheck,
 } from 'react-icons/bs'
-import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
+import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import { TbBrandTelegram } from 'react-icons/tb'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
