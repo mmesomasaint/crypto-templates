@@ -90,8 +90,8 @@ export default function Home() {
               <div className='flex justify-center items-center h-full'>
                 <div className='w-full h-fit text-center pt-40 md:pt-20 py-16 md:py-0'>
                   <h1 className='block w-[90%] sm:w-[60%] lg:w-[50%] xl:w-[35%] mx-auto text-4xl md:text-5xl font-bold leading-tight text-white mb-4'>
-                    Buy/Sell <span className='text-primary'>Digital Items</span>
-                    , With The Best Tools
+                    <span className='text-primary'> Digital News/Blog </span>,
+                    Just For You
                   </h1>
                   <p className='block w-[90%] sm:w-[80%] md:w-[70%] lg:w-[50%] xl:w-[40%] mx-auto text-lg md:text-xl lg:text-base font-normal leading-tight text-white mb-8'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -105,7 +105,7 @@ export default function Home() {
                       &gt;{' '}
                     </span>
                     <span className='text-primary font-normal text-lg md:text-xl'>
-                      Shop
+                      blog
                     </span>
                   </div>
                 </div>
