@@ -111,7 +111,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/*End of showcase section*/}
+          {/* End of showcase section */}
           <section>
             <div className="h-fit w-full bg-[url('/imgs/cryptex/blue-cubes.jpg')] bg-no-repeat bg-cover bg-center">
               <div className='w-full h-full bg-zinc-900 bg-opacity-70'>
