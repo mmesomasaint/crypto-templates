@@ -2,13 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState, useCallback } from 'react'
-import {
-  BsFillBagFill,
-  BsFillPersonFill,
-  BsFillHeartFill,
-  BsCheck,
-} from 'react-icons/bs'
-import { MdOutlineArrowForwardIos } from 'react-icons/md'
+import { BsFillBagFill, BsFillPersonFill, BsCheck } from 'react-icons/bs'
 import { TbBrandTelegram } from 'react-icons/tb'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
