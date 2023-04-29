@@ -44,7 +44,7 @@ export default function NFT() {
                 />
               </div>
               <div className='flex justify-between items-center gap-7'>
-                <div className='block lg:hidden'>
+                <div className='block md:hidden'>
                   <GiHamburgerMenu
                     className='text-3xl text-white'
                     onClick={handleOpen}
