@@ -149,10 +149,10 @@ export default function Home() {
                   alt='template 3'
                 />
                 <Link
-                  href='/templates/ex-currency'
+                  href='/templates/cryptex'
                   className='w-full text-xl font-medium text-center text-[#023047] dark:text-white capitalize hover:underline'
                 >
-                  Currency Exchange
+                  Cryptex
                 </Link>
               </div>
             </div>
